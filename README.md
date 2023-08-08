@@ -6,20 +6,20 @@
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/mertguvencli/http-proxy-list/main.yml?label=Updated%20Every%204%20Hours">
   <br>
-  <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt">
-    <img src="https://img.shields.io/badge/all-270-blue">
+  <a href="https://img.shields.io/github/stars/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/all-275-blue">
   </a>
-  <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt">
-    <img src="https://img.shields.io/badge/vmess-106-blue">
+  <a href="https://img.shields.io/github/stars/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/vmess-116-blue">
   </a>
-  <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt">
-    <img src="https://img.shields.io/badge/ss-151-blue">
+  <a href="https://img.shields.io/github/stars/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/ss-148-blue">
   </a>
-  <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt">
-    <img src="https://img.shields.io/badge/ssr-5-blue">
+  <a href="https://img.shields.io/github/stars/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/ssr-6-blue">
   </a>
-    <a href="https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt">
-    <img src="https://img.shields.io/badge/trojan-8-blue">
+    <a href="https://img.shields.io/github/stars/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/trojan-5-blue">
   </a>
   <br>
   <a href="https://img.shields.io/github/watchers/freenodes/freenodes">
@@ -43,7 +43,7 @@
 
 每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
 
-> FreeNodes 在最新更新中发现来自 39 个国家/地区的 270 个工作代理。
+> FreeNodes 在最新更新中发现来自 39 个国家/地区的 275 个工作代理。
 
 ## 🦄 特点
 
@@ -52,7 +52,7 @@
 - 😊 没有重复项
 - 📓 分为 SS, SSR, Vmess, & Trojan
 - 🌎 包含 39 个国家
-- 📦 包含 270 个节点
+- 📦 包含 275 个节点
 
 ## 📦 用法
 
@@ -74,7 +74,7 @@
 |  Linux  |                  [Clash](https://github.com/Dreamacro/clash/releases/tag/premium)                  |  ❌  |
 | Android |               [ClashForAndroid](https://github.com/Kr328/ClashForAndroid/releases/)                |  ❌  |
 |   IOS   |              [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620)               |  ✅  |
-|   IOS   |                            [https://nssurge.com/](https://nssurge.com/)                            |  ✅  |
+|   IOS   |                            [Surge](https://nssurge.com/)                                           |  ✅  |
 |   IOS   |               [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)               |  ✅  |
 
 ## 声明
