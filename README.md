@@ -7,16 +7,16 @@
   <img src="https://img.shields.io/github/actions/workflow/status/mertguvencli/http-proxy-list/main.yml?label=Updated%20Every%204%20Hours">
   <br>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/all-233-blue">
+    <img src="https://img.shields.io/badge/all-231-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/vmess-86-blue">
+    <img src="https://img.shields.io/badge/vmess-82-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/ss-133-blue">
+    <img src="https://img.shields.io/badge/ss-132-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/ssr-3-blue">
+    <img src="https://img.shields.io/badge/ssr-6-blue">
   </a>
     <a href="https://img.shields.io/github/stars/freenodes/freenodes">
     <img src="https://img.shields.io/badge/trojan-11-blue">
@@ -43,7 +43,7 @@
 
 每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
 
-> FreeNodes 在最新更新中发现来自 38 个国家/地区的 233 个工作代理。
+> FreeNodes 在最新更新中发现来自 38 个国家/地区的 231 个工作代理。
 
 ## 🦄 特点
 
@@ -52,7 +52,7 @@
 - 😊 没有重复项
 - 📓 分为 SS, SSR, Vmess, & Trojan
 - 🌎 包含 38 个国家
-- 📦 包含 233 个节点
+- 📦 包含 231 个节点
 
 ## 📦 用法
 
