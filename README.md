@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/mertguvencli/http-proxy-list/main.yml?label=Updated%20Every%204%20Hours">
+  <img src="https://img.shields.io/github/last-commit/freenodes/freenodes">
   <br>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
     <img src="https://img.shields.io/badge/all-235-blue">
