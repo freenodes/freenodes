@@ -7,19 +7,19 @@
   <img src="https://img.shields.io/github/actions/workflow/status/mertguvencli/http-proxy-list/main.yml?label=Updated%20Every%204%20Hours">
   <br>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/all-220-blue">
+    <img src="https://img.shields.io/badge/all-235-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/vmess-67-blue">
+    <img src="https://img.shields.io/badge/vmess-73-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/ss-125-blue">
+    <img src="https://img.shields.io/badge/ss-130-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
     <img src="https://img.shields.io/badge/ssr-4-blue">
   </a>
     <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/trojan-24-blue">
+    <img src="https://img.shields.io/badge/trojan-28-blue">
   </a>
   <br>
   <a href="https://img.shields.io/github/watchers/freenodes/freenodes">
@@ -43,7 +43,7 @@
 
 每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
 
-> FreeNodes 在最新更新中发现来自 34 个国家/地区的 220 个工作代理。
+> FreeNodes 在最新更新中发现来自 34 个国家/地区的 235 个工作代理。
 
 ## 🦄 特点
 
@@ -52,11 +52,19 @@
 - 😊 没有重复项
 - 📓 分为 SS, SSR, Vmess, & Trojan
 - 🌎 包含 34 个国家
-- 📦 包含 220 个节点
+- 📦 包含 235 个节点
 
 ## 📦 用法
 
-## 订阅地址：
+## 配置文件（Clash Premium 核心）
+
+- ClashPremiumFree: [https://ghproxy.com/https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml](https://ghproxy.com/https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml)
+
+### Clashx Pro 使用效果
+
+![Clashx Pro](https://freenodes.github.io/freenodes/clash.jpg)
+
+## 纯节点订阅地址：
 
 - Proxies: [https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml](https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml)
 - Proxies with Speed Test: [https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml](https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml)
