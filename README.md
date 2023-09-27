@@ -10,16 +10,16 @@
     <img src="https://img.shields.io/badge/all-222-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/vmess-94-blue">
+    <img src="https://img.shields.io/badge/vmess-93-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
     <img src="https://img.shields.io/badge/ss-112-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/ssr-3-blue">
+    <img src="https://img.shields.io/badge/ssr-1-blue">
   </a>
     <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/trojan-13-blue">
+    <img src="https://img.shields.io/badge/trojan-16-blue">
   </a>
   <br>
   <a href="https://img.shields.io/github/watchers/freenodes/freenodes">
