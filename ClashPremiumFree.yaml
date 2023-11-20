@@ -1,0 +1,250 @@
+port: 0
+socks-port: 0
+redir-port: 0
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+
+pr:
+  &a3 {
+    type: select,
+    proxies:
+      [
+        ♻️ 自动选择,
+        🚀 手动切换,
+        🇭🇰 香港节点,
+        🇨🇳 台湾节点,
+        🇺🇸 美国节点,
+        🇯🇵 日本节点,
+        🇰🇷 韩国节点,
+        DIRECT,
+      ],
+  }
+oa:
+  &a8 {
+    type: select,
+    proxies: [🇨🇳 台湾节点, 🇺🇸 美国节点, 🇯🇵 日本节点, 🇰🇷 韩国节点],
+  }
+go: &a9 { type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点] }
+re: &a10 { type: select, proxies: [REJECT] }
+p:
+  &a1 {
+    type: http,
+    interval: 86400,
+    health-check:
+      {
+        enable: true,
+        url: http://www.gstatic.com/generate_204,
+        interval: 1800,
+      },
+  }
+auto:
+  &a4 {
+    type: url-test,
+    lazy: true,
+    url: http://www.gstatic.com/generate_204,
+    interval: 900,
+    use: [freenodes],
+  }
+use: &a2 { type: select, use: [freenodes] }
+d: &a5 { type: http, behavior: domain, interval: 86400 }
+c: &a6 { type: http, behavior: classical, interval: 86400 }
+i: &a7 { type: http, behavior: ipcidr, interval: 86400 }
+
+proxy-providers:
+  freenodes:
+    <<: *a1
+    url: https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml
+    path: ./proxy/freenodes.yaml
+
+proxy-groups:
+  - { name: 🚀 手动切换, <<: *a2 }
+  - { name: 🆎 AdBlock, <<: *a10 }
+  - { name: 🍎 苹果服务, <<: *a3 }
+  - { name: 💬 OpenAI, <<: *a8 }
+  - { name: 🆕 BingAI, <<: *a8 }
+  - { name: 🤖 BardAI, <<: *a8 }
+  - { name: 🌌 谷歌服务, <<: *a3 }
+  - { name: 📢 谷歌FCM, <<: *a3 }
+  - { name: Ⓜ️ 微软服务, <<: *a3 }
+  - { name: 👨🏻‍💻 GitHub, <<: *a3 }
+  - { name: 📟 电报消息, <<: *a3 }
+  - { name: 🐦 推特服务, <<: *a3 }
+  - { name: 📹 油管视频, <<: *a3 }
+  - { name: 🎥 奈飞视频, <<: *a3 }
+  - { name: 🎬 国际媒体, <<: *a3 }
+  - { name: 📺 哔哩哔哩, <<: *a9 }
+  - { name: 🌏 全球加速, <<: *a3 }
+  - { name: 🐟 漏网之鱼, <<: *a3 }
+
+  - { name: ♻️ 自动选择, <<: *a4 }
+  - { name: 🇭🇰 香港节点, <<: *a4, filter: '🇭🇰|HK|香港' }
+  - { name: 🇨🇳 台湾节点, <<: *a4, filter: '🇨🇳|TW|台湾' }
+  - { name: 🇺🇸 美国节点, <<: *a4, filter: '🇺🇸|US|美国' }
+  - { name: 🇯🇵 日本节点, <<: *a4, filter: '🇯🇵|JP|日本' }
+  - { name: 🇰🇷 韩国节点, <<: *a4, filter: '🇰🇷|KR|韩国' }
+
+rule-providers:
+  Download:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml,
+      path: ./rule/Download.yaml,
+    }
+  Direct:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml,
+      path: ./rule/Direct.yaml,
+    }
+  OpenAI:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml,
+      path: ./rule/OpenAI.yaml,
+    }
+  BingAI:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml,
+      path: ./rule/BingAI.yaml,
+    }
+  BardAI:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BardAI/BardAI.yaml,
+      path: ./rule/BardAI.yaml,
+    }
+  Advertising:
+    {
+      <<: *a5,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.yaml,
+      path: ./rule/Advertising.yaml,
+    }
+  Apple:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml,
+      path: ./rule/Apple.yaml,
+    }
+  BiliBili:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml,
+      path: ./rule/BiliBili.yaml,
+    }
+  Discord:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Discord/Discord.yaml,
+      path: ./rule/Discord.yaml,
+    }
+  GlobalMedia:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml,
+      path: ./rule/GlobalMedia.yaml,
+    }
+  Github:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml,
+      path: ./rule/Github.yaml,
+    }
+  Microsoft:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml,
+      path: ./rule/Microsoft.yaml,
+    }
+  Google:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml,
+      path: ./rule/Google.yaml,
+    }
+  GoogleFCM:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleFCM/GoogleFCM.yaml,
+      path: ./rule/GoogleFCM.yaml,
+    }
+  Telegram:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml,
+      path: ./rule/Telegram.yaml,
+    }
+  Twitter:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitter/Twitter.yaml,
+      path: ./rule/Twitter.yaml,
+    }
+  Instagram:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Instagram/Instagram.yaml,
+      path: ./rule/Instagram.yaml,
+    }
+  YouTube:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml,
+      path: ./rule/YouTube.yaml,
+    }
+  Netflix:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml,
+      path: ./rule/Netflix.yaml,
+    }
+  China:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Classical.yaml,
+      path: ./rule/China.list,
+    }
+  Proxy:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml,
+      path: ./rule/Proxy.yaml,
+    }
+  Lan:
+    {
+      <<: *a6,
+      url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml,
+      path: ./rule/Lan.yaml,
+    }
+
+rules:
+  - DOMAIN-SUFFIX,k8s.local,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,OpenAI,💬 OpenAI
+  - RULE-SET,BingAI,🆕 BingAI
+  - RULE-SET,BardAI,🤖 BardAI
+  - RULE-SET,Advertising,🆎 AdBlock
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Github,👨🏻‍💻 GitHub
+  - RULE-SET,Microsoft, Ⓜ️ 微软服务
+  - RULE-SET,Google,🌌 谷歌服务
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,Telegram,📟 电报消息
+  - RULE-SET,Discord,📟 电报消息
+  - RULE-SET,Twitter,🐦 推特服务
+  - RULE-SET,Instagram,🎬 国际媒体
+  - RULE-SET,BiliBili,📺 哔哩哔哩
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,GlobalMedia,🎬 国际媒体
+  - RULE-SET,Proxy,🌏 全球加速
+  - RULE-SET,China,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 漏网之鱼
