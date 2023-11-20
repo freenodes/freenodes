@@ -1,58 +1,4 @@
 proxies:
-- name: 🇫🇷-FR-001
-  server: 54.36.174.181
-  port: 6379
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: 🇫🇷-FR-002
-  server: 54.36.174.181
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 🇫🇷-FR-003
-  server: 54.36.174.181
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇫🇷-FR-004
-  server: 54.36.174.181
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇫🇷-FR-005
-  server: 54.36.174.181
-  port: 3389
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇫🇷-FR-006
-  server: 54.36.174.181
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇫🇷-FR-007
-  server: 54.36.174.181
-  port: 7002
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇫🇷-FR-008
-  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 🇫🇷-FR-009
-  server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
 - name: 🇭🇰-HK-001
   server: 150.107.46.21
   port: 8083
@@ -64,6 +10,15 @@ proxies:
   protocol-param: ''
   obfs-param: Y2xvdWRmcm9udC5uZXQ%3D
   udp: true
+- name: 🇮🇷-IR-001
+  server: 78.39.56.6
+  port: 46227
+  type: vmess
+  uuid: ef11148e-4eb9-493b-b670-b4aa3f710262
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 - name: 🇨🇳-TW-001
   server: fn300mtw015.flybirdline.xyz
   port: 443
@@ -78,37 +33,7 @@ proxies:
     tls: true
     mux: true
     skip-cert-verify: false
-- name: 🇰🇷-KR-001
-  server: 43.201.47.103
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-001
-  server: 47.76.51.110
-  port: 80
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ''
 - name: 🇭🇰-HK-002
-  server: 123.254.105.107
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: jyn42.xjhssba.today
-    path: /vtprtcemdw
-    tls: true
-    mux: true
-    skip-cert-verify: false
-- name: 🇭🇰-HK-003
   server: 8.217.135.205
   port: 443
   type: ss
@@ -122,34 +47,48 @@ proxies:
     tls: false
     mux: true
     skip-cert-verify: false
-- name: 🇫🇷-FR-010
-  server: 54.36.174.181
-  port: 6697
+- name: 🇿🇦-ZA-001
+  server: 41.203.4.34
+  port: 989
   type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇫🇷-FR-011
+- name: 🇲🇦-MA-001
+  server: 188.214.157.5
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷-KR-001
+  server: 43.201.149.200
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰-HK-003
+  server: 123.254.105.107
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: jyn42.xjhssba.today
+    path: /vtprtcemdw
+    tls: true
+    mux: true
+    skip-cert-verify: false
+- name: 🇫🇷-FR-001
   server: 51.15.25.187
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇩🇪-DE-001
-  server: 109.61.80.225
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇰🇷-KR-002
-  server: 43.200.244.103
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇭🇰-HK-004
-  server: 8.210.119.75
+- name: 🇺🇸-US-001
+  server: 47.76.51.110
   port: 80
   type: ss
   cipher: aes-128-gcm
@@ -158,48 +97,30 @@ proxies:
   plugin-opts:
     mode: http
     host: ''
-- name: 🇿🇦-ZA-001
-  server: 41.203.4.34
+- name: 🇰🇷-KR-002
+  server: 43.201.47.103
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇩🇪-DE-001
+  server: 109.61.80.225
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-  udp: true
+- name: 🇺🇸-US-002
+  server: 47.76.44.217
+  port: 80
+  type: ss
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ''
 - name: 🇰🇷-KR-003
   server: 43.201.52.239
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-001
-  server: 54.250.170.149
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇫🇷-FR-012
-  server: 54.36.174.181
-  port: 8118
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇫🇷-FR-013
-  server: 54.36.174.181
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇫🇷-FR-014
-  server: 54.36.174.181
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇸🇬-SG-001
-  server: 13.229.80.190
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -211,79 +132,8 @@ proxies:
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇫🇷-FR-015
-  server: 54.36.174.181
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-002
-  server: 47.76.44.217
-  port: 80
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ''
-- name: 🇲🇦-MA-001
-  server: 188.214.157.5
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇰🇷-KR-004
-  server: 43.201.149.200
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇨🇳-TW-002
-  server: nbq11.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: nbq11.ntbq.dynu.net
-  network: ws
-  ws-opts:
-    path: /b11
-    headers:
-      Host: nbq11.ntbq.dynu.net
-- name: 🇨🇳-TW-003
-  server: tc11.kq1.dynu.net
-  port: 443
-  type: vmess
-  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vbub1
-    headers:
-      Host: tc11.kq1.dynu.net
-- name: 🇨🇳-TW-004
-  server: nbq13.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /b13
-    headers:
-      Host: nbq13.ntbq.dynu.net
-- name: 🇨🇳-TW-005
-  server: b23.ntbq.dynu.net
+  server: nbq12.ntbq.dynu.net
   port: 443
   type: vmess
   uuid: 6bd47438-d696-499a-bcd5-134e4145135a
@@ -291,17 +141,16 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: b23.ntbq.dynu.net
   network: ws
   ws-opts:
-    path: /b23
+    path: /b12
     headers:
-      Host: b23.ntbq.dynu.net
-- name: 🇨🇳-TW-006
+      Host: nbq12.ntbq.dynu.net
+- name: 🇨🇳-TW-003
   server: tc12.kq1.dynu.net
   port: 443
   type: vmess
-  uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591
+  uuid: a9a37f79-231c-4b57-849d-3717c1b561b4
   alterId: 0
   cipher: auto
   tls: true
@@ -312,232 +161,161 @@ proxies:
     path: /vbub2
     headers:
       Host: tc12.kq1.dynu.net
+- name: 🇨🇳-TW-004
+  server: nbq13.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 6bd47438-d696-499a-bcd5-134e4145135a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nbq13.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b13
+    headers:
+      Host: nbq13.ntbq.dynu.net
+- name: 🇨🇳-TW-005
+  server: nbq11.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nbq11.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b11
+    headers:
+      Host: nbq11.ntbq.dynu.net
 - name: 🇳🇱-NL-001
   server: 185.140.209.74
   port: 24224
   type: ss
   cipher: chacha20-ietf-poly1305
   password: C9Bj8nLTngraUjrwk82Ax7
-- name: 🇫🇷-FR-016
-  server: 54.36.174.181
-  port: 7306
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸-US-003
-  server: go.gujuji.top
-  port: 8080
+- name: 🇮🇷-IR-002
+  server: 78.39.56.6
+  port: 46585
   type: vmess
-  uuid: 7fdbc047-438c-4c65-9859-101aaa60b6b6
+  uuid: 05af75d7-4c45-4222-b245-d36c5618135d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ca-new01.gujuji.top
-  udp: true
-- name: 🇰🇷-KR-005
+- name: 🇸🇬-SG-001
+  server: 13.215.249.53
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-004
   server: 43.201.255.57
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-004
-  server: ml2.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ml2.shabijichang.com
-- name: 🇺🇸-US-005
-  server: 5.78.70.196
-  port: 3389
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-- name: 🇫🇷-FR-017
-  server: 54.36.174.181
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇫🇷-FR-018
-  server: 54.36.174.181
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇫🇷-FR-019
-  server: 54.36.174.181
-  port: 5001
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇫🇷-FR-020
-  server: 54.36.174.181
-  port: 5003
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 🇫🇷-FR-021
-  server: 54.36.174.181
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇫🇷-FR-022
-  server: 54.36.174.181
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇫🇷-FR-023
-  server: 54.36.174.181
-  port: 2376
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 🇨🇳-TW-007
-  server: b22.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /b22
-    headers:
-      Host: b22.ntbq.dynu.net
-- name: 🇨🇳-TW-008
-  server: b21.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: b21.ntbq.dynu.net
-  network: ws
-  ws-opts:
-    path: /b21
-    headers:
-      Host: b21.ntbq.dynu.net
-- name: 🇫🇷-FR-024
-  server: 54.36.174.181
-  port: 5004
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 🇺🇸-US-006
-  server: 47.254.16.114
-  port: 80
-  type: vmess
-  uuid: f3464642-f113-4575-aa33-f68aef56b5c0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /mePGXW6SFZZw2QyAqaYK
-- name: 🇺🇸-US-007
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-    headers:
-      Host: cold-dawn-9246.fly.dev
-- name: 🇺🇸-US-008
-  server: cc3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cc3.shabijichang.com
-- name: 🇺🇸-US-009
-  server: mm3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mm3.shabijichang.com
-- name: 🇨🇳-TW-009
+- name: 🇨🇳-TW-006
   server: b24.ntbq.dynu.net
   port: 443
   type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
+  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: b24.ntbq.dynu.net
   network: ws
   ws-opts:
     path: /b24
     headers:
       Host: b24.ntbq.dynu.net
-- name: 🇫🇷-FR-025
-  server: 54.36.174.181
+- name: 🇦🇺-AU-001
+  server: au.doushimeng.com
+  port: 24652
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a87fed64-9116-42e9-a271-5afdba7a458d
+  udp: true
+- name: 🇺🇸-US-003
+  server: sg.lonna.1145114.me
+  port: 2087
+  type: vmess
+  uuid: 03b31a08-c13d-4b74-8966-81df0221c393
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /lonananasa
+    headers:
+      Host: spl.133487.tech
+  udp: true
+- name: 🇺🇸-US-004
+  server: us.doushimeng.com
+  port: 22853
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a87fed64-9116-42e9-a271-5afdba7a458d
+  udp: true
+- name: 🇰🇷-KR-005
+  server: 43.200.244.103
   port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 🇺🇸-US-010
-  server: mrb2.shabijichang.com
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇳-TW-007
+  server: b21.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /b21
+    headers:
+      Host: b21.ntbq.dynu.net
+- name: 🇺🇸-US-005
+  server: 52.23.176.97
+  port: 34511
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5k55aIUjJaaQ8YjE6772wF
+- name: 🇯🇵-JP-001
+  server: 54.250.170.149
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-006
+  server: 47.88.89.106
   port: 80
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 86f8f25d-9d26-41a6-a75b-e0ef992cc74a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: internet.life.com.by
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: mrb2.shabijichang.com
+    path: /rxrsOUmNbuTJCk4izFEHWrb9qm
+- name: 🇸🇬-SG-002
+  server: 13.229.80.190
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-007
+  server: db.doushimeng.com
+  port: 23202
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a87fed64-9116-42e9-a271-5afdba7a458d
+  udp: true
