@@ -1,141 +1,109 @@
 proxies:
-- name: 🇰🇷-KR-001
-  server: 43.200.244.103
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-001
-  server: 167.88.61.175
-  port: 5003
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
 - name: 🇫🇷-FR-001
-  server: 51.159.222.22
+  server: 162.19.59.160
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
+- name: 🇺🇸-US-001
+  server: 38.68.134.9
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
 - name: 🇫🇷-FR-002
-  server: 51.159.222.37
+  server: 51.159.221.224
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: 🇫🇷-FR-003
-  server: 62.210.88.88
+  server: 51.159.222.22
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: 🇫🇷-FR-004
-  server: 149.202.82.172
-  port: 6697
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇫🇷-FR-005
-  server: 195.154.185.174
-  port: 989
+  server: 51.158.200.76
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: asdKkaskJKfnsa
+  udp: true
+- name: 🇫🇷-FR-005
+  server: 51.158.200.60
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
   udp: true
 - name: 🇫🇷-FR-006
-  server: 149.202.82.172
-  port: 3306
+  server: 62.210.88.201
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇯🇵-JP-001
-  server: dir01.netorigins2u.site
-  port: 30501
-  type: vmess
-  uuid: 36f275d2-f88d-35b3-bbc0-26a5d801ae75
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: us01.tomoony.xyz
-- name: 🇺🇸-US-002
-  server: 167.88.61.175
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇺🇸-US-003
-  server: cfcdn1.sanfencdn9.com
-  port: 2052
-  type: vmess
-  uuid: 1839d2e3-a29b-4fbc-8cb2-2e52163d385c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /video/xwjorKTk
-    headers:
-      Host: us8cdf74064.pkmkwvxqnn.xyz
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
 - name: 🇫🇷-FR-007
-  server: 51.158.200.150
+  server: 51.159.211.85
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
 - name: 🇫🇷-FR-008
-  server: 57.128.32.84
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: asdKkaskJKfnsa
-  udp: true
-- name: 🇫🇷-FR-009
-  server: 62.210.88.169
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: asdKkaskJKfnsa
-  udp: true
-- name: 🇫🇷-FR-010
-  server: 51.158.200.145
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: asdKkaskJKfnsa
-  udp: true
-- name: 🇫🇷-FR-011
-  server: 57.128.32.76
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: asdKkaskJKfnsa
-  udp: true
-- name: 🇫🇷-FR-012
   server: 54.36.174.181
-  port: 8881
+  port: 8091
   type: ss
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: PCnnH6SQSnfoS27
   udp: true
-- name: 🇺🇸-US-004
-  server: cf2.trojan.tel
-  port: 2095
+- name: 🇫🇷-FR-009
+  server: 149.202.82.172
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸-US-002
+  server: 167.88.61.175
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 🇺🇸-US-003
+  server: 172.67.184.13
+  port: 80
   type: vmess
-  uuid: c78452f0-8489-43d8-87c6-68e55e3ce245
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub-cf-v2.trojan.tel
+    path: /
+- name: 🇫🇷-FR-010
+  server: 146.59.110.167
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+- name: 🇫🇷-FR-011
+  server: 51.158.204.39
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+- name: 🇫🇷-FR-012
+  server: 51.159.222.37
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
