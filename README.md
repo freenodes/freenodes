@@ -58,7 +58,7 @@
 
 ## 配置文件（Clash Premium 核心）
 
-- ClashPremiumFree: [https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml](https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml)
+- ClashPremiumFree: [https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml](https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml)
 
 ### Clashx Pro 使用效果
 
