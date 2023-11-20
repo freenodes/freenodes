@@ -58,7 +58,7 @@
 
 ## 配置文件（Clash Premium 核心）
 
-- ClashPremiumFree: [https://ghproxy.com/https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml](https://ghproxy.com/https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml)
+- ClashPremiumFree: [https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml](https://gist.githubusercontent.com/freenodes/98b0af810da15dbfdf980bd4b3a8ee3a/raw/e00ff53419c78ac20ebbbd5b1677305409a4d112/ClashPremiumFree.yaml)
 
 ### Clashx Pro 使用效果
 
@@ -66,8 +66,8 @@
 
 ## 纯节点订阅地址：
 
-- Proxies: [https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml](https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml)
-- Proxies with Speed Test: [https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml](https://ghproxy.com/https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml)
+- Proxies: [https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml](https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml)
+- Proxies with Speed Test: [https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml](https://raw.githubusercontent.com/freenodes/freenodes/main/clash_speed.yaml)
 
 ## 订阅地址一键转换：
 
