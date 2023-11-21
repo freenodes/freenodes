@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- name: 🇨🇳-TW-001
+  server: fn300mtw015.flybirdline.xyz
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: d7570e231c78
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: fn300mtw015.flybirdline.xyz
+    path: /uanrmeers
+    tls: true
+    mux: true
+    skip-cert-verify: false
+- name: 🇭🇰-HK-001
+  server: 123.254.105.107
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: jyn42.xjhssba.today
+    path: /vtprtcemdw
+    tls: true
+    mux: true
+    skip-cert-verify: false
+- name: 🇭🇰-HK-002
+  server: 8.217.135.205
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: ''
+    path: ''
+    tls: false
+    mux: true
+    skip-cert-verify: false
