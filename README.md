@@ -10,10 +10,10 @@
     <img src="https://img.shields.io/badge/all-82-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/vmess-24-blue">
+    <img src="https://img.shields.io/badge/vmess-30-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
-    <img src="https://img.shields.io/badge/ss-57-blue">
+    <img src="https://img.shields.io/badge/ss-51-blue">
   </a>
   <a href="https://img.shields.io/github/stars/freenodes/freenodes">
     <img src="https://img.shields.io/badge/ssr-1-blue">
