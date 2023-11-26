@@ -1,10 +1,4 @@
 proxies:
-- name: 🇫🇮-FI-001
-  server: 77.91.103.108
-  port: 15708
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: GXGhsxweEyBgvyUc5Xaoae
 - name: 🇺🇸-US-001
   server: 198.2.202.23
   port: 30000
@@ -49,20 +43,19 @@ proxies:
   obfs-param: Y2xvdWRmcm9udC5uZXQ%3D
   udp: true
 - name: 🇺🇸-US-002
-  server: cc3.shabijichang.com
-  port: 80
+  server: aeshfa.qkhbyf.tech
+  port: 443
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 6da3e574-52f1-4690-a53b-2847ce756456
   alterId: 0
-  cipher: auto
-  tls: false
+  cipher: chacha20-poly1305
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /lonan
     headers:
-      Host: cc3.shabijichang.com
-  udp: true
+      Host: ae001.qkhbyf.tech
 - name: 🇨🇳-TW-001
   server: fn300mtw015.flybirdline.xyz
   port: 443
@@ -102,17 +95,11 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-001
-  server: 3.112.41.126
+  server: 13.112.247.107
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-001
-  server: 103.172.116.79
-  port: 9044
-  type: ss
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
 - name: 🇿🇦-ZA-001
   server: 41.203.4.34
   port: 989
@@ -120,24 +107,6 @@ proxies:
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🇯🇵-JP-002
-  server: 13.112.247.107
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-003
-  server: 3.112.199.106
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-004
-  server: 18.183.250.218
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇻🇳-VN-001
   server: 103.57.131.169
   port: 80
@@ -150,70 +119,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zingfast.vn
-- name: 🇻🇳-VN-002
-  server: 103.74.105.236
-  port: 80
-  type: vmess
-  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /zingfast.vn
-- name: 🇰🇷-KR-003
-  server: 43.200.6.58
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇨🇳-TW-002
-  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
-  port: 80
-  type: vmess
-  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tms.dingtalk.com
-  udp: true
-- name: 🇨🇳-TW-003
-  server: nbq13.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: nbq13.ntbq.dynu.net
-  network: ws
-  ws-opts:
-    path: /b13
-    headers:
-      Host: nbq13.ntbq.dynu.net
-- name: 🇨🇳-TW-004
-  server: tc11.twtc.dynu.net
-  port: 443
-  type: vmess
-  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: tc11.twtc.dynu.net
-  network: ws
-  ws-opts:
-    path: /vbub1
-    headers:
-      Host: tc11.twtc.dynu.net
-- name: 🇨🇳-TW-005
   server: b23.ntbq.dynu.net
   port: 443
   type: vmess
@@ -228,37 +134,7 @@ proxies:
     path: /b23
     headers:
       Host: b23.ntbq.dynu.net
-- name: 🇨🇳-TW-006
-  server: b24.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: b24.ntbq.dynu.net
-  network: ws
-  ws-opts:
-    path: /b24
-    headers:
-      Host: b24.ntbq.dynu.net
-- name: 🇨🇳-TW-007
-  server: b22.ntbq.dynu.net
-  port: 443
-  type: vmess
-  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: b22.ntbq.dynu.net
-  network: ws
-  ws-opts:
-    path: /b22
-    headers:
-      Host: b22.ntbq.dynu.net
-- name: 🇨🇳-TW-008
+- name: 🇨🇳-TW-003
   server: nbq11.ntbq.dynu.net
   port: 443
   type: vmess
@@ -273,7 +149,37 @@ proxies:
     path: /b11
     headers:
       Host: nbq11.ntbq.dynu.net
-- name: 🇨🇳-TW-009
+- name: 🇨🇳-TW-004
+  server: b21.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: b21.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b21
+    headers:
+      Host: b21.ntbq.dynu.net
+- name: 🇨🇳-TW-005
+  server: b22.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: b22.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b22
+    headers:
+      Host: b22.ntbq.dynu.net
+- name: 🇨🇳-TW-006
   server: tc12.twtc.dynu.net
   port: 443
   type: vmess
@@ -288,8 +194,8 @@ proxies:
     path: /vbub2
     headers:
       Host: tc12.twtc.dynu.net
-- name: 🇨🇳-TW-010
-  server: nbq12.ntbq.dynu.net
+- name: 🇨🇳-TW-007
+  server: tc11.twtc.dynu.net
   port: 443
   type: vmess
   uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
@@ -297,12 +203,27 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: nbq12.ntbq.dynu.net
+  servername: tc11.twtc.dynu.net
   network: ws
   ws-opts:
-    path: /b12
+    path: /vbub1
     headers:
-      Host: nbq12.ntbq.dynu.net
+      Host: tc11.twtc.dynu.net
+- name: 🇨🇳-TW-008
+  server: b24.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: b24.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b24
+    headers:
+      Host: b24.ntbq.dynu.net
 - name: 🇩🇪-DE-002
   server: de-v2ray.freevmess.com
   port: 8442
@@ -320,6 +241,111 @@ proxies:
     headers:
       Host:
       - de-v2ray.freevmess.com
+- name: 🇭🇰-HK-002
+  server: xgthree.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xgthree.yunjisuan.cf
+- name: 🇭🇰-HK-003
+  server: xgtow.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xgtow.yunjisuan.cf
+- name: 🇭🇰-HK-004
+  server: xgone.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xgone.yunjisuan.cf
+- name: 🇯🇵-JP-002
+  server: jp2.jidexufei.top
+  port: 443
+  type: vmess
+  uuid: 8ab61f8b-2d9f-4105-90ad-9ab1540bbdda
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: jp2.jidexufei.top
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: jp2.jidexufei.top
+- name: 🇯🇵-JP-003
+  server: rbtow.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rbtow.yunjisuan.cf
+- name: 🇯🇵-JP-004
+  server: rb.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rb.yunjisuan.cf
+- name: 🇯🇵-JP-005
+  server: rbthree.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rbthree.yunjisuan.cf
 - name: 🇦🇪-AE-001
   server: ss.wwww.htttbbx.alirezashhamraz.tk
   port: 18785
@@ -337,47 +363,72 @@ proxies:
     headers:
       Host:
       - ss.wwww.htttbbx.alirezashhamraz.tk
-- name: 🇨🇭-CH-001
-  server: 5.182.36.245
-  port: 10141
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ndJuPjq7WbFDjB4oacljGw
-- name: 🇩🇪-DE-003
-  server: Telegram.V2RayTz.sbs
-  port: 8080
+- name: 🇷🇺-RU-001
+  server: els2.yunjisuan.cf
+  port: 80
   type: vmess
-  uuid: 752a3159-bf37-487e-b6c0-b6b206e8ee9e
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: google.com
+  servername: tms.dingtalk.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: Telegram.V2RayTz.sbs
-- name: 🇩🇪-DE-004
-  server: 217.196.101.125
-  port: 8080
-  type: vmess
-  uuid: 752a3159-bf37-487e-b6c0-b6b206e8ee9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬-SG-002
+      Host: els2.yunjisuan.cf
+- name: 🇸🇬-SG-001
   server: 13.215.249.53
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇺🇸-US-003
+  server: n1700373161.aaigefm.cn
+  port: 443
+  type: vmess
+  uuid: ac897b22-58ae-447d-b323-f837c1d5e75f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: n1700373161.aaigefm.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1700373161.aaigefm.cn
+- name: 🇺🇸-US-004
+  server: 172.67.77.99
+  port: 2052
+  type: vmess
+  uuid: 6da3e574-52f1-4690-a53b-2847ce756456
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /lonan
+    headers:
+      Host: vdsus.1145114.me
+- name: 🇺🇸-US-005
+  server: n1700303376.izwhvan.cn
+  port: 443
+  type: vmess
+  uuid: ee65c32d-afc8-4d54-b91e-b334354fa5c2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: n1700303376.izwhvan.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1700303376.izwhvan.cn
+- name: 🇺🇸-US-006
   server: v16.583182.xyz
   port: 8443
   type: vmess
@@ -392,7 +443,7 @@ proxies:
     headers:
       Host: v16.583181.xyz
   udp: true
-- name: 🇺🇸-US-004
+- name: 🇺🇸-US-007
   server: v13.583182.xyz
   port: 2053
   type: vmess
@@ -407,35 +458,37 @@ proxies:
     headers:
       Host: v13.583181.xyz
   udp: true
-- name: 🇺🇸-US-005
-  server: ml3.shabijichang.com
+- name: 🇺🇸-US-008
+  server: xgfour.yunjisuan.cf
   port: 80
   type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: tms.dingtalk.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ml3.shabijichang.com
-- name: 🇺🇸-US-006
-  server: tttt.ssfree.ru
-  port: 443
+      Host: xgfour.yunjisuan.cf
+- name: 🇺🇸-US-009
+  server: xgfive.yunjisuan.cf
+  port: 80
   type: vmess
-  uuid: 12797f4c-8bb4-11ee-8458-00163e49219e
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
+  servername: tms.dingtalk.com
   network: ws
   ws-opts:
-    path: /search
+    path: /
     headers:
-      Host: tttt.ssfree.ru
-- name: 🇺🇸-US-007
+      Host: xgfive.yunjisuan.cf
+- name: 🇺🇸-US-010
   server: 192.74.244.1
   port: 30000
   type: vmess
@@ -448,14 +501,28 @@ proxies:
   network: ws
   ws-opts:
     path: /path/1700403634984
-- name: 🇰🇷-KR-004
-  server: 43.201.255.57
+- name: 🇺🇸-US-011
+  server: yhnsb3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: yhnsb3.shabijichang.com
+- name: 🇸🇬-SG-002
+  server: 47.128.81.235
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-003
-  server: 47.128.81.235
+- name: 🇰🇷-KR-003
+  server: 43.201.255.57
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -472,20 +539,50 @@ proxies:
   network: ws
   ws-opts:
     path: /zingfast.vn
-- name: 🇻🇳-VN-003
-  server: 103.74.102.192
-  port: 80
+- name: 🇺🇸-US-012
+  server: 23.95.106.18
+  port: 8080
   type: vmess
-  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
+  uuid: 579f31a4-634e-485c-cef3-e83c3b6babe7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /zingfast.vn
+    path: /blue
+- name: 🇻🇳-VN-002
+  server: ynone.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ynone.yunjisuan.cf
+- name: 🇻🇳-VN-003
+  server: yntow.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: yntow.yunjisuan.cf
 - name: 🇻🇳-VN-004
-  server: 103.232.53.86
+  server: 103.74.102.192
   port: 80
   type: vmess
   uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
@@ -502,149 +599,13 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: DiPietyory
-- name: 🇺🇸-US-008
-  server: yhnsb3.shabijichang.com
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yhnsb3.shabijichang.com
-  udp: true
-- name: 🇦🇺-AU-002
-  server: au.doushimeng.com
-  port: 24652
+- name: 🇸🇬-SG-003
+  server: 103.172.116.79
+  port: 9044
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: aa7e2ae3-67ad-4927-adc7-86450f877530
-  udp: true
-- name: 🇸🇬-SG-004
-  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-005
-  server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-006
-  server: jp2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-007
-  server: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-008
-  server: sg1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-009
-  server: jp1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇸🇬-SG-010
-  server: sg2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 80
-  type: vmess
-  uuid: da89a49f-3a20-4de1-94b9-06690121e926
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dl.delivery.mp.microsoft.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-- name: 🇺🇸-US-009
-  server: n1699974613.aaigefm.cn
-  port: 443
-  type: vmess
-  uuid: 98e145b7-35ff-4309-aa5e-fd6107f199eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: n1699974613.aaigefm.cn
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1699974613.aaigefm.cn
-- name: 🇺🇸-US-010
+  cipher: aes-256-cfb
+  password: KBGjZYcy4SyRShmA
+- name: 🇺🇸-US-013
   server: n1700303374.aaigefm.cn
   port: 443
   type: vmess
@@ -658,48 +619,251 @@ proxies:
     path: /
     headers:
       Host: n1700303374.aaigefm.cn
-- name: 🇯🇵-JP-005
-  server: jp2.jidexufei.top
-  port: 443
+- name: 🇺🇸-US-014
+  server: ml2.shabijichang.com
+  port: 80
   type: vmess
-  uuid: 8ab61f8b-2d9f-4105-90ad-9ab1540bbdda
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: jp2.jidexufei.top
   network: ws
   ws-opts:
-    path: /cctv13/hd.m3u8
+    path: /
     headers:
-      Host: jp2.jidexufei.top
+      Host: ml2.shabijichang.com
+- name: 🇺🇸-US-015
+  server: tttt.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: 12797f4c-8bb4-11ee-8458-00163e49219e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /search
+    headers:
+      Host: tttt.ssfree.ru
+- name: 🇫🇷-FR-004
+  server: fr1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  port: 80
+  type: vmess
+  uuid: da89a49f-3a20-4de1-94b9-06690121e926
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.delivery.mp.microsoft.com
+- name: 🇺🇸-US-016
+  server: fr-01.jikuai.xyz
+  port: 2082
+  type: vmess
+  uuid: 3463f953-a603-4316-ac6d-642c8680d66e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fr-01.jikuai.xyz
+- name: 🇺🇸-US-017
+  server: au-01.jikuai.xyz
+  port: 2082
+  type: vmess
+  uuid: 3463f953-a603-4316-ac6d-642c8680d66e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: au-01.jikuai.xyz
+- name: 🇺🇸-US-018
+  server: us-01.jikuai.xyz
+  port: 2082
+  type: vmess
+  uuid: 3463f953-a603-4316-ac6d-642c8680d66e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-01.jikuai.xyz
+- name: 🇺🇸-US-019
+  server: us-02.jikuai.xyz
+  port: 2082
+  type: vmess
+  uuid: 3463f953-a603-4316-ac6d-642c8680d66e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-02.jikuai.xyz
+- name: 🇻🇳-VN-005
+  server: ynthree.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: tms.dingtalk.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ynthree.yunjisuan.cf
+- name: 🇻🇳-VN-006
+  server: 103.232.53.86
+  port: 80
+  type: vmess
+  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zingfast.vn
+- name: 🇷🇺-RU-002
+  server: els1.yunjisuan.cf
+  port: 80
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇸🇬-SG-004
+  server: 47.128.76.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰-HK-005
+  server: hk01.host.csznet.eu.org
+  port: 443
+  type: vmess
+  uuid: 8b5901db-d875-4273-88bc-dcecafac900e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /admin
+    headers:
+      Host: hk01.host.csznet.eu.org
+  udp: true
+- name: 🇺🇸-US-020
+  server: us.doushimeng.com
+  port: 22853
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aa7e2ae3-67ad-4927-adc7-86450f877530
+  udp: true
+- name: 🇺🇸-US-021
+  server: us01.h.csznet.eu.org
+  port: 443
+  type: vmess
+  uuid: 8b5901db-d875-4273-88bc-dcecafac900e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /admin
+    headers:
+      Host: us01.h.csznet.eu.org
+  udp: true
 - name: 🇯🇵-JP-006
-  server: jp3.jidexufei.top
+  server: 43.206.224.156
   port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇻🇳-VN-007
+  server: 103.74.105.236
+  port: 80
   type: vmess
-  uuid: 8ab61f8b-2d9f-4105-90ad-9ab1540bbdda
+  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: jp3.jidexufei.top
   network: ws
   ws-opts:
-    path: /cctv13/hd.m3u8
-    headers:
-      Host: jp3.jidexufei.top
-- name: 🇸🇬-SG-011
-  server: sg4.jidexufei.top
-  port: 443
+    path: /zingfast.vn
+- name: 🇩🇪-DE-003
+  server: 217.196.101.125
+  port: 8080
   type: vmess
-  uuid: 8ab61f8b-2d9f-4105-90ad-9ab1540bbdda
+  uuid: 752a3159-bf37-487e-b6c0-b6b206e8ee9e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: sg4.jidexufei.top
+  servername: google.com
   network: ws
   ws-opts:
-    path: /cctv13/hd.m3u8
+    path: /
+- name: 🇺🇸-US-022
+  server: 142.4.97.65
+  port: 30000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.39838266.xyz
+  network: ws
+  ws-opts:
+    path: /path/1699624723213
+- name: 🇦🇺-AU-002
+  server: au.doushimeng.com
+  port: 24652
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aa7e2ae3-67ad-4927-adc7-86450f877530
+  udp: true
+- name: 🇨🇳-TW-009
+  server: nbq12.ntbq.dynu.net
+  port: 443
+  type: vmess
+  uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nbq12.ntbq.dynu.net
+  network: ws
+  ws-opts:
+    path: /b12
     headers:
-      Host: sg4.jidexufei.top
+      Host: nbq12.ntbq.dynu.net
