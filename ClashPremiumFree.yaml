@@ -74,6 +74,7 @@ proxy-groups:
   - { name: 👨🏻‍💻 GitHub, <<: *a3 }
   - { name: 📟 电报消息, <<: *a3 }
   - { name: 🐦 推特服务, <<: *a3 }
+  - { name: 🗽 INS服务, <<: *a3 }
   - { name: 📹 油管视频, <<: *a3 }
   - { name: 🎥 奈飞视频, <<: *a3 }
   - { name: 🎬 国际媒体, <<: *a3 }
@@ -223,6 +224,7 @@ rule-providers:
     }
 
 rules:
+  - DOMAIN-SUFFIX,k8s.local,DIRECT
   - RULE-SET,Download,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
@@ -238,7 +240,7 @@ rules:
   - RULE-SET,Telegram,📟 电报消息
   - RULE-SET,Discord,📟 电报消息
   - RULE-SET,Twitter,🐦 推特服务
-  - RULE-SET,Instagram,🎬 国际媒体
+  - RULE-SET,Instagram,🗽 INS服务
   - RULE-SET,BiliBili,📺 哔哩哔哩
   - RULE-SET,YouTube,📹 油管视频
   - RULE-SET,Netflix,🎥 奈飞视频
