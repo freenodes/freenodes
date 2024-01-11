@@ -73,71 +73,47 @@ proxies:
   password: f8f7aCzcPKbsF8p3
 - name: 🇵🇱-PL-001
   server: 217.30.10.68
-  port: 9000
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 🇵🇱-PL-002
-  server: 217.30.10.68
-  port: 9010
-  type: ss
-  cipher: aes-256-cfb
-  password: f63gg8EruDnUrmz4
-- name: 🇵🇱-PL-003
-  server: 217.30.10.68
   port: 9019
   type: ss
   cipher: aes-256-cfb
   password: GA9KzeEgvfxNrgmM
-- name: 🇵🇱-PL-004
+- name: 🇵🇱-PL-002
   server: 217.30.10.68
   port: 9079
   type: ss
   cipher: aes-256-cfb
   password: TPqX8edgbAURcAMb
-- name: 🇵🇱-PL-005
-  server: 217.30.10.68
-  port: 9043
-  type: ss
-  cipher: aes-256-cfb
-  password: HSZuyJQcWe8dxNdF
-- name: 🇵🇱-PL-006
+- name: 🇵🇱-PL-003
   server: 217.30.10.68
   port: 9073
   type: ss
   cipher: aes-256-cfb
   password: daFYagqDdBdA6VTX
-- name: 🇵🇱-PL-007
+- name: 🇵🇱-PL-004
   server: 217.30.10.68
   port: 9033
   type: ss
   cipher: aes-256-cfb
   password: UTJA57ypk2XKQpnm
-- name: 🇵🇱-PL-008
+- name: 🇵🇱-PL-005
   server: 217.30.10.68
   port: 9093
   type: ss
   cipher: aes-256-cfb
   password: wfLC2y7rzZyCmuyt
-- name: 🇵🇱-PL-009
+- name: 🇵🇱-PL-006
   server: 217.30.10.68
   port: 9018
   type: ss
   cipher: aes-256-cfb
   password: fG2artUmHfNT2cX7
-- name: 🇵🇱-PL-010
+- name: 🇵🇱-PL-007
   server: 217.30.10.68
   port: 9070
   type: ss
   cipher: aes-256-cfb
   password: bf7v334KKDV3YDhH
-- name: 🇵🇱-PL-011
-  server: 217.30.10.68
-  port: 9001
-  type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-- name: 🇵🇱-PL-012
+- name: 🇵🇱-PL-008
   server: 217.30.10.68
   port: 9006
   type: ss
@@ -167,18 +143,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇸🇬-SG-001
-  server: 103.172.116.79
-  port: 9044
-  type: ss
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
-- name: 🇬🇧-GB-001
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
 - name: 🇺🇸-US-001
   server: a3.bcbot.in
   port: 8880
@@ -194,20 +158,6 @@ proxies:
     headers:
       Host: a3.bcbot.in
 - name: 🇺🇸-US-002
-  server: 172.67.217.144
-  port: 80
-  type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lv1.xv2ray.net
-- name: 🇺🇸-US-003
   server: 212.102.47.198
   port: 443
   type: ss
@@ -241,20 +191,6 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: arvancloud.servehttp.com
-- name: 🇵🇭-PH-001
-  server: 120.28.10.46
-  port: 80
-  type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: sazgar.serveirc.com
 - name: 🇰🇬-KG-001
   server: 185.48.136.150
   port: 443
@@ -269,18 +205,20 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: sazgar22.zapto.org
-- name: 🇦🇺-AU-001
-  server: 20.70.181.212
-  port: 29548
+- name: 🇰🇿-KZ-001
+  server: 217.76.64.195
+  port: 443
   type: vmess
-  uuid: 294dde06-603b-4bd3-afdc-9e4de14ca183
+  uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /@forwardv2ray
+    headers:
+      Host: skuone.serveminecraft.net
 - name: 🇵🇹-PT-001
   server: 94.131.10.135
   port: 80
@@ -293,40 +231,23 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇩🇰-DK-002
-  server: dm.imzcc.com
-  port: 59492
+- name: 🇩🇪-DE-001
+  server: 138.201.184.34
+  port: 443
   type: vmess
-  uuid: 3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7
+  uuid: 4edffbd4-cac3-40bc-ca2a-0329c7494346
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /imzcc
-    headers:
-      Host: dm.imzcc.com
-  udp: true
-- name: 🇺🇸-US-004
-  server: fr.wumaojichang.com
-  port: 2086
+    path: /@VPNLime
+- name: 🇦🇺-AU-001
+  server: 20.70.181.212
+  port: 29548
   type: vmess
-  uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fr.wumaojichang.com
-- name: 🇳🇱-NL-001
-  server: 91.242.229.77
-  port: 80
-  type: vmess
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
+  uuid: 294dde06-603b-4bd3-afdc-9e4de14ca183
   alterId: 0
   cipher: auto
   tls: false
@@ -334,23 +255,49 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: nl2.xv2ray.net
-  udp: true
 - name: 🇻🇳-VN-001
-  server: bs2.loadingip.com
+  server: data1hn5.shopvpn4g.vn
   port: 80
   type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  uuid: dbbf9558-b938-478e-a51c-d7fb6b283535
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /bs
+    path: /dt1shopvpn4g
     headers:
-      Host: bs2.loadingip.com
+      Host: data1hn5.shopvpn4g.vn
+- name: 🇺🇸-US-003
+  server: 172.67.217.144
+  port: 80
+  type: vmess
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lv1.xv2ray.net
+  udp: true
+- name: 🇰🇷-KR-001
+  server: kr-3.hajimihajimihajimi.online
+  port: 80
+  type: vmess
+  uuid: b988283a-7258-4ea7-8c17-518647ddfc06
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr-3.hajimihajimihajimi.online
 - name: 🇻🇳-VN-002
   server: hnvip5.shopvpn4g.vn
   port: 80
@@ -366,6 +313,20 @@ proxies:
     headers:
       Host: Lienquan.garena.vn
 - name: 🇻🇳-VN-003
+  server: data2hcm3.shopvpn4g.vn
+  port: 80
+  type: vmess
+  uuid: dbbf9558-b938-478e-a51c-d7fb6b283535
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dt1shopvpn4g
+    headers:
+      Host: Lienquan.garena.vn
+- name: 🇻🇳-VN-004
   server: data2hn3.shopvpn4g.vn
   port: 80
   type: vmess
@@ -391,420 +352,640 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇰🇿-KZ-001
+- name: 🇰🇿-KZ-002
   server: 93.170.73.104
   port: 51348
   type: ss
   cipher: chacha20-ietf-poly1305
   password: AGr56G65GFgl7phobMoits
-- name: 🇬🇧-GB-002
+- name: 🇬🇧-GB-001
   server: 51.142.158.58
   port: 63072
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2qgjrMVVbwYdNd3FtvttsL
-- name: 🇸🇬-SG-002
-  server: 103.172.116.103
-  port: 9046
+- name: 🇵🇱-PL-009
+  server: 217.30.10.68
+  port: 9005
   type: ss
   cipher: aes-256-cfb
-  password: NvS8N4Vf8qAGPSCL
-- name: 🇸🇬-SG-003
-  server: 103.172.116.94
-  port: 9038
+  password: ZET59LF6DvCC8KVt
+- name: 🇰🇷-KR-002
+  server: p236.panda004.net
+  port: 58023
   type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-003
+  server: p226.panda004.net
+  port: 58023
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬-SG-001
+  server: 103.172.116.90
+  port: 9040
+  type: ssr
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-002
+  server: 103.172.116.90
+  port: 9041
+  type: ssr
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-003
+  server: 103.172.116.90
+  port: 9043
+  type: ssr
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-004
+  server: 103.172.116.90
+  port: 9038
+  type: ssr
   cipher: aes-256-cfb
   password: gYCYXfkUQEs2TaJQ
-- name: 🇸🇬-SG-004
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-005
+  server: 103.172.116.90
+  port: 9037
+  type: ssr
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-006
+  server: 103.172.116.90
+  port: 9042
+  type: ssr
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-007
+  server: 103.172.116.90
+  port: 9033
+  type: ssr
+  cipher: aes-256-cfb
+  password: UTJA57ypk2XKQpnm
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-008
+  server: 103.172.116.90
+  port: 9045
+  type: ssr
+  cipher: aes-256-cfb
+  password: Lp27rqyJq72bZsqX
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-009
+  server: 103.172.116.90
+  port: 9032
+  type: ssr
+  cipher: aes-256-cfb
+  password: UWZQeLRWnkqgkseq
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-010
+  server: 103.172.116.90
+  port: 9031
+  type: ssr
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-011
+  server: 103.172.116.90
+  port: 9046
+  type: ssr
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-012
+  server: 103.172.116.90
+  port: 9050
+  type: ssr
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-013
+  server: 103.172.116.90
+  port: 9053
+  type: ssr
+  cipher: aes-256-cfb
+  password: SBM7R883jBmnqe6C
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-014
+  server: 103.172.116.90
+  port: 9056
+  type: ssr
+  cipher: aes-256-cfb
+  password: rNBfNuuANFCAk7KB
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-015
+  server: 103.172.116.90
+  port: 9057
+  type: ssr
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-016
+  server: 103.172.116.90
+  port: 9059
+  type: ssr
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-017
+  server: 103.172.116.90
+  port: 9026
+  type: ssr
+  cipher: aes-256-cfb
+  password: QWDDvVE9npNurQfA
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-018
+  server: 103.172.116.90
+  port: 9058
+  type: ssr
+  cipher: aes-256-cfb
+  password: dML2sfhbVwvtfNPe
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-019
+  server: 103.172.116.90
+  port: 9025
+  type: ssr
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-020
+  server: 103.172.116.90
+  port: 9030
+  type: ssr
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-021
+  server: 103.172.116.90
+  port: 9060
+  type: ssr
+  cipher: aes-256-cfb
+  password: ueLXVkvh4hckhErQ
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-022
+  server: 103.172.116.90
+  port: 9061
+  type: ssr
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-023
+  server: 103.172.116.90
+  port: 9064
+  type: ssr
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-024
+  server: 103.172.116.90
+  port: 9027
+  type: ssr
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-025
+  server: 103.172.116.90
+  port: 9024
+  type: ssr
+  cipher: aes-256-cfb
+  password: BejrQvtu9sqUeNuZ
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-026
+  server: 103.172.116.90
+  port: 9020
+  type: ssr
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-027
+  server: 103.172.116.90
+  port: 9070
+  type: ssr
+  cipher: aes-256-cfb
+  password: bf7v334KKDV3YDhH
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-028
+  server: 103.172.116.90
+  port: 9019
+  type: ssr
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-029
+  server: 103.172.116.90
+  port: 9015
+  type: ssr
+  cipher: aes-256-cfb
+  password: ZpNDDKRu9MagNvaf
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-030
+  server: 103.172.116.90
+  port: 9073
+  type: ssr
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-031
+  server: 103.172.116.90
+  port: 9080
+  type: ssr
+  cipher: aes-256-cfb
+  password: VP8ZPxQpJtZRCjfZ
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-032
+  server: 103.172.116.90
+  port: 9079
+  type: ssr
+  cipher: aes-256-cfb
+  password: TPqX8edgbAURcAMb
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-033
+  server: 103.172.116.90
+  port: 9014
+  type: ssr
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-034
+  server: 103.172.116.90
+  port: 9011
+  type: ssr
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-035
+  server: 103.172.116.90
+  port: 9010
+  type: ssr
+  cipher: aes-256-cfb
+  password: f63gg8EruDnUrmz4
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-036
+  server: 103.172.116.90
+  port: 9008
+  type: ssr
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-037
+  server: 103.172.116.90
+  port: 9084
+  type: ssr
+  cipher: aes-256-cfb
+  password: c3NtHJ5ujV2tGDfj
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-038
+  server: 103.172.116.90
+  port: 9007
+  type: ssr
+  cipher: aes-256-cfb
+  password: kSPmvwdFzGMMW5pY
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-039
+  server: 103.172.116.90
+  port: 9006
+  type: ssr
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-040
+  server: 103.172.116.90
+  port: 9005
+  type: ssr
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-041
+  server: 103.172.116.90
+  port: 9093
+  type: ssr
+  cipher: aes-256-cfb
+  password: wfLC2y7rzZyCmuyt
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-042
+  server: 103.172.116.90
+  port: 9088
+  type: ssr
+  cipher: aes-256-cfb
+  password: f8npKgNzdkss2ytn
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-043
+  server: 103.172.116.90
+  port: 9094
+  type: ssr
+  cipher: aes-256-cfb
+  password: rpgbNnU9rDDU4aWZ
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-044
+  server: 103.172.116.90
+  port: 9097
+  type: ssr
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-045
+  server: 103.172.116.90
+  port: 9098
+  type: ssr
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-046
+  server: 103.172.116.90
+  port: 9003
+  type: ssr
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-047
+  server: 103.172.116.90
+  port: 9000
+  type: ssr
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-048
+  server: 103.172.116.90
+  port: 9001
+  type: ssr
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-049
+  server: 103.172.116.90
+  port: 9018
+  type: ssr
+  cipher: aes-256-cfb
+  password: fG2artUmHfNT2cX7
+  protocol: origin
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬-SG-050
   server: 103.172.116.103
+  port: 9001
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇸🇬-SG-051
+  server: 103.172.116.94
   port: 9015
   type: ss
   cipher: aes-256-cfb
   password: ZpNDDKRu9MagNvaf
-- name: 🇸🇬-SG-005
-  server: 103.172.116.103
-  port: 9053
-  type: ss
-  cipher: aes-256-cfb
-  password: SBM7R883jBmnqe6C
-- name: 🇸🇬-SG-006
+- name: 🇸🇬-SG-052
   server: 103.172.116.94
-  port: 9094
-  type: ss
-  cipher: aes-256-cfb
-  password: rpgbNnU9rDDU4aWZ
-- name: 🇸🇬-SG-007
-  server: 103.172.116.94
-  port: 9080
-  type: ss
-  cipher: aes-256-cfb
-  password: VP8ZPxQpJtZRCjfZ
-- name: 🇸🇬-SG-008
-  server: 103.172.116.103
-  port: 9061
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
-- name: 🇸🇬-SG-009
-  server: 103.172.116.103
-  port: 9073
-  type: ss
-  cipher: aes-256-cfb
-  password: daFYagqDdBdA6VTX
-- name: 🇸🇬-SG-010
-  server: 103.172.116.103
-  port: 9027
-  type: ss
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-- name: 🇸🇬-SG-011
-  server: 103.172.116.103
-  port: 9024
-  type: ss
-  cipher: aes-256-cfb
-  password: BejrQvtu9sqUeNuZ
-- name: 🇸🇬-SG-012
-  server: 103.172.116.103
-  port: 9070
-  type: ss
-  cipher: aes-256-cfb
-  password: bf7v334KKDV3YDhH
-- name: 🇸🇬-SG-013
-  server: 103.172.116.103
-  port: 9088
-  type: ss
-  cipher: aes-256-cfb
-  password: f8npKgNzdkss2ytn
-- name: 🇸🇬-SG-014
-  server: 103.172.116.94
-  port: 9070
-  type: ss
-  cipher: aes-256-cfb
-  password: bf7v334KKDV3YDhH
-- name: 🇸🇬-SG-015
-  server: 103.172.116.103
-  port: 9030
-  type: ss
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-- name: 🇸🇬-SG-016
-  server: 103.172.116.94
-  port: 9061
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
-- name: 🇸🇬-SG-017
-  server: 103.172.116.103
-  port: 9079
-  type: ss
-  cipher: aes-256-cfb
-  password: TPqX8edgbAURcAMb
-- name: 🇸🇬-SG-018
-  server: 103.172.116.103
-  port: 9080
-  type: ss
-  cipher: aes-256-cfb
-  password: VP8ZPxQpJtZRCjfZ
-- name: 🇸🇬-SG-019
-  server: 103.172.116.94
-  port: 9060
-  type: ss
-  cipher: aes-256-cfb
-  password: ueLXVkvh4hckhErQ
-- name: 🇸🇬-SG-020
-  server: 103.172.116.94
-  port: 9064
-  type: ss
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 🇸🇬-SG-021
-  server: 103.172.116.94
-  port: 9059
-  type: ss
-  cipher: aes-256-cfb
-  password: 9XwYyZsK8SNzQDtY
-- name: 🇸🇬-SG-022
-  server: 103.172.116.103
-  port: 9084
-  type: ss
-  cipher: aes-256-cfb
-  password: c3NtHJ5ujV2tGDfj
-- name: 🇸🇬-SG-023
-  server: 103.172.116.94
-  port: 9058
-  type: ss
-  cipher: aes-256-cfb
-  password: dML2sfhbVwvtfNPe
-- name: 🇸🇬-SG-024
-  server: 103.172.116.94
-  port: 9053
-  type: ss
-  cipher: aes-256-cfb
-  password: SBM7R883jBmnqe6C
-- name: 🇸🇬-SG-025
-  server: 103.172.116.94
-  port: 9032
-  type: ss
-  cipher: aes-256-cfb
-  password: UWZQeLRWnkqgkseq
-- name: 🇸🇬-SG-026
-  server: 103.172.116.94
-  port: 9056
-  type: ss
-  cipher: aes-256-cfb
-  password: rNBfNuuANFCAk7KB
-- name: 🇸🇬-SG-027
-  server: 103.172.116.94
-  port: 9057
-  type: ss
-  cipher: aes-256-cfb
-  password: wjTugX3ZtHMB9c3Z
-- name: 🇸🇬-SG-028
-  server: 103.172.116.94
-  port: 9050
-  type: ss
-  cipher: aes-256-cfb
-  password: FG5ddLsMPbV5CutE
-- name: 🇸🇬-SG-029
-  server: 103.172.116.94
-  port: 9046
-  type: ss
-  cipher: aes-256-cfb
-  password: NvS8N4Vf8qAGPSCL
-- name: 🇸🇬-SG-030
-  server: 103.172.116.94
-  port: 9045
-  type: ss
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-- name: 🇸🇬-SG-031
-  server: 103.172.116.103
-  port: 9094
-  type: ss
-  cipher: aes-256-cfb
-  password: rpgbNnU9rDDU4aWZ
-- name: 🇸🇬-SG-032
-  server: 103.172.116.94
-  port: 9043
-  type: ss
-  cipher: aes-256-cfb
-  password: HSZuyJQcWe8dxNdF
-- name: 🇸🇬-SG-033
-  server: 103.172.116.94
-  port: 9041
-  type: ss
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-- name: 🇸🇬-SG-034
-  server: 103.172.116.94
-  port: 9040
-  type: ss
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-- name: 🇸🇬-SG-035
-  server: 103.172.116.103
-  port: 9018
-  type: ss
-  cipher: aes-256-cfb
-  password: fG2artUmHfNT2cX7
-- name: 🇸🇬-SG-036
-  server: 103.172.116.103
-  port: 9098
-  type: ss
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-- name: 🇸🇬-SG-037
-  server: 103.172.116.103
-  port: 9019
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-- name: 🇸🇬-SG-038
-  server: 103.172.116.94
-  port: 9042
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇸🇬-SG-039
-  server: 103.172.116.103
-  port: 9093
-  type: ss
-  cipher: aes-256-cfb
-  password: wfLC2y7rzZyCmuyt
-- name: 🇸🇬-SG-040
-  server: 103.172.116.103
   port: 9097
   type: ss
   cipher: aes-256-cfb
   password: Sn5B7jTqr76aCJT8
-- name: 🇸🇬-SG-041
-  server: 103.172.116.103
-  port: 9056
-  type: ss
-  cipher: aes-256-cfb
-  password: rNBfNuuANFCAk7KB
-- name: 🇸🇬-SG-042
-  server: 103.172.116.103
-  port: 9041
-  type: ss
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-- name: 🇸🇬-SG-043
-  server: 103.172.116.103
-  port: 9042
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇸🇬-SG-044
-  server: 103.172.116.103
-  port: 9064
-  type: ss
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 🇸🇬-SG-045
-  server: 103.172.116.103
-  port: 9060
-  type: ss
-  cipher: aes-256-cfb
-  password: ueLXVkvh4hckhErQ
-- name: 🇸🇬-SG-046
-  server: 103.172.116.94
-  port: 9000
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 🇸🇬-SG-047
-  server: 103.172.116.94
-  port: 9003
-  type: ss
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: 🇸🇬-SG-048
+- name: 🇸🇬-SG-053
   server: 103.172.116.94
   port: 9005
   type: ss
   cipher: aes-256-cfb
   password: ZET59LF6DvCC8KVt
-- name: 🇸🇬-SG-049
-  server: 103.172.116.94
-  port: 9006
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-- name: 🇸🇬-SG-050
-  server: 103.172.116.94
-  port: 9008
-  type: ss
-  cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
-- name: 🇸🇬-SG-051
-  server: 103.172.116.94
-  port: 9033
-  type: ss
-  cipher: aes-256-cfb
-  password: UTJA57ypk2XKQpnm
-- name: 🇸🇬-SG-052
-  server: 103.172.116.94
-  port: 9010
-  type: ss
-  cipher: aes-256-cfb
-  password: f63gg8EruDnUrmz4
-- name: 🇸🇬-SG-053
-  server: 103.172.116.94
-  port: 9011
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
 - name: 🇸🇬-SG-054
   server: 103.172.116.94
-  port: 9014
+  port: 9093
   type: ss
   cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
+  password: wfLC2y7rzZyCmuyt
 - name: 🇸🇬-SG-055
-  server: 103.172.116.94
-  port: 9015
-  type: ss
-  cipher: aes-256-cfb
-  password: ZpNDDKRu9MagNvaf
-- name: 🇸🇬-SG-056
-  server: 103.172.116.94
-  port: 9024
-  type: ss
-  cipher: aes-256-cfb
-  password: BejrQvtu9sqUeNuZ
-- name: 🇸🇬-SG-057
-  server: 103.172.116.94
-  port: 9020
-  type: ss
-  cipher: aes-256-cfb
-  password: BNmAXXxAHYpTRdzu
-- name: 🇸🇬-SG-058
-  server: 103.172.116.94
-  port: 9019
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-- name: 🇸🇬-SG-059
-  server: 103.172.116.94
-  port: 9025
-  type: ss
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-- name: 🇸🇬-SG-060
-  server: 103.172.116.94
-  port: 9018
-  type: ss
-  cipher: aes-256-cfb
-  password: fG2artUmHfNT2cX7
-- name: 🇸🇬-SG-061
-  server: 103.172.116.94
-  port: 9030
-  type: ss
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-- name: 🇸🇬-SG-062
-  server: 103.172.116.94
-  port: 9027
-  type: ss
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-- name: 🇸🇬-SG-063
-  server: 103.172.116.94
-  port: 9026
-  type: ss
-  cipher: aes-256-cfb
-  password: QWDDvVE9npNurQfA
-- name: 🇸🇬-SG-064
-  server: 103.172.116.94
-  port: 9031
-  type: ss
-  cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
-- name: 🇸🇬-SG-065
-  server: 103.172.116.94
-  port: 9037
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
-- name: 🇸🇬-SG-066
   server: 103.172.116.94
   port: 9007
   type: ss
   cipher: aes-256-cfb
   password: kSPmvwdFzGMMW5pY
+- name: 🇸🇬-SG-056
+  server: 103.172.116.94
+  port: 9098
+  type: ss
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+- name: 🇸🇬-SG-057
+  server: 103.172.116.103
+  port: 9000
+  type: ss
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+- name: 🇸🇬-SG-058
+  server: 103.172.116.94
+  port: 9008
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+- name: 🇸🇬-SG-059
+  server: 103.172.116.94
+  port: 9014
+  type: ss
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+- name: 🇸🇬-SG-060
+  server: 103.172.116.94
+  port: 9006
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+- name: 🇸🇬-SG-061
+  server: 103.172.116.103
+  port: 9003
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+- name: 🇸🇬-SG-062
+  server: 103.172.116.103
+  port: 9006
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+- name: 🇸🇬-SG-063
+  server: 103.172.116.94
+  port: 9001
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇸🇬-SG-064
+  server: 103.172.116.94
+  port: 9003
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+- name: 🇸🇬-SG-065
+  server: 103.172.116.94
+  port: 9000
+  type: ss
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+- name: 🇸🇬-SG-066
+  server: 103.172.116.103
+  port: 9008
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
 - name: 🇸🇬-SG-067
   server: 103.172.116.103
-  port: 9059
+  port: 9011
   type: ss
   cipher: aes-256-cfb
-  password: 9XwYyZsK8SNzQDtY
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇸🇬-SG-068
   server: 103.172.116.103
-  port: 9031
+  port: 9007
   type: ss
   cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
+  password: kSPmvwdFzGMMW5pY
 - name: 🇸🇬-SG-069
   server: 103.172.116.103
   port: 9014
@@ -813,207 +994,540 @@ proxies:
   password: KnJGad3FqTvjqbaX
 - name: 🇸🇬-SG-070
   server: 103.172.116.103
-  port: 9032
+  port: 9010
   type: ss
   cipher: aes-256-cfb
-  password: UWZQeLRWnkqgkseq
+  password: f63gg8EruDnUrmz4
 - name: 🇸🇬-SG-071
   server: 103.172.116.103
-  port: 9026
+  port: 9015
   type: ss
   cipher: aes-256-cfb
-  password: QWDDvVE9npNurQfA
+  password: ZpNDDKRu9MagNvaf
 - name: 🇸🇬-SG-072
   server: 103.172.116.103
-  port: 9043
+  port: 9018
   type: ss
   cipher: aes-256-cfb
-  password: HSZuyJQcWe8dxNdF
+  password: fG2artUmHfNT2cX7
 - name: 🇸🇬-SG-073
-  server: 103.172.116.103
-  port: 9011
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇸🇬-SG-074
-  server: 103.172.116.103
-  port: 9008
-  type: ss
-  cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
-- name: 🇸🇬-SG-075
-  server: 103.172.116.103
-  port: 9007
-  type: ss
-  cipher: aes-256-cfb
-  password: kSPmvwdFzGMMW5pY
-- name: 🇸🇬-SG-076
-  server: 103.172.116.103
-  port: 9040
-  type: ss
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-- name: 🇸🇬-SG-077
-  server: 103.172.116.103
-  port: 9025
-  type: ss
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-- name: 🇸🇬-SG-078
-  server: 103.172.116.103
-  port: 9058
-  type: ss
-  cipher: aes-256-cfb
-  password: dML2sfhbVwvtfNPe
-- name: 🇸🇬-SG-079
-  server: 103.172.116.103
-  port: 9006
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-- name: 🇸🇬-SG-080
   server: 103.172.116.103
   port: 9020
   type: ss
   cipher: aes-256-cfb
   password: BNmAXXxAHYpTRdzu
+- name: 🇸🇬-SG-074
+  server: 103.172.116.103
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+- name: 🇸🇬-SG-075
+  server: 103.172.116.103
+  port: 9026
+  type: ss
+  cipher: aes-256-cfb
+  password: QWDDvVE9npNurQfA
+- name: 🇸🇬-SG-076
+  server: 103.172.116.103
+  port: 9027
+  type: ss
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+- name: 🇸🇬-SG-077
+  server: 103.172.116.103
+  port: 9024
+  type: ss
+  cipher: aes-256-cfb
+  password: BejrQvtu9sqUeNuZ
+- name: 🇸🇬-SG-078
+  server: 103.172.116.103
+  port: 9025
+  type: ss
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+- name: 🇸🇬-SG-079
+  server: 103.172.116.103
+  port: 9030
+  type: ss
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+- name: 🇸🇬-SG-080
+  server: 103.172.116.103
+  port: 9032
+  type: ss
+  cipher: aes-256-cfb
+  password: UWZQeLRWnkqgkseq
 - name: 🇸🇬-SG-081
   server: 103.172.116.103
-  port: 9001
+  port: 9031
   type: ss
   cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
+  password: BwcAUZk8hUFAkDGN
 - name: 🇸🇬-SG-082
-  server: 103.172.116.103
-  port: 9010
-  type: ss
-  cipher: aes-256-cfb
-  password: f63gg8EruDnUrmz4
-- name: 🇸🇬-SG-083
-  server: 103.172.116.103
-  port: 9000
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 🇸🇬-SG-084
-  server: 103.172.116.103
-  port: 9003
-  type: ss
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: 🇸🇬-SG-085
   server: 103.172.116.94
-  port: 9093
+  port: 9011
   type: ss
   cipher: aes-256-cfb
-  password: wfLC2y7rzZyCmuyt
-- name: 🇸🇬-SG-086
-  server: 103.172.116.103
-  port: 9037
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
-- name: 🇸🇬-SG-087
-  server: 103.172.116.103
-  port: 9045
-  type: ss
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-- name: 🇸🇬-SG-088
+  password: M3t2ZEQcMGRWBjRa
+- name: 🇸🇬-SG-083
   server: 103.172.116.103
   port: 9033
   type: ss
   cipher: aes-256-cfb
   password: UTJA57ypk2XKQpnm
-- name: 🇸🇬-SG-089
-  server: 103.172.116.94
-  port: 9098
-  type: ss
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-- name: 🇸🇬-SG-090
+- name: 🇸🇬-SG-084
   server: 103.172.116.103
-  port: 9057
+  port: 9037
   type: ss
   cipher: aes-256-cfb
-  password: wjTugX3ZtHMB9c3Z
-- name: 🇸🇬-SG-091
-  server: 103.172.116.94
-  port: 9097
-  type: ss
-  cipher: aes-256-cfb
-  password: Sn5B7jTqr76aCJT8
-- name: 🇸🇬-SG-092
+  password: TN2YqghxeFDKZfLU
+- name: 🇸🇬-SG-085
   server: 103.172.116.103
   port: 9038
   type: ss
   cipher: aes-256-cfb
   password: gYCYXfkUQEs2TaJQ
+- name: 🇸🇬-SG-086
+  server: 103.172.116.103
+  port: 9040
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇸🇬-SG-087
+  server: 103.172.116.103
+  port: 9043
+  type: ss
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+- name: 🇸🇬-SG-088
+  server: 103.172.116.103
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: 🇸🇬-SG-089
+  server: 103.172.116.103
+  port: 9046
+  type: ss
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+- name: 🇸🇬-SG-090
+  server: 103.172.116.103
+  port: 9045
+  type: ss
+  cipher: aes-256-cfb
+  password: Lp27rqyJq72bZsqX
+- name: 🇸🇬-SG-091
+  server: 103.172.116.103
+  port: 9056
+  type: ss
+  cipher: aes-256-cfb
+  password: rNBfNuuANFCAk7KB
+- name: 🇸🇬-SG-092
+  server: 103.172.116.103
+  port: 9053
+  type: ss
+  cipher: aes-256-cfb
+  password: SBM7R883jBmnqe6C
 - name: 🇸🇬-SG-093
-  server: 103.172.116.94
+  server: 103.172.116.103
+  port: 9057
+  type: ss
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+- name: 🇸🇬-SG-094
+  server: 103.172.116.103
+  port: 9059
+  type: ss
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+- name: 🇸🇬-SG-095
+  server: 103.172.116.103
+  port: 9058
+  type: ss
+  cipher: aes-256-cfb
+  password: dML2sfhbVwvtfNPe
+- name: 🇸🇬-SG-096
+  server: 103.172.116.103
+  port: 9060
+  type: ss
+  cipher: aes-256-cfb
+  password: ueLXVkvh4hckhErQ
+- name: 🇸🇬-SG-097
+  server: 103.172.116.103
+  port: 9061
+  type: ss
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
+- name: 🇸🇬-SG-098
+  server: 103.172.116.103
   port: 9084
   type: ss
   cipher: aes-256-cfb
   password: c3NtHJ5ujV2tGDfj
-- name: 🇸🇬-SG-094
+- name: 🇸🇬-SG-099
+  server: 103.172.116.103
+  port: 9064
+  type: ss
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+- name: 🇸🇬-SG-100
+  server: 103.172.116.103
+  port: 9073
+  type: ss
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+- name: 🇸🇬-SG-101
+  server: 103.172.116.103
+  port: 9097
+  type: ss
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+- name: 🇸🇬-SG-102
+  server: 103.172.116.103
+  port: 9070
+  type: ss
+  cipher: aes-256-cfb
+  password: bf7v334KKDV3YDhH
+- name: 🇸🇬-SG-103
+  server: 103.172.116.103
+  port: 9079
+  type: ss
+  cipher: aes-256-cfb
+  password: TPqX8edgbAURcAMb
+- name: 🇸🇬-SG-104
+  server: 103.172.116.103
+  port: 9080
+  type: ss
+  cipher: aes-256-cfb
+  password: VP8ZPxQpJtZRCjfZ
+- name: 🇸🇬-SG-105
+  server: 103.172.116.103
+  port: 9088
+  type: ss
+  cipher: aes-256-cfb
+  password: f8npKgNzdkss2ytn
+- name: 🇸🇬-SG-106
+  server: 103.172.116.103
+  port: 9093
+  type: ss
+  cipher: aes-256-cfb
+  password: wfLC2y7rzZyCmuyt
+- name: 🇸🇬-SG-107
+  server: 103.172.116.103
+  port: 9094
+  type: ss
+  cipher: aes-256-cfb
+  password: rpgbNnU9rDDU4aWZ
+- name: 🇸🇬-SG-108
+  server: 103.172.116.103
+  port: 9098
+  type: ss
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+- name: 🇸🇬-SG-109
+  server: 103.172.116.103
+  port: 9042
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+- name: 🇸🇬-SG-110
+  server: 103.172.116.94
+  port: 9094
+  type: ss
+  cipher: aes-256-cfb
+  password: rpgbNnU9rDDU4aWZ
+- name: 🇸🇬-SG-111
+  server: 103.172.116.94
+  port: 9041
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: 🇸🇬-SG-112
+  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  port: 80
+  type: vmess
+  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: dl.delivery.mp.microsoft.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+- name: 🇸🇬-SG-113
+  server: jp1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  port: 80
+  type: vmess
+  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: dl.delivery.mp.microsoft.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+- name: 🇸🇬-SG-114
+  server: 103.172.116.94
+  port: 9040
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇸🇬-SG-115
+  server: 103.172.116.94
+  port: 9057
+  type: ss
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+- name: 🇸🇬-SG-116
+  server: 103.172.116.94
+  port: 9042
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+- name: 🇸🇬-SG-117
+  server: 103.172.116.94
+  port: 9050
+  type: ss
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+- name: 🇸🇬-SG-118
+  server: 103.172.116.94
+  port: 9056
+  type: ss
+  cipher: aes-256-cfb
+  password: rNBfNuuANFCAk7KB
+- name: 🇸🇬-SG-119
+  server: 103.172.116.94
+  port: 9045
+  type: ss
+  cipher: aes-256-cfb
+  password: Lp27rqyJq72bZsqX
+- name: 🇸🇬-SG-120
+  server: 103.172.116.94
+  port: 9058
+  type: ss
+  cipher: aes-256-cfb
+  password: dML2sfhbVwvtfNPe
+- name: 🇸🇬-SG-121
+  server: 103.172.116.94
+  port: 9053
+  type: ss
+  cipher: aes-256-cfb
+  password: SBM7R883jBmnqe6C
+- name: 🇸🇬-SG-122
+  server: 103.172.116.94
+  port: 9046
+  type: ss
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+- name: 🇸🇬-SG-123
+  server: 103.172.116.94
+  port: 9037
+  type: ss
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+- name: 🇸🇬-SG-124
+  server: 103.172.116.94
+  port: 9038
+  type: ss
+  cipher: aes-256-cfb
+  password: gYCYXfkUQEs2TaJQ
+- name: 🇸🇬-SG-125
+  server: 103.172.116.94
+  port: 9059
+  type: ss
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
+- name: 🇸🇬-SG-126
+  server: 103.172.116.94
+  port: 9060
+  type: ss
+  cipher: aes-256-cfb
+  password: ueLXVkvh4hckhErQ
+- name: 🇸🇬-SG-127
+  server: 103.172.116.94
+  port: 9061
+  type: ss
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
+- name: 🇸🇬-SG-128
+  server: 103.172.116.94
+  port: 9033
+  type: ss
+  cipher: aes-256-cfb
+  password: UTJA57ypk2XKQpnm
+- name: 🇸🇬-SG-129
+  server: 103.172.116.94
+  port: 9032
+  type: ss
+  cipher: aes-256-cfb
+  password: UWZQeLRWnkqgkseq
+- name: 🇸🇬-SG-130
+  server: 103.172.116.94
+  port: 9026
+  type: ss
+  cipher: aes-256-cfb
+  password: QWDDvVE9npNurQfA
+- name: 🇸🇬-SG-131
+  server: 103.172.116.94
+  port: 9064
+  type: ss
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+- name: 🇸🇬-SG-132
   server: 103.172.116.94
   port: 9088
   type: ss
   cipher: aes-256-cfb
   password: f8npKgNzdkss2ytn
-- name: 🇸🇬-SG-095
+- name: 🇸🇬-SG-133
+  server: 103.172.116.94
+  port: 9025
+  type: ss
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+- name: 🇸🇬-SG-134
+  server: 103.172.116.94
+  port: 9030
+  type: ss
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+- name: 🇸🇬-SG-135
+  server: 103.172.116.94
+  port: 9027
+  type: ss
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+- name: 🇸🇬-SG-136
+  server: 103.172.116.94
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
+- name: 🇸🇬-SG-137
   server: 103.172.116.94
   port: 9073
   type: ss
   cipher: aes-256-cfb
   password: daFYagqDdBdA6VTX
-- name: 🇺🇸-US-005
-  server: 167.88.62.30
-  port: 8090
+- name: 🇸🇬-SG-138
+  server: 103.172.116.94
+  port: 9024
   type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇺🇸-US-006
-  server: 167.88.62.104
-  port: 2376
+  cipher: aes-256-cfb
+  password: BejrQvtu9sqUeNuZ
+- name: 🇸🇬-SG-139
+  server: 103.172.116.94
+  port: 9070
   type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇰🇷-KR-001
-  server: 43.201.64.47
+  cipher: aes-256-cfb
+  password: bf7v334KKDV3YDhH
+- name: 🇸🇬-SG-140
+  server: 103.172.116.94
+  port: 9020
+  type: ss
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+- name: 🇸🇬-SG-141
+  server: 103.172.116.94
+  port: 9080
+  type: ss
+  cipher: aes-256-cfb
+  password: VP8ZPxQpJtZRCjfZ
+- name: 🇸🇬-SG-142
+  server: 103.172.116.94
+  port: 9084
+  type: ss
+  cipher: aes-256-cfb
+  password: c3NtHJ5ujV2tGDfj
+- name: 🇸🇬-SG-143
+  server: 103.172.116.94
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+- name: 🇸🇬-SG-144
+  server: 103.172.116.94
+  port: 9010
+  type: ss
+  cipher: aes-256-cfb
+  password: f63gg8EruDnUrmz4
+- name: 🇸🇬-SG-145
+  server: 103.172.116.94
+  port: 9018
+  type: ss
+  cipher: aes-256-cfb
+  password: fG2artUmHfNT2cX7
+- name: 🇰🇷-KR-004
+  server: 43.201.100.232
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-005
+  server: 43.200.254.135
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-001
-  server: tls.0000000059b.node-for-bigairport.win
+  server: 43.207.197.15
   port: 443
-  type: vmess
-  uuid: ded7f8b1-c9e0-430d-a0f0-34188f9a1265
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: tls.0000000059b.node-for-bigairport.win
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tls.0000000059b.node-for-bigairport.win
-- name: 🇰🇷-KR-002
-  server: p229.panda004.net
-  port: 57428
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-004
+  server: 167.88.62.30
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 🇺🇸-US-005
+  server: 167.88.62.104
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇯🇵-JP-002
+  server: tg_mfbpn_asg1.52vpn.eu.org
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-006
+  server: p237.panda004.net
+  port: 2003
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-003
+- name: 🇰🇷-KR-007
+  server: p230.panda004.net
+  port: 59084
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-008
   server: p232.panda004.net
   port: 4398
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇸🇬-SG-096
-  server: 13.250.55.22
+- name: 🇰🇷-KR-009
+  server: p233.panda004.net
+  port: 59084
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-010
+  server: 43.202.52.93
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -1024,67 +1538,25 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇵🇱-PL-013
-  server: 217.30.10.68
-  port: 9005
-  type: ss
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-- name: 🇯🇵-JP-002
+- name: 🇯🇵-JP-003
   server: 13.230.96.57
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-003
-  server: 43.207.197.15
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-004
-  server: p228.panda004.net
-  port: 59084
+- name: 🇰🇷-KR-011
+  server: p229.panda004.net
+  port: 57428
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-005
-  server: p226.panda004.net
-  port: 58023
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-006
-  server: p236.panda004.net
-  port: 58023
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-007
-  server: p233.panda004.net
-  port: 59084
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-008
-  server: p235.panda004.net
-  port: 2212
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-009
-  server: p234.panda004.net
-  port: 56906
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-010
+- name: 🇰🇷-KR-012
   server: c001.panda003.net
   port: 53243
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇩🇪-DE-001
+- name: 🇩🇪-DE-002
   server: 92.223.124.49
   port: 80
   type: vmess
@@ -1098,33 +1570,30 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: best.servecounterstrike.com
-- name: 🇩🇪-DE-002
-  server: 138.201.184.34
-  port: 443
-  type: vmess
-  uuid: 4edffbd4-cac3-40bc-ca2a-0329c7494346
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@VPNLime
-    headers:
-      Host: fast.com
-- name: 🇰🇷-KR-011
-  server: 43.202.52.93
+- name: 🇯🇵-JP-004
+  server: 176.32.83.84
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇫🇷-FR-001
-  server: fr.cooc.icu
-  port: 31511
+- name: 🇸🇬-SG-146
+  server: 54.179.177.14
+  port: 443
   type: ss
-  cipher: aes-128-gcm
-  password: 0060d5e3-075a-429a-8f9c-9202bf67b3f3
-  udp: true
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-005
+  server: 13.231.179.13
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-006
+  server: 13.230.18.19
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇭🇰-HK-001
   server: hk01.host.csznet.eu.org
   port: 443
@@ -1140,14 +1609,14 @@ proxies:
     headers:
       Host: hk01.host.csznet.eu.org
   udp: true
-- name: 🇯🇵-JP-004
+- name: 🇯🇵-JP-007
   server: jp.colacloud.site
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
   password: d7707d1e-041b-4522-9f5e-cf122df1f9f6
   udp: true
-- name: 🇺🇸-US-007
+- name: 🇺🇸-US-006
   server: ap-northeast-anycast.lnaspiring.com
   port: 80
   type: vmess
@@ -1162,56 +1631,28 @@ proxies:
     headers:
       Host: jpli.edge.233.tw
   udp: true
-- name: 🇯🇵-JP-005
-  server: jp.doushimeng.com
-  port: 21853
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 130b8607-fd46-4577-8835-e577bfb09f5d
-  udp: true
-- name: 🇰🇷-KR-012
+- name: 🇰🇷-KR-013
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
   password: d7707d1e-041b-4522-9f5e-cf122df1f9f6
   udp: true
-- name: 🇸🇬-SG-097
+- name: 🇸🇬-SG-147
   server: sg.colacloud.site
   port: 20152
   type: ss
   cipher: chacha20-ietf-poly1305
   password: d7707d1e-041b-4522-9f5e-cf122df1f9f6
   udp: true
-- name: 🇸🇬-SG-098
-  server: sg.cooc.icu
-  port: 34881
-  type: ss
-  cipher: aes-256-gcm
-  password: 0060d5e3-075a-429a-8f9c-9202bf67b3f3
-  udp: true
-- name: 🇺🇸-US-008
+- name: 🇺🇸-US-007
   server: us.colacloud.site
   port: 20552
   type: ss
   cipher: chacha20-ietf-poly1305
   password: d7707d1e-041b-4522-9f5e-cf122df1f9f6
   udp: true
-- name: 🇺🇸-US-009
-  server: 154.9.249.29
-  port: 35881
-  type: ss
-  cipher: aes-256-gcm
-  password: 0060d5e3-075a-429a-8f9c-9202bf67b3f3
-  udp: true
-- name: 🇻🇳-VN-004
-  server: vn.cooc.icu
-  port: 31511
-  type: ss
-  cipher: aes-128-gcm
-  password: 0060d5e3-075a-429a-8f9c-9202bf67b3f3
-  udp: true
-- name: 🇺🇸-US-010
+- name: 🇺🇸-US-008
   server: us01.h.csznet.eu.org
   port: 443
   type: vmess
@@ -1226,71 +1667,19 @@ proxies:
     headers:
       Host: us01.h.csznet.eu.org
   udp: true
-- name: 🇨🇳-TW-001
-  server: 122.118.173.97
-  port: 10012
-  type: ss
-  cipher: aes-128-gcm
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇨🇳-TW-002
-  server: 122.118.173.97
-  port: 10016
-  type: ss
-  cipher: aes-128-gcm
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇯🇵-JP-006
-  server: 176.32.83.84
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-099
-  server: 54.179.177.14
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-007
-  server: 13.231.179.13
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-008
-  server: 13.230.18.19
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-013
-  server: 43.201.100.232
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇵🇱-PL-014
+- name: 🇵🇱-PL-010
   server: 217.30.10.68
-  port: 9097
+  port: 9000
   type: ss
   cipher: aes-256-cfb
-  password: Sn5B7jTqr76aCJT8
-- name: 🇩🇰-DK-003
+  password: a3GFYt36Sm82Vys9
+- name: 🇵🇱-PL-011
+  server: 217.30.10.68
+  port: 9043
+  type: ss
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+- name: 🇩🇰-DK-002
   server: 89.23.86.189
   port: 59492
   type: vmess
@@ -1304,38 +1693,47 @@ proxies:
     path: /imzcc
     headers:
       Host: dm.imzcc.com
-- name: 🇰🇿-KZ-002
-  server: 217.76.64.195
-  port: 443
+- name: 🇻🇳-VN-005
+  server: hnvip3.shopvpn4g.vn
+  port: 80
   type: vmess
-  uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef
+  uuid: dbbf9558-b938-478e-a51c-d7fb6b283535
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@forwardv2ray
+    path: /dt3shopvpn4g
     headers:
-      Host: skuone.serveminecraft.net
-- name: 🇯🇵-JP-009
-  server: tg_mfbpn_asg1.52vpn.eu.org
+      Host: hnvip3.shopvpn4g.vn
+- name: 🇳🇱-NL-001
+  server: 91.242.229.77
+  port: 80
+  type: vmess
+  uuid: 56890326-df58-432d-be1e-67064e2b4355
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nl2.xv2ray.net
+  udp: true
+- name: 🇸🇬-SG-148
+  server: 13.250.55.22
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇰🇷-KR-014
-  server: 43.200.254.135
-  port: 443
+  server: p228.panda004.net
+  port: 59084
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-010
-  server: 13.231.210.254
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  password: qwerREWQ@@
 - name: 🇰🇷-KR-015
   server: p221.panda001.net
   port: 34642
@@ -1343,68 +1741,93 @@ proxies:
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - name: 🇰🇷-KR-016
+  server: p234.panda004.net
+  port: 56906
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇯🇵-JP-008
+  server: 13.231.210.254
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-017
+  server: 43.201.64.47
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇵🇱-PL-012
+  server: 217.30.10.70
+  port: 9044
+  type: ss
+  cipher: aes-256-cfb
+  password: KBGjZYcy4SyRShmA
+- name: 🇻🇳-VN-006
+  server: bs1.loadingip.com
+  port: 80
+  type: vmess
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /bs
+    headers:
+      Host: bs1.loadingip.com
+- name: 🇺🇸-US-009
+  server: cc3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: cc3.shabijichang.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cc3.shabijichang.com
+- name: 🇰🇷-KR-018
   server: p141.panda001.net
   port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-017
-  server: p237.panda004.net
-  port: 2003
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇻🇳-VN-005
-  server: data2hcm3.shopvpn4g.vn
-  port: 80
+- name: 🇸🇬-SG-149
+  server: 00000000000000000000000000000000000000000000000000000000000046.bgroup-node-for-bigairport.sbs
+  port: 52353
   type: vmess
-  uuid: dbbf9558-b938-478e-a51c-d7fb6b283535
+  uuid: ded7f8b1-c9e0-430d-a0f0-34188f9a1265
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dt1shopvpn4g
-    headers:
-      Host: Lienquan.garena.vn
-- name: 🇻🇳-VN-006
-  server: data1hn5.shopvpn4g.vn
-  port: 80
-  type: vmess
-  uuid: dbbf9558-b938-478e-a51c-d7fb6b283535
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dt1shopvpn4g
-    headers:
-      Host: Lienquan.garena.vn
-- name: 🇬🇧-GB-003
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: mps3FwmDjLrWaOVg
-- name: 🇰🇷-KR-018
-  server: p230.panda004.net
-  port: 59084
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇩🇪-DE-003
-  server: 92.223.124.24
+  servername: 00000000000000000000000000000000000000000000000000000000000046.bgroup-node-for-bigairport.sbs
+- name: 🇯🇵-JP-009
+  server: tls.0000000059b.node-for-bigairport.win
   port: 443
   type: vmess
-  uuid: 29205f25-691a-4c09-87f6-bb917511b434
+  uuid: ded7f8b1-c9e0-430d-a0f0-34188f9a1265
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: tls.0000000059b.node-for-bigairport.win
   network: ws
   ws-opts:
-    path: /@forwardv2ray
+    path: /
     headers:
-      Host: sabziran.serveminecraft.net
+      Host: tls.0000000059b.node-for-bigairport.win
+- name: 🇰🇷-KR-019
+  server: us4.doushimeng.com
+  port: 20802
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 130b8607-fd46-4577-8835-e577bfb09f5d
+  udp: true
