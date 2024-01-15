@@ -1,41 +1,17 @@
 proxies:
-- name: 🇦🇿-AZ-001
-  server: 180.149.44.120
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
 - name: 🇨🇷-CR-001
   server: 138.59.16.146
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇩🇰-DK-001
-  server: 192.36.27.94
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇭🇷-HR-001
-  server: 46.183.184.61
+- name: 🇬🇧-GB-001
+  server: 77.72.5.150
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
 - name: 🇮🇱-IL-001
-  server: 193.182.144.240
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇮🇱-IL-002
-  server: 193.182.144.183
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇮🇱-IL-003
   server: 192.71.27.87
   port: 989
   type: ss
@@ -47,26 +23,14 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇱🇺-LU-001
-  server: 92.38.163.53
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
 - name: 🇲🇰-MK-001
   server: 46.183.185.37
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇳🇬-NG-001
-  server: 185.255.123.90
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇷🇸-RS-001
-  server: 194.71.126.31
+- name: 🇵🇪-PE-001
+  server: 190.120.229.28
   port: 989
   type: ss
   cipher: aes-256-cfb
@@ -77,29 +41,59 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇧🇪-BE-001
-  server: 192.71.249.78
-  port: 989
-  type: ss
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
 - name: 🇪🇸-ES-001
   server: 92.38.171.89
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸-US-001
-  server: 212.102.47.198
-  port: 443
-  type: ss
-  cipher: aes-128-cfb
-  password: shadowsocks
-- name: 🇺🇿-UZ-001
-  server: 37.110.209.228
+- name: 🇳🇱-NL-001
+  server: 188.114.97.1
   port: 80
   type: vmess
-  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
+  uuid: 3f74cb04-65d4-4d7f-90e0-ef7d29c30304
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 1138a55af46e?ed=2048
+    headers:
+      Host: combat-disappointed-nine-inc.trycloudflare.com
+- name: 🇸🇬-SG-001
+  server: 146.190.89.218
+  port: 2023
+  type: vmess
+  uuid: 45b2d123-3246-4e55-a0d7-506cd14d1c54
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: imo.im
+- name: 🇷🇺-RU-001
+  server: 45.144.2.113
+  port: 80
+  type: vmess
+  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.apple.com
+- name: 🇺🇸-US-001
+  server: kosar5.goodbyefilteringchannel.space
+  port: 8080
+  type: vmess
+  uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
   alterId: 0
   cipher: auto
   tls: false
@@ -108,7 +102,41 @@ proxies:
   ws-opts:
     path: /@forwardv2ray
     headers:
-      Host: sazgar.serveirc.com
+      Host: kosar5.goodbyefilteringchannel.space
+- name: 🇺🇸-US-002
+  server: tabnak18.goodbyefilteringchannel.space
+  port: 2095
+  type: vmess
+  uuid: c42b9f08-3a67-4235-8350-f63543a2d8b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: tabnak18.goodbyefilteringchannel.space
+- name: 🇺🇸-US-003
+  server: hamshahri25.goodbyefilteringchannel.space
+  port: 2086
+  type: vmess
+  uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: hamshahri25.goodbyefilteringchannel.space
+- name: 🇺🇸-US-004
+  server: 212.102.47.198
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
 - name: 🇲🇳-MN-001
   server: 180.149.90.66
   port: 443
@@ -151,7 +179,35 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: sazgar22.zapto.org
+- name: 🇺🇸-US-005
+  server: yhnsb3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: yhnsb3.shabijichang.com
 - name: 🇰🇿-KZ-001
+  server: 217.76.64.195
+  port: 443
+  type: vmess
+  uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: skuone.serveminecraft.net
+- name: 🇰🇿-KZ-002
   server: 92.46.108.106
   port: 80
   type: vmess
@@ -165,93 +221,35 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: sazgar.serveirc.com
-- name: 🇨🇳-TW-001
-  server: nb22.ntbq.dynu.net
-  port: 12002
-  type: vmess
-  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸-US-002
-  server: cfcdn1.sanfencdn9.com
-  port: 2086
-  type: vmess
-  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /video/Z7qdcrAGRw
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-- name: 🇨🇦-CA-001
-  server: ca-v2ray.freevmess.com
-  port: 8443
-  type: vmess
-  uuid: c2b06a73-9df6-4afe-ac7c-23749045a1d6
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-- name: 🇺🇸-US-003
-  server: 172.67.146.69
-  port: 80
-  type: vmess
-  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: ae8e857abf1d?ed=2048
-    headers:
-      Host: periodically-microwave-firms-abc.trycloudflare.com
-- name: 🇬🇧-GB-001
-  server: 45.89.63.152
-  port: 10000
-  type: vmess
-  uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpnjantit
-    headers:
-      Host: 45.89.63.152
-- name: 🇻🇳-VN-001
-  server: bs2.loadingip.com
-  port: 80
-  type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bs
-    headers:
-      Host: bs2.loadingip.com
 - name: 🇬🇧-GB-002
-  server: 13.87.81.149
-  port: 8523
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: STahjw9LFbuww7wubs9hJ3
-- name: 🇩🇪-DE-001
-  server: 80.71.157.52
-  port: 7710
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: A2RmMQmEDdFNJnq6jSxD2O
-- name: 🇺🇸-US-004
+  server: 45.154.14.209
+  port: 48852
+  type: vmess
+  uuid: 557769ba-e085-49ef-8ac6-96cf3d1a9730
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇺🇸-US-006
+  server: cdn13.nwaf98.top
+  port: 80
+  type: vmess
+  uuid: 4046171f-2176-4f56-8008-adc55676931a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn13.nwaf98.top
+- name: 🇺🇸-US-007
   server: 185.206.69.43
   port: 80
   type: vmess
@@ -260,24 +258,174 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: tms.dingtalk.com
   network: ws
   ws-opts:
     path: /
+- name: 🇩🇪-DE-001
+  server: 212.224.107.240
+  port: 42761
+  type: vmess
+  uuid: 9fc504cc-d314-4700-8aa5-b90b024c44e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇭🇰-HK-001
+  server: testray.zanylee.uk
+  port: 36632
+  type: vmess
+  uuid: 8716d6e0-7032-43ad-9196-7427220e2850
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ImUT5xAj/
+    headers:
+      Host: testray.zanylee.uk
+- name: 🇸🇬-SG-002
+  server: 213.35.113.150
+  port: 80
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸-US-008
+  server: hamshahri28.goodbyefilteringchannel.space
+  port: 2086
+  type: vmess
+  uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: hamshahri28.goodbyefilteringchannel.space
+- name: 🇺🇸-US-009
+  server: kosar1.goodbyefilteringchannel.space
+  port: 2052
+  type: vmess
+  uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: kosar1.goodbyefilteringchannel.space
+- name: 🇺🇸-US-010
+  server: kosar10.goodbyefilteringchannel.space
+  port: 8080
+  type: vmess
+  uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: kosar10.goodbyefilteringchannel.space
+- name: 🇺🇸-US-011
+  server: tabnak11.goodbyefilteringchannel.space
+  port: 8080
+  type: vmess
+  uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: tabnak11.goodbyefilteringchannel.space
+- name: 🇺🇸-US-012
+  server: tabnak13.goodbyefilteringchannel.space
+  port: 2052
+  type: vmess
+  uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: tabnak13.goodbyefilteringchannel.space
+- name: 🇺🇸-US-013
+  server: hamshahri25.goodbyefilteringchannel.space
+  port: 2082
+  type: vmess
+  uuid: 042efc0f-4623-4a52-8195-24077f05b885
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: hamshahri25.goodbyefilteringchannel.space
+- name: 🇺🇸-US-014
+  server: hamshahri23.goodbyefilteringchannel.space
+  port: 2082
+  type: vmess
+  uuid: 042efc0f-4623-4a52-8195-24077f05b885
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: hamshahri23.goodbyefilteringchannel.space
+- name: 🇬🇧-GB-003
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+  udp: true
+- name: 🇩🇪-DE-002
+  server: 80.71.157.52
+  port: 7710
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: A2RmMQmEDdFNJnq6jSxD2O
 - name: 🇯🇵-JP-001
-  server: 13.231.179.13
+  server: 176.32.83.84
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-002
-  server: 3.112.250.142
+  server: 13.231.179.13
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-003
-  server: 18.179.12.155
+  server: 3.112.250.142
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -318,173 +466,99 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-002
-  server: 54.180.158.34
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇫🇮-FI-001
   server: 78.153.139.8
   port: 60820
   type: ss
   cipher: chacha20-ietf-poly1305
   password: OQuXihlYyKmQOr5WLvsBdj
-- name: 🇳🇱-NL-001
-  server: 109.107.175.249
-  port: 1165
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZXywpfZ8LvLePtYf14Xfjg
-- name: 🇸🇬-SG-001
+- name: 🇸🇬-SG-003
   server: 54.251.150.231
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-002
+- name: 🇸🇬-SG-004
   server: 54.169.114.116
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-005
-  server: cdn13.nwaf98.top
-  port: 80
-  type: vmess
-  uuid: 4046171f-2176-4f56-8008-adc55676931a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: cdn13.nwaf98.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn13.nwaf98.top
-- name: 🇺🇸-US-006
-  server: cdn14.nwaf98.top
-  port: 80
-  type: vmess
-  uuid: 4046171f-2176-4f56-8008-adc55676931a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: cdn14.nwaf98.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn14.nwaf98.top
-- name: 🇺🇸-US-007
-  server: 38.68.134.69
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇺🇸-US-008
-  server: 38.68.134.69
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇺🇸-US-009
-  server: 38.68.134.69
-  port: 2376
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇺🇸-US-010
-  server: 38.68.134.69
-  port: 3306
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-011
-  server: 38.68.134.69
-  port: 3389
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-012
-  server: 38.68.134.69
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸-US-013
-  server: 38.68.134.69
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇰🇷-KR-003
-  server: 43.203.123.159
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇮🇳-IN-001
-  server: 64.227.144.190
-  port: 50690
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: GWLjDp55ASoP82uSP0Ec8n
-- name: 🇺🇸-US-014
+- name: 🇺🇸-US-015
   server: 167.88.62.104
   port: 2376
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
-- name: 🇰🇷-KR-004
-  server: 43.202.52.93
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-005
-  server: 43.201.147.151
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-006
+- name: 🇰🇷-KR-002
   server: 43.201.100.232
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-007
+- name: 🇯🇵-JP-006
+  server: 52.194.252.137
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-003
   server: p222.panda001.net
   port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-008
-  server: p237.panda004.net
-  port: 2003
+- name: 🇰🇷-KR-004
+  server: p232.panda004.net
+  port: 4398
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-009
+- name: 🇰🇷-KR-005
   server: p230.panda004.net
   port: 59084
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-010
-  server: 43.203.179.105
+- name: 🇸🇬-SG-005
+  server: 13.250.25.60
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-015
+- name: 🇻🇳-VN-001
+  server: vn2.4gchill.com
+  port: 80
+  type: vmess
+  uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /4gchill.com
+    headers:
+      Host: dl.ks.freefiremobile.com
+- name: 🇱🇺-LU-001
+  server: 202.78.162.6
+  port: 80
+  type: vmess
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: irisoft.servecounterstrike.com
+- name: 🇺🇸-US-016
   server: mffdallroad.996699.top
   port: 2086
   type: vmess
-  uuid: e52d0910-df9f-4cf0-a5d5-4f97562cb311
+  uuid: 10d6cad5-583a-4974-afdf-0b2b34f19980
   alterId: 0
   cipher: auto
   tls: false
@@ -495,63 +569,25 @@ proxies:
     headers:
       Host: mfxw-hkv6-20240101.mfcmi.top
   udp: true
-- name: 🇨🇳-TW-002
-  server: c11.twtc.dynu.net
-  port: 3234
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  udp: true
-- name: 🇨🇳-TW-003
-  server: c12.twtc.dynu.net
-  port: 6122
-  type: vmess
-  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇳-TW-004
-  server: b12.ntbq.dynu.net
-  port: 9443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  udp: true
-- name: 🇨🇳-TW-005
-  server: b13.ntbq.dynu.net
-  port: 7773
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  udp: true
-- name: 🇨🇳-TW-006
+- name: 🇨🇳-TW-001
   server: b36.ntbq.dynu.net
   port: 3877
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
   udp: true
-- name: 🇨🇳-TW-007
-  server: ty11.twty.dynu.net
-  port: 2203
+- name: 🇭🇰-HK-002
+  server: hk.cooc.icu
+  port: 31511
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
+  cipher: aes-256-gcm
+  password: 9094f630-2687-4943-b401-d9a9a3297fa5
   udp: true
-- name: 🇨🇳-TW-008
-  server: ty12.twty.dynu.net
-  port: 4303
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  udp: true
-- name: 🇭🇰-HK-001
+- name: 🇭🇰-HK-003
   server: hk01.host.csznet.eu.org
   port: 443
   type: vmess
-  uuid: 9c2ca386-eeea-457a-b406-9857c1653587
+  uuid: ebdf0474-1af6-4738-bc04-bcb62926a134
   alterId: 0
   cipher: auto
   tls: true
@@ -562,25 +598,25 @@ proxies:
     headers:
       Host: hk01.host.csznet.eu.org
   udp: true
-- name: 🇯🇵-JP-006
-  server: 57.180.88.53
-  port: 7841
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 08f42cee-f152-4e89-9ccd-08b01e7c950b
-  udp: true
 - name: 🇯🇵-JP-007
   server: jp.colacloud.site
   port: 51310
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bd07177a-d059-44e1-850e-1f3eb6dbae32
+  password: 3549ed41-79f2-4f9c-ae1b-2083ea072060
   udp: true
 - name: 🇯🇵-JP-008
+  server: jp.cooc.icu
+  port: 33881
+  type: ss
+  cipher: aes-256-gcm
+  password: 9094f630-2687-4943-b401-d9a9a3297fa5
+  udp: true
+- name: 🇯🇵-JP-009
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 143d2b18-9023-44dd-b2f9-154ec14d3e41
+  uuid: bf7afc74-e44c-4f4c-85b5-e3ea20311caa
   alterId: 0
   cipher: auto
   tls: false
@@ -591,117 +627,176 @@ proxies:
     headers:
       Host: www.tmall.com
   udp: true
-- name: 🇯🇵-JP-009
-  server: jp.doushimeng.com
-  port: 21853
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 61d6a303-e702-4edf-9aeb-9217c21df77d
-  udp: true
-- name: 🇰🇷-KR-011
+- name: 🇰🇷-KR-006
   server: kr.colacloud.site
   port: 20352
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bd07177a-d059-44e1-850e-1f3eb6dbae32
+  password: 3549ed41-79f2-4f9c-ae1b-2083ea072060
   udp: true
-- name: 🇸🇬-SG-003
-  server: sg01.xstarship.com
-  port: 56789
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3458994b-fc2c-4bb2-b13e-55e94b5cd373
-  udp: true
-- name: 🇸🇬-SG-004
+- name: 🇸🇬-SG-006
   server: sg.colacloud.site
   port: 20152
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: bd07177a-d059-44e1-850e-1f3eb6dbae32
+  password: 3549ed41-79f2-4f9c-ae1b-2083ea072060
   udp: true
-- name: 🇺🇸-US-016
-  server: us01.xstarship.com
-  port: 56789
+- name: 🇺🇸-US-017
+  server: us.colacloud.site
+  port: 20552
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 3458994b-fc2c-4bb2-b13e-55e94b5cd373
+  password: 3549ed41-79f2-4f9c-ae1b-2083ea072060
   udp: true
-- name: 🇯🇵-JP-010
-  server: 13.231.210.254
-  port: 443
+- name: 🇺🇸-US-018
+  server: 154.9.249.29
+  port: 35881
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-012
-  server: p235.panda004.net
-  port: 2212
+  cipher: aes-256-gcm
+  password: 9094f630-2687-4943-b401-d9a9a3297fa5
+  udp: true
+- name: 🇻🇳-VN-002
+  server: vn.cooc.icu
+  port: 31511
   type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-013
-  server: 43.201.116.29
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇵🇪-PE-001
-  server: 190.120.229.28
+  cipher: aes-128-gcm
+  password: 9094f630-2687-4943-b401-d9a9a3297fa5
+  udp: true
+- name: 🇨🇱-CL-001
+  server: 190.120.230.9
   port: 989
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 🇨🇳-TW-009
-  server: b23.ntbq.dynu.net
-  port: 2024
-  type: vmess
-  uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸-US-017
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-    headers:
-      Host: cold-dawn-9246.fly.dev
-- name: 🇸🇬-SG-005
-  server: 13.250.25.60
-  port: 443
+- name: 🇦🇷-AR-001
+  server: 190.103.176.29
+  port: 989
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-014
+  password: f8f7aCzcPKbsF8p3
+- name: 🇰🇷-KR-007
   server: p228.panda004.net
   port: 59084
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇿-KZ-002
-  server: 217.76.64.195
+- name: 🇰🇷-KR-008
+  server: p235.panda004.net
+  port: 2212
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-009
+  server: 43.201.116.29
   port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-019
+  server: 172.67.146.69
+  port: 80
   type: vmess
-  uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef
+  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: ae8e857abf1d?ed=2048
+    headers:
+      Host: periodically-microwave-firms-abc.trycloudflare.com
+- name: 🇺🇸-US-020
+  server: tabnak13.goodbyefilteringchannel.space
+  port: 8080
+  type: vmess
+  uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /@forwardv2ray
     headers:
-      Host: skuone.serveminecraft.net
-- name: 🇯🇵-JP-011
-  server: 52.194.252.137
+      Host: tabnak13.goodbyefilteringchannel.space
+- name: 🇺🇸-US-021
+  server: cdn20.nwaf98.top
+  port: 80
+  type: vmess
+  uuid: 4046171f-2176-4f56-8008-adc55676931a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn20.nwaf98.top
+- name: 🇰🇿-KZ-003
+  server: 93.170.73.104
+  port: 51348
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AGr56G65GFgl7phobMoits
+- name: 🇬🇧-GB-004
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇺🇸-US-022
+  server: tabnak17.goodbyefilteringchannel.space
+  port: 2086
+  type: vmess
+  uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: tabnak17.goodbyefilteringchannel.space
+- name: 🇺🇸-US-023
+  server: kosar9.goodbyefilteringchannel.space
+  port: 2086
+  type: vmess
+  uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: kosar9.goodbyefilteringchannel.space
+- name: 🇰🇷-KR-010
+  server: 43.201.147.151
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇰🇷-KR-011
+  server: p229.panda004.net
+  port: 57428
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇭🇰-HK-004
+  server: hk02.duckulaolga.online
+  port: 80
+  type: vmess
+  uuid: 5f373214-b955-4467-a582-62be14c59bce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk02.xpoti.online
