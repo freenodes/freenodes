@@ -6,15 +6,13 @@
 
 每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
 
-<!-- SHIELD GROUP -->
-
-[![][github-last-commit-shield]][github-last-commit-link]
-[![][github-stars-shield]][github-stars-link]
-[![][github-forks-shield]][github-forks-link]
-[![][github-issues-shield]][github-issues-link]
-[![][github-contributors-shield]][github-contributors-link]
-[![][visitor-shield]][visitor-link]
-[![][github-license-shield]][github-license-link]
+![https://github.com/freenodes/freenodes](https://img.shields.io/github/last-commit/freenodes/freenodes?labelColor=black&style=flat-square)
+![https://github.com/freenodes/freenodes/stargazers](https://img.shields.io/github/stars/freenodes/freenodes?color=ffcb47&labelColor=black&style=flat-square)
+![https://github.com/freenodes/freenodes/network/members](https://img.shields.io/github/forks/freenodes/freenodes?color=8ae8ff&labelColor=black&style=flat-square)
+![https://github.com/freenodes/freenodes/issues](https://img.shields.io/github/issues/freenodes/freenodes?color=ff80eb&labelColor=black&style=flat-square)
+![https://github.com/freenodes/freenodes/graphs/contributors](https://img.shields.io/github/contributors/freenodes/freenodes?color=c4f042&labelColor=black&style=flat-square)
+![https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes](https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes)
+![https://github.com/freenodes/freenodes](https://img.shields.io/badge/license-MIT-green.svg?labelColor=black&style=flat-square)
 
 </div>
 
@@ -59,23 +57,4 @@
 
 ## ✨ Star 数
 
-[![][starchart-shield]][starchart-link]
-
-<!-- LINK GROUP -->
-
-[github-contributors-link]: https://github.com/freenodes/freenodes/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/freenodes/freenodes?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/freenodes/freenodes/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/freenodes/freenodes?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/freenodes/freenodes/issues
-[github-issues-shield]: https://img.shields.io/github/issues/freenodes/freenodes?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/freenodes/freenodes/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/badge/license-MIT-green.svg?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/freenodes/freenodes/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/freenodes/freenodes?color=ffcb47&labelColor=black&style=flat-square
-[github-last-commit-link]: https://github.com/freenodes/freenodes
-[github-last-commit-shield]: https://img.shields.io/github/last-commit/freenodes/freenodes?labelColor=black&style=flat-square
-[starchart-shield]: https://starchart.cc/freenodes/freenodes.svg
-[starchart-link]: https://starchart.cc/freenodes/freenodes
-[visitor-shield]: https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes
-[visitor-link]: https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes
+![https://starchart.cc/freenodes/freenodes](https://starchart.cc/freenodes/freenodes.svg)
