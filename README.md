@@ -4,15 +4,33 @@
 
 <h1>FreeNodes</h1>
 
-每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
+<h4>每 4 小时，FreeNodes 从网络上获取新的代理，包括 SS，SSR，Vmess 和 Trojan 代理。
+</h4>
 
-![https://github.com/freenodes/freenodes](https://img.shields.io/github/last-commit/freenodes/freenodes?labelColor=black&style=flat-square)
-![https://github.com/freenodes/freenodes/stargazers](https://img.shields.io/github/stars/freenodes/freenodes?color=ffcb47&labelColor=black&style=flat-square)
-![https://github.com/freenodes/freenodes/network/members](https://img.shields.io/github/forks/freenodes/freenodes?color=8ae8ff&labelColor=black&style=flat-square)
-![https://github.com/freenodes/freenodes/issues](https://img.shields.io/github/issues/freenodes/freenodes?color=ff80eb&labelColor=black&style=flat-square)
-![https://github.com/freenodes/freenodes/graphs/contributors](https://img.shields.io/github/contributors/freenodes/freenodes?color=c4f042&labelColor=black&style=flat-square)
-![https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes](https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes)
-![https://github.com/freenodes/freenodes](https://img.shields.io/badge/license-MIT-green.svg?labelColor=black&style=flat-square)
+<p align="center">
+
+<a href="https://github.com/freenodes/freenodes">
+    <img src="https://img.shields.io/github/last-commit/freenodes/freenodes?labelColor=black&style=flat-square" alt="last-commit">
+  </a>
+<a href="https://github.com/freenodes/freenodes/stargazers">
+    <img src="https://img.shields.io/github/stars/freenodes/freenodes?color=ffcb47&labelColor=black&style=flat-square" alt="stars">
+  </a>
+<a href="https://github.com/freenodes/freenodes/network/members">
+    <img src="https://img.shields.io/github/forks/freenodes/freenodes?color=8ae8ff&labelColor=black&style=flat-square" alt="forks">
+  </a>
+<a href="https://github.com/freenodes/freenodes/issues">
+    <img src="https://img.shields.io/github/issues/freenodes/freenodes?color=ff80eb&labelColor=black&style=flat-square" alt="issues">
+  </a>
+<a href="https://github.com/freenodes/freenodes/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/freenodes/freenodes?color=c4f042&labelColor=black&style=flat-square" alt="contributors">
+  </a>
+<a href="https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=freenodes.freenodes" alt="visitor">
+  </a>
+<a href="https://github.com/freenodes/freenodes">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg?labelColor=black&style=flat-square" alt="license">
+  </a>
+</p>
 
 </div>
 
