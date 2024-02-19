@@ -1,38 +1,6 @@
 proxies:
-- name: 🇬🇧-GB-001
-  server: series-a2-me.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇬🇧-GB-002
-  server: series-a2-mec.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇫🇷-FR-001
-  server: 141.11.189.55
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇯🇵-JP-001
-  server: 141.147.181.148
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
 - name: 🇨🇿-CZ-001
-  server: 94.131.97.127
+  server: cz2-vmess.sshmax.xyz
   port: 80
   type: vmess
   uuid: 3669d547-ee0c-477d-8e47-c4400965db74
@@ -45,21 +13,19 @@ proxies:
     path: /vmess
     headers:
       Host: cz2-vmess.sshmax.xyz
-- name: 🇯🇵-JP-002
-  server: 131.186.63.127
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
 - name: 🇳🇱-NL-001
+  server: 89.23.103.224
+  port: 5614
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3--VIGPSL7RrGE5KkA-9Sg
+- name: 🇷🇺-RU-001
+  server: 109.107.189.185
+  port: 17397
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: lrJVYHCiZA3VdRckEWQnSg
+- name: 🇳🇱-NL-002
   server: 188.114.96.11
   port: 80
   type: vmess
@@ -87,34 +53,6 @@ proxies:
     path: /
     headers:
       Host: www.ywnouvbale.biz
-- name: 🇨🇿-CZ-002
-  server: cz2-vmess.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: cz2-vmess.sshmax.xyz
-- name: 🇬🇧-GB-003
-  server: 45.154.14.165
-  port: 13593
-  type: vmess
-  uuid: 0764e6b0-3241-4962-a483-956bcc3612a5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
 - name: 🇧🇪-BE-001
   server: 95.164.62.229
   port: 2052
@@ -141,18 +79,18 @@ proxies:
     path: /vmess
     headers:
       Host: be3-vmess.sshmax.xyz
-- name: 🇻🇳-VN-001
-  server: 103.252.94.224
-  port: 80
+- name: 🇨🇳-TW-001
+  server: 188.253.6.35
+  port: 20009
   type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  uuid: e8adedfc-eb58-40ee-ba40-f77965d8c475
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /bs
+    path: /
 - name: 🇭🇰-HK-001
   server: 185.244.208.61
   port: 3389
@@ -170,44 +108,58 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇨🇳-TW-001
+- name: 🇨🇳-TW-002
   server: b23.ntbq.dynu.net
   port: 5681
   type: vmess
-  uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳-TW-002
-  server: nb24.ntbq.dynu.net
-  port: 3278
-  type: vmess
-  uuid: b534a780-d521-402d-9a68-aea33e47a5de
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
 - name: 🇨🇳-TW-003
-  server: 36.232.170.53
+  server: c12.twtc.dynu.net
   port: 14431
   type: vmess
-  uuid: b534a780-d521-402d-9a68-aea33e47a5de
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
 - name: 🇨🇳-TW-004
-  server: 118.167.69.188
+  server: nb24.ntbq.dynu.net
   port: 3278
   type: vmess
-  uuid: b534a780-d521-402d-9a68-aea33e47a5de
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
 - name: 🇺🇸-US-002
-  server: www.velvetmountain.xyz
+  server: dl1.doushimeng.com
+  port: 2082
+  type: vmess
+  uuid: 80f62ea8-62bc-4bed-9173-f24c92ab19cf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /asdas
+    headers:
+      Host: cf-frsss4.nicehand.top
+- name: 🇮🇷-IR-001
+  server: 62.60.134.94
+  port: 58434
+  type: vmess
+  uuid: 6a0f2604-a6fd-4c61-ab55-66ed67910f1c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-003
+  server: www.velvetmountain.shop
   port: 8080
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -219,49 +171,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.velvetmountain.xyz
-- name: 🇺🇸-US-003
-  server: cj16.ggfuopgroup.top
-  port: 41585
-  type: vmess
-  uuid: 71336412-71d1-4d54-cef6-6df7bb31ad6a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-- name: 🇻🇳-VN-002
-  server: bs2.loadingip.com
-  port: 80
-  type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bs
-    headers:
-      Host: bs2.loadingip.com
+      Host: www.velvetmountain.shop
 - name: 🇺🇸-US-004
-  server: for-irancell.outline-vpn.cloud
-  port: 80
+  server: s1c.v2.v001sss.xyz
+  port: 2082
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇳🇱-NL-002
-  server: mci--join.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -270,37 +185,86 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: a.prapt5.ir
-- name: 🇬🇧-GB-004
-  server: jseyu.arvancode.eu.Org
+      Host: s1c.v2.v001sss.xyz
+- name: 🇫🇮-FI-001
+  server: 185.77.217.121
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇯🇵-JP-003
+  password: FR6M7fkghS4hhHXKxVQMxW
+- name: 🇬🇧-GB-001
+  server: wxwctxxx.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇫🇮-FI-002
+  server: fl3.dart-vpn.com
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: FR6M7fkghS4hhHXKxVQMxW
+- name: 🇦🇺-AU-001
+  server: oracle-au-01.t3csyun.buzz
+  port: 46255
+  type: vmess
+  uuid: 9dd11ec9-bfb0-4032-b8ea-65eb926e2cda
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: oracle-au-01.t3csyun.buzz
+  network: ws
+  ws-opts:
+    path: /oraclesg01
+    headers:
+      Host: oracle-au-01.t3csyun.buzz
+- name: 🇸🇬-SG-001
+  server: 103.172.116.103
+  port: 9046
+  type: ss
+  cipher: aes-256-cfb
+  password: NvS8N4Vf8qAGPSCL
+- name: 🇯🇵-JP-001
   server: jp.doushimeng.com
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 86a24f65-43fe-41fb-85e7-2e3994b13d8f
-- name: 🇬🇧-GB-005
-  server: jseyu.arvancode.eu.org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇰🇷-KR-001
-  server: p230.panda004.net
-  port: 10122
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-005
-  server: beecomf.xyz
+- name: 🇨🇿-CZ-002
+  server: 94.131.97.127
+  port: 80
+  type: vmess
+  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: cz2-vmess.sshmax.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇫🇷-FR-001
+  server: 141.11.189.55
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇰🇷-KR-001
+  server: p227.panda004.net
+  port: 2020
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇳-TW-005
+  server: 118.167.69.188
+  port: 3278
+  type: vmess
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 - name: 🇳🇱-NL-003
   server: 188.114.96.113
   port: 80
@@ -315,172 +279,11 @@ proxies:
     path: /?ed=2048
     headers:
       Host: a.prapt4.ir
-- name: 🇨🇳-TW-005
-  server: c11.twtc.dynu.net
-  port: 16711
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
-  udp: true
-- name: 🇨🇳-TW-006
-  server: c12.twtc.dynu.net
-  port: 14431
-  type: vmess
-  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇳-TW-007
-  server: b13.ntbq.dynu.net
-  port: 9255
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
-  udp: true
-- name: 🇭🇰-HK-002
-  server: hkt.littleqqq.co
-  port: 20759
-  type: vmess
-  uuid: 2ae4d1ec-f773-432c-8f6f-18bb70a785bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: hkt.littleqqq.co
-  udp: true
-- name: 🇯🇵-JP-004
-  server: jp.colacloud.site
-  port: 51310
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9f5712b4-832d-456c-977f-fcbb038ea168
-  udp: true
-- name: 🇯🇵-JP-005
-  server: jp.littleqqq.co
-  port: 62193
-  type: vmess
-  uuid: 2ae4d1ec-f773-432c-8f6f-18bb70a785bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /live/UKPZrSI3K7dtNJmn
-    headers:
-      Host: www.tmall.com
-  udp: true
-- name: 🇺🇸-US-006
-  server: us.littleqqq.co
-  port: 21859
-  type: vmess
-  uuid: 2ae4d1ec-f773-432c-8f6f-18bb70a785bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /live/UKPZrSI3K7dtNJmn
-    headers:
-      Host: www.tmall.com
-  udp: true
-- name: 🇨🇳-TW-008
-  server: 188.253.6.35
-  port: 20009
-  type: vmess
-  uuid: e8adedfc-eb58-40ee-ba40-f77965d8c475
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇰🇷-KR-002
-  server: p220.panda001.net
-  port: 53258
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-003
-  server: p227.panda004.net
-  port: 2020
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇯🇵-JP-006
-  server: dir01.netorigins2u.site
-  port: 30101
-  type: vmess
-  uuid: 52b6db82-05e3-3d4d-a065-7c888d1621a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jp01.tomoony.xyz
-- name: 🇯🇵-JP-007
-  server: dir01.netorigins2u.site
-  port: 30864
-  type: vmess
-  uuid: 52b6db82-05e3-3d4d-a065-7c888d1621a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: hu01.tomoony.xyz
-- name: 🇯🇵-JP-008
-  server: dir01.netorigins2u.site
-  port: 30201
-  type: vmess
-  uuid: 52b6db82-05e3-3d4d-a065-7c888d1621a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sg01.tomoony.xyz
-- name: 🇯🇵-JP-009
-  server: dir01.netorigins2u.site
-  port: 30501
-  type: vmess
-  uuid: 52b6db82-05e3-3d4d-a065-7c888d1621a4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: us01.tomoony.xyz
-- name: 🇫🇮-FI-001
-  server: 185.77.217.121
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: FR6M7fkghS4hhHXKxVQMxW
-- name: 🇯🇵-JP-010
-  server: miracle.bilibili.ovh
+- name: 🇺🇸-US-005
+  server: for-irancell.outline-vpn.cloud
   port: 80
   type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇺🇸-US-007
-  server: 172.67.188.193
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
   cipher: auto
   tls: false
@@ -489,4 +292,22 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: eu3.openxai.link
+      Host: my1.tooters.ir
+- name: 🇩🇪-DE-001
+  server: 167.235.59.155
+  port: 52479
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: MnMHMVgbr50zNiS2NZrKkO
+- name: 🇰🇷-KR-002
+  server: p220.panda001.net
+  port: 53258
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬-SG-002
+  server: 103.172.116.103
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
