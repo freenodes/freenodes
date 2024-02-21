@@ -1,26 +1,148 @@
 proxies:
 - name: 🇬🇧-GB-001
-  server: series-a2-mec.samanehha.co
+  server: series-a2-me.samanehha.co
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇨🇳-TW-001
-  server: 114.37.144.148
-  port: 5681
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇺🇸-US-001
+  server: 104.156.141.98
+  port: 443
   type: vmess
-  uuid: 3bd62189-aebd-4b36-9dfd-335457d70420
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      Host: www.25848626.xyz
+- name: 🇺🇸-US-002
+  server: cf.openxai.link
+  port: 8080
+  type: vmess
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu1.openxai.link
+- name: 🇺🇸-US-003
+  server: 38.12.82.104
+  port: 37000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      Host: www.65825524.xyz
 - name: 🇬🇧-GB-002
-  server: wxwctxxx.arvancode.eu.org
-  port: 443
+  server: 51.143.138.95
+  port: 13288
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇺🇸-US-001
+  password: XFt4a7C3cE7qMz7weyyEGI
+- name: 🇺🇸-US-004
+  server: 198.2.215.86
+  port: 38000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      Host: www.51291807.xyz
+- name: 🇨🇭-CH-001
+  server: 94.131.99.8
+  port: 47182
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇭🇰-HK-001
+  server: 212.192.12.231
+  port: 80
+  type: vmess
+  uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇳🇱-NL-001
+  server: mrli.eu.org
+  port: 8880
+  type: vmess
+  uuid: 4e3e02e6-af84-4eb0-820e-0b0a1f89d1fe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /4e3e02e6-af84-4eb0-820e-0b0a1f89d1fe
+    headers:
+      Host: mrli.eu.org
+- name: 🇮🇷-IR-001
+  server: 85.198.9.251
+  port: 14343
+  type: vmess
+  uuid: 2af000fc-cb17-412a-99e5-af8818bf71f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸-US-005
+  server: www.velvetmountain.shop
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.velvetmountain.shop
+- name: 🇺🇸-US-006
+  server: www.ywnouvbale.biz
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.ywnouvbale.biz
+- name: 🇺🇸-US-007
   server: www.velvetmountain.xyz
   port: 8080
   type: vmess
@@ -35,227 +157,60 @@ proxies:
     headers:
       Host: www.velvetmountain.xyz
 - name: 🇬🇧-GB-003
-  server: 51.143.138.95
-  port: 13288
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: XFt4a7C3cE7qMz7weyyEGI
-- name: 🇧🇪-BE-001
-  server: 95.164.62.229
-  port: 2052
-  type: vmess
-  uuid: 81e08848-0baa-4712-9e9b-301b77d0627b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇺🇸-US-002
-  server: 172.67.131.246
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu3.openxai.link
-- name: 🇫🇷-FR-001
-  server: 57.128.173.202
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: internet.life.com.by
-- name: 🇨🇳-TW-002
-  server: 188.253.6.35
-  port: 20009
-  type: vmess
-  uuid: 428c7cf6-850c-4009-ab6b-4a4094bbc307
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇨🇭-CH-001
-  server: 94.131.99.8
-  port: 47182
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳-TW-003
-  server: nb22.ntbq.dynu.net
-  port: 12002
-  type: vmess
-  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳-TW-004
-  server: 61.228.191.177
-  port: 12002
-  type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇭🇰-HK-001
-  server: 212.192.12.231
-  port: 80
-  type: vmess
-  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇳🇱-NL-001
-  server: 91.228.56.194
-  port: 80
-  type: vmess
-  uuid: b106699a-9de4-4316-90b5-0cd55835fafb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇦🇹-AT-001
-  server: 176.120.65.108
-  port: 80
-  type: vmess
-  uuid: e8c3ac1c-3ea9-4b7c-baff-14ee8cba8f73
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇺🇸-US-003
-  server: www.nahck.site
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.nahck.site
-- name: 🇬🇧-GB-004
   server: 51.143.138.80
   port: 64507
   type: ss
   cipher: chacha20-ietf-poly1305
   password: YJgPhpBF3wEoy3H5CxXyUS
   udp: true
-- name: 🇺🇸-US-004
-  server: 142.4.101.40
-  port: 38000
+- name: 🇭🇰-HK-002
+  server: hkt.littleqqq.co
+  port: 20759
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/271624282113
-    headers:
-      Host: www.87140386.xyz
-- name: 🇳🇱-NL-002
-  server: mrli.eu.org
-  port: 8880
-  type: vmess
-  uuid: 4e3e02e6-af84-4eb0-820e-0b0a1f89d1fe
+  uuid: c573fba1-aa16-48ee-a51b-90474ed4bd4d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /4e3e02e6-af84-4eb0-820e-0b0a1f89d1fe
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: mrli.eu.org
-- name: 🇳🇱-NL-003
-  server: 154.85.1.2
-  port: 41002
+      Host: hkt.littleqqq.co
+  udp: true
+- name: 🇯🇵-JP-001
+  server: jp.littleqqq.co
+  port: 62193
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/271624282113
-    headers:
-      Host: www.42077230.xyz
-- name: 🇧🇪-BE-002
-  server: be3-vmess.sshmax.xyz
-  port: 2052
-  type: vmess
-  uuid: 81e08848-0baa-4712-9e9b-301b77d0627b
+  uuid: c573fba1-aa16-48ee-a51b-90474ed4bd4d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /live/UKPZrSI3K7dtNJmn
     headers:
-      Host: be3-vmess.sshmax.xyz
-- name: 🇮🇷-IR-001
-  server: 85.198.9.251
-  port: 14343
+      Host: www.tmall.com
+  udp: true
+- name: 🇺🇸-US-008
+  server: us.littleqqq.co
+  port: 21859
   type: vmess
-  uuid: 2af000fc-cb17-412a-99e5-af8818bf71f8
+  uuid: c573fba1-aa16-48ee-a51b-90474ed4bd4d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
-- name: 🇰🇷-KR-001
-  server: csyun-transfer-01.t3csyun.buzz
-  port: 28511
-  type: vmess
-  uuid: 9dd11ec9-bfb0-4032-b8ea-65eb926e2cda
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: oracle-au-01.t3csyun.buzz
-  network: ws
-  ws-opts:
-    path: /oraclesg01
+    path: /live/UKPZrSI3K7dtNJmn
     headers:
-      Host: csyun-transfer-01.t3csyun.buzz
+      Host: www.tmall.com
+  udp: true
+- name: 🇸🇬-SG-001
+  server: 103.172.116.103
+  port: 9031
+  type: ss
+  cipher: aes-256-cfb
+  password: BwcAUZk8hUFAkDGN
