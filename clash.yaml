@@ -1,14 +1,54 @@
 proxies:
-- name: 🇸🇬-SG-001
-  server: 192.124.176.154
-  port: 56949
+- name: 🇬🇧-GB-001
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇺🇸-US-001
+  server: 74.48.221.235
+  port: 443
   type: vmess
-  uuid: 196c6b72-2bdc-4336-8e74-0f983a23282d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/271624282113
+    headers:
+      Host: www.68841301.xyz
+- name: 🇬🇧-GB-002
+  server: jseyu.arvancode.eu.Org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇺🇸-US-002
+  server: yhnsb3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇺🇸-US-001
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: yhnsb3.shabijichang.com
+- name: 🇦🇺-AU-001
+  server: 158.179.17.28
+  port: 48204
+  type: vmess
+  uuid: 38b483a4-ab07-4433-d957-4a64168891f6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-003
   server: 172.67.132.209
   port: 443
   type: vmess
@@ -22,7 +62,7 @@ proxies:
     path: /vmess
     headers:
       Host: pl1-vmess.sshmax.xyz
-- name: 🇦🇺-AU-001
+- name: 🇦🇺-AU-002
   server: au-melbourne-oracle-3adc2a.ip1.shop
   port: 48204
   type: vmess
@@ -31,25 +71,34 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇺🇸-US-002
-  server: 172.67.188.193
-  port: 8080
+- name: 🇮🇷-IR-001
+  server: 185.81.99.251
+  port: 7443
   type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 4196008d-33e6-487e-8957-b371def49eb9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-004
+  server: ges5.3h.lv
+  port: 80
+  type: vmess
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /thdgfdfdfg
     headers:
-      Host: eu3.openxai.link
-- name: 🇺🇸-US-003
-  server: de-01.cloudlion.me
-  port: 8080
+      Host: ges5.3h.lv
+- name: 🇺🇸-US-005
+  server: s1c.v2.v001sss.xyz
+  port: 2082
   type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -58,8 +107,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: de-01.cloudlion.me
-- name: 🇺🇸-US-004
+      Host: s1c.v2.v001sss.xyz
+- name: 🇺🇸-US-006
   server: fr-01.cloudlion.me
   port: 8080
   type: vmess
@@ -73,19 +122,7 @@ proxies:
     path: /
     headers:
       Host: fr-01.cloudlion.me
-- name: 🇭🇰-HK-001
-  server: 212.192.12.231
-  port: 80
-  type: vmess
-  uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸-US-005
+- name: 🇺🇸-US-007
   server: ges2.3h.lv
   port: 80
   type: vmess
@@ -99,408 +136,99 @@ proxies:
     path: /trhdgdfvg
     headers:
       Host: ges2.3h.lv
-- name: 🇳🇱-NL-001
-  server: 31.187.64.125
-  port: 47228
-  type: vmess
-  uuid: c21b766e-fa13-496f-ccb1-f201e1f5154c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸-US-006
-  server: www.velvetmountain.xyz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.xyz
-- name: 🇺🇸-US-007
-  server: www.velvetmountain.shop
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-- name: 🇺🇸-US-008
-  server: www.brightocean.lol
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.brightocean.lol
-- name: 🇬🇧-GB-001
-  server: 51.143.138.80
-  port: 64507
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: YJgPhpBF3wEoy3H5CxXyUS
-- name: 🇰🇷-KR-001
-  server: p220.panda001.net
-  port: 53258
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇸🇬-SG-002
+- name: 🇸🇬-SG-001
   server: 103.172.116.103
   port: 9056
   type: ss
   cipher: aes-256-cfb
   password: rNBfNuuANFCAk7KB
-- name: 🇸🇬-SG-003
-  server: 103.172.116.103
-  port: 9014
-  type: ss
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-- name: 🇸🇬-SG-004
-  server: 103.172.116.103
-  port: 9046
-  type: ss
-  cipher: aes-256-cfb
-  password: NvS8N4Vf8qAGPSCL
+- name: 🇰🇷-KR-001
+  server: csyun-transfer-01.t3csyun.buzz
+  port: 28511
+  type: vmess
+  uuid: 9dd11ec9-bfb0-4032-b8ea-65eb926e2cda
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: oracle-au-01.t3csyun.buzz
+  network: ws
+  ws-opts:
+    path: /oraclesg01
+    headers:
+      Host: csyun-transfer-01.t3csyun.buzz
+- name: 🇭🇰-HK-001
+  server: hkt.littleqqq.co
+  port: 20759
+  type: vmess
+  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: hkt.littleqqq.co
+  udp: true
 - name: 🇯🇵-JP-001
-  server: jp.doushimeng.com
-  port: 51653
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 25340eca-e200-4613-ad35-77de7e956834
+  server: jp.littleqqq.co
+  port: 62193
+  type: vmess
+  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
+- name: 🇺🇸-US-008
+  server: us-n1.speedyyun.com
+  port: 25314
+  type: vmess
+  uuid: 17e349e5-8df3-4ab1-8aff-6fba4374b292
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /victorias
+    headers:
+      Host: us-n1.speedyyun.com
+  udp: true
 - name: 🇺🇸-US-009
-  server: 38.75.136.135
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  server: us.littleqqq.co
+  port: 21859
+  type: vmess
+  uuid: d8655133-0a74-4496-ad75-25414a355a20
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
 - name: 🇺🇸-US-010
-  server: 38.75.136.135
-  port: 8118
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 🇺🇸-US-011
-  server: 38.75.136.135
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇺🇸-US-012
-  server: 38.75.136.135
-  port: 6697
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇺🇸-US-013
-  server: 172.67.136.12
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-- name: 🇰🇷-KR-002
-  server: p232.panda004.net
-  port: 4398
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-014
-  server: 38.75.136.135
-  port: 8009
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇺🇸-US-015
-  server: 38.75.136.135
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 🇺🇸-US-016
-  server: 38.75.136.135
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇺🇸-US-017
-  server: 38.75.136.135
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇺🇸-US-018
-  server: 38.75.136.135
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 🇺🇸-US-019
-  server: 38.75.136.135
-  port: 5004
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 🇺🇸-US-020
-  server: 38.75.136.135
-  port: 5500
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 🇺🇸-US-021
-  server: 38.75.136.135
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-022
-  server: 38.75.136.135
-  port: 3306
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-023
-  server: 38.75.136.135
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 🇺🇸-US-024
-  server: 38.75.136.135
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇺🇸-US-025
-  server: 38.75.136.135
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-026
-  server: 38.75.136.135
-  port: 2376
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 🇺🇸-US-027
-  server: 38.75.136.135
-  port: 9101
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-- name: 🇺🇸-US-028
-  server: 38.75.136.135
-  port: 9102
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-- name: 🇺🇸-US-029
-  server: 38.75.136.135
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸-US-030
-  server: 38.75.136.135
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-031
-  server: 38.75.136.135
-  port: 7002
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇺🇸-US-032
-  server: 38.75.136.135
-  port: 3389
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇺🇸-US-033
-  server: 38.75.136.135
-  port: 7306
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸-US-034
-  server: 38.75.136.135
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇰🇷-KR-003
-  server: c001.panda003.net
-  port: 53243
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-004
-  server: p234.panda004.net
-  port: 56906
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-035
-  server: for-irancell.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-- name: 🇳🇱-NL-002
-  server: mci--join.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-- name: 🇯🇵-JP-002
-  server: 52.195.237.220
+  server: us01.h.csznet.eu.org
   port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-003
-  server: 57.180.7.25
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-036
-  server: 142.4.106.20
-  port: 37000
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: d8b597d3-72b2-48ff-a1bf-5b2c2c73c410
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /path/271624282113
+    path: /admin
     headers:
-      Host: www.84206290.xyz
-- name: 🇺🇸-US-037
-  server: 38.14.100.211
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/271624282113
-    headers:
-      Host: www.33799494.xyz
-- name: 🇺🇸-US-038
-  server: 38.75.136.135
-  port: 6379
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: 🇺🇸-US-039
-  server: 38.75.136.135
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇸🇬-SG-005
-  server: 103.172.116.103
-  port: 9060
-  type: ss
-  cipher: aes-256-cfb
-  password: ueLXVkvh4hckhErQ
-- name: 🇬🇧-GB-002
-  server: 51.143.138.203
-  port: 56917
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 8XgrNRMutVK1HAxNP1otBQ
-- name: 🇰🇷-KR-005
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-006
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-040
-  server: 151.101.65.57
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇮🇹-IT-001
-  server: it-milan-oracle-f97093.ip1.shop
-  port: 62350
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d098505e-e26d-4fbe-ab05-4f29ff86d796
-- name: 🇰🇷-KR-007
-  server: p221.panda001.net
-  port: 53288
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-008
-  server: 125.141.26.7
-  port: 2020
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+      Host: us01.h.csznet.eu.org
+  udp: true
