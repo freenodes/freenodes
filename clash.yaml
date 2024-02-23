@@ -1,22 +1,21 @@
 proxies:
-- name: 🇳🇱-NL-001
-  server: 91.242.229.69
-  port: 2086
-  type: vmess
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: nl1.xv2ray.net
-  network: ws
-  ws-opts:
-    path: /vmess
+- name: 🇬🇧-GB-001
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇬🇧-GB-002
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
 - name: 🇺🇸-US-001
-  server: 172.67.136.12
-  port: 8080
+  server: cloudflare.cfgo.cc
+  port: 80
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
   alterId: 0
   cipher: auto
   tls: false
@@ -25,59 +24,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.ywnouvbale.biz
-- name: 🇫🇷-FR-001
-  server: 173.245.49.132
-  port: 8080
-  type: vmess
-  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
-    headers:
-      Host: larger-marketing-amounts-skin.trycloudflare.com
-- name: 🇬🇷-GR-001
-  server: 185.242.84.49
-  port: 80
-  type: vmess
-  uuid: 3f81107d-f30d-442a-b59f-d6bb1eec6aba
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇯🇵-JP-001
-  server: miracle.bilibili.ovh
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇻🇳-VN-001
-  server: 103.252.94.224
-  port: 80
-  type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bs
+      Host: wap.hostmjj.com
 - name: 🇺🇸-US-002
   server: ro.domain.photos
   port: 80
@@ -93,51 +40,17 @@ proxies:
     headers:
       Host: ro.domain.photos
 - name: 🇨🇳-TW-001
-  server: 114.37.149.43
-  port: 5681
+  server: 188.253.6.35
+  port: 20009
   type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳-TW-002
-  server: b23.ntbq.dynu.net
-  port: 5681
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸-US-003
-  server: 172.67.131.246
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 32fec6a1-5e56-485b-81e5-89e55728eda6
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu3.openxai.link
-- name: 🇺🇸-US-004
-  server: 172.67.188.193
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu3.openxai.link
+    path: /
 - name: 🇩🇪-DE-001
   server: ghajary.rezashopparivate.sbs
   port: 80
@@ -152,19 +65,21 @@ proxies:
     path: /bz2HzBtQEcjPHCvBrw
     headers:
       Host: ghajary.rezashopparivate.sbs
-- name: 🇩🇪-DE-002
-  server: 193.36.85.8
-  port: 80
+- name: 🇺🇸-US-003
+  server: de-01.cloudlion.me
+  port: 8080
   type: vmess
-  uuid: 202fef2a-eff2-4815-bf05-cadcad4b7863
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /bz2HzBtQEcjPHCvBrw
-- name: 🇩🇪-DE-003
+    path: /
+    headers:
+      Host: de-01.cloudlion.me
+- name: 🇩🇪-DE-002
   server: callmesir.rezashopparivate.sbs
   port: 80
   type: vmess
@@ -178,105 +93,39 @@ proxies:
     path: /bz2HzBtQEcjPHCvBrw
     headers:
       Host: callmesir.rezashopparivate.sbs
-- name: 🇺🇸-US-005
-  server: warp-sub.pages.dev
-  port: 2087
+- name: 🇺🇸-US-004
+  server: dl1.doushimeng.com
+  port: 2082
   type: vmess
-  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
+  uuid: c9fd2498-d46d-4b59-b65c-21ef4182e101
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /urnxewzvh.site:443/kwhmvws
+    path: /asdas
     headers:
-      Host: warp-sub.pages.dev
-- name: 🇺🇸-US-006
-  server: c1d1ntest.mshdneshat.fun
+      Host: cf-frsss5.nicehand.top
+- name: 🇺🇸-US-005
+  server: 104.156.141.130
   port: 443
   type: vmess
-  uuid: 73bfcf64-8609-4606-9fc0-e8c49e3500b8
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /path/271624282113
     headers:
-      Host: c1d1ntest.mshdneshat.fun
-- name: 🇺🇸-US-007
-  server: www.velvetmountain.shop
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-- name: 🇺🇸-US-008
-  server: www.ywnouvbale.biz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-- name: 🇲🇾-MY-001
-  server: 38.54.97.205
-  port: 2612
-  type: vmess
-  uuid: d6d16f50-a1a2-5833-81df-939697b6844c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /arki?ed=2048
-- name: 🇻🇳-VN-002
-  server: bs2.loadingip.com
-  port: 80
-  type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bs
-    headers:
-      Host: bs2.loadingip.com
-- name: 🇳🇱-NL-002
-  server: 91.242.229.77
-  port: 80
-  type: vmess
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
+      Host: www.43622000.xyz
 - name: 🇭🇰-HK-001
   server: hkt.littleqqq.co
   port: 20759
   type: vmess
-  uuid: 90399b36-21cc-4809-b61b-a7306adc3d7c
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -287,11 +136,11 @@ proxies:
     headers:
       Host: hkt.littleqqq.co
   udp: true
-- name: 🇯🇵-JP-002
+- name: 🇯🇵-JP-001
   server: jp.littleqqq.co
   port: 62193
   type: vmess
-  uuid: 90399b36-21cc-4809-b61b-a7306adc3d7c
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -302,11 +151,11 @@ proxies:
     headers:
       Host: www.tmall.com
   udp: true
-- name: 🇺🇸-US-009
+- name: 🇺🇸-US-006
   server: us.littleqqq.co
   port: 21859
   type: vmess
-  uuid: 90399b36-21cc-4809-b61b-a7306adc3d7c
+  uuid: 9c9f0191-e785-4ead-8df6-5d89316a80fb
   alterId: 0
   cipher: auto
   tls: false
@@ -317,22 +166,19 @@ proxies:
     headers:
       Host: www.tmall.com
   udp: true
-- name: 🇺🇸-US-010
-  server: us01.h.csznet.eu.org
-  port: 443
+- name: 🇩🇪-DE-003
+  server: 193.36.85.8
+  port: 80
   type: vmess
-  uuid: 052ecc2d-0649-4652-a43f-d1629fcd6845
+  uuid: 202fef2a-eff2-4815-bf05-cadcad4b7863
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /admin
-    headers:
-      Host: us01.h.csznet.eu.org
-  udp: true
-- name: 🇯🇵-JP-003
+    path: /bz2HzBtQEcjPHCvBrw
+- name: 🇯🇵-JP-002
   server: 183.181.36.194
   port: 41597
   type: vmess
@@ -344,9 +190,17 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬-SG-001
-  server: 103.172.116.103
-  port: 9080
-  type: ss
-  cipher: aes-256-cfb
-  password: VP8ZPxQpJtZRCjfZ
+- name: 🇯🇵-JP-003
+  server: jp-tokyo-oracle-dc8895.ip1.shop
+  port: 33003
+  type: vmess
+  uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /TG:@dns68提供技术支持
+    headers:
+      Host: jp-tokyo-oracle-dc8895.ip1.shop
