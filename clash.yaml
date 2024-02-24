@@ -1,18 +1,6 @@
 proxies:
-- name: 🇬🇧-GB-001
-  server: series-a2-me.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇬🇧-GB-002
-  server: series-a2-mec.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
 - name: 🇳🇱-NL-001
-  server: 188.114.96.11
+  server: 188.114.96.113
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -22,154 +10,11 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: a.prapt5.ir
-- name: 🇳🇱-NL-002
-  server: mci--join.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-001
-  server: 172.67.130.140
-  port: 2082
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: a.prapt4.ir
+  udp: true
 - name: 🇯🇵-JP-001
-  server: miracle.bilibili.ovh
-  port: 80
-  type: vmess
-  uuid: a6e1d100-dab4-445e-bb15-7e362f6c2f75
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: huawei.mil.kp
-- name: 🇺🇸-US-002
-  server: www.velvetmountain.xyz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.xyz
-- name: 🇺🇸-US-003
-  server: www.ywnouvbale.biz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-- name: 🇺🇸-US-004
-  server: for-irancell.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-005
-  server: 151.101.65.57
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇬🇧-GB-003
-  server: jseyu.arvancode.eu.org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇬🇧-GB-004
-  server: jseyu.arvancode.eu.Org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Bog0ELmMM9DSxDdQ
-- name: 🇺🇸-US-006
-  server: www.brightocean.lol
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.brightocean.lol
-- name: 🇬🇧-GB-005
-  server: wxwctxxx.arvancode.eu.org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇺🇸-US-007
-  server: de-01.cloudlion.me
-  port: 8080
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: de-01.cloudlion.me
-- name: 🇯🇵-JP-002
   server: fastly.alipay.ovh
   port: 80
   type: vmess
@@ -183,8 +28,69 @@ proxies:
     path: /aries?ed=2048
     headers:
       Host: mihoyo.gov.kp
-- name: 🇺🇸-US-008
-  server: 172.67.241.245
+  udp: true
+- name: 🇷🇺-RU-001
+  server: 45.144.2.113
+  port: 80
+  type: vmess
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 45.144.2.113
+  udp: true
+- name: 🇺🇸-US-001
+  server: 108.162.192.243
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  udp: true
+- name: 🇺🇸-US-002
+  server: www.velvetmountain.shop
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.velvetmountain.shop
+  udp: true
+- name: 🇺🇸-US-003
+  server: 108.162.198.240
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+  udp: true
+- name: 🇺🇸-US-004
+  server: 172.67.241.81
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -194,11 +100,12 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /?ed=2048&amp;Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-009
-  server: 172.67.241.133
+  udp: true
+- name: 🇺🇸-US-005
+  server: 172.67.255.113
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -208,136 +115,11 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /?ed=2048&amp;Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-010
-  server: 172.67.253.37
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-011
-  server: 172.67.241.19
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-012
-  server: 172.67.253.175
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-013
-  server: 172.67.255.23
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-014
-  server: 172.67.253.71
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-015
-  server: 172.67.255.230
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-016
-  server: 172.67.254.150
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-017
-  server: 172.67.254.3
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-018
-  server: 172.67.255.5
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-019
+  udp: true
+- name: 🇺🇸-US-006
   server: 172.67.254.86
   port: 80
   type: vmess
@@ -351,8 +133,24 @@ proxies:
     path: /?ed=2048
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-020
-  server: 172.67.241.81
+  udp: true
+- name: 🇺🇸-US-007
+  server: 173.245.58.159
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+  udp: true
+- name: 🇺🇸-US-008
+  server: for-irancell.outline-vpn.cloud
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -362,24 +160,41 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /
     headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-021
-  server: 172.67.255.113
-  port: 80
+      Host: my1.tooters.ir
+  udp: true
+- name: 🇺🇸-US-009
+  server: 172.67.130.140
+  port: 2082
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /
     headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-022
+      Host: s1c.v2.v001sss.xyz
+  udp: true
+- name: 🇺🇸-US-010
+  server: 190.93.245.119
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  udp: true
+- name: 🇺🇸-US-011
   server: 172.67.254.36
   port: 80
   type: vmess
@@ -393,7 +208,8 @@ proxies:
     path: /?ed=2048
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-023
+  udp: true
+- name: 🇺🇸-US-012
   server: 172.67.253.230
   port: 80
   type: vmess
@@ -407,7 +223,8 @@ proxies:
     path: /?ed=2048
     headers:
       Host: my1.tooters.ir
-- name: 🇺🇸-US-024
+  udp: true
+- name: 🇺🇸-US-013
   server: 172.67.255.79
   port: 80
   type: vmess
@@ -418,153 +235,99 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /?ed=2048&amp;Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇭🇰-HK-001
-  server: 199.15.76.35
-  port: 443
-  type: vmess
-  uuid: 0987ff95-91ef-40ef-b6cb-a44ac6b1990a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: doxinjiapo.5201314.cfd
-  network: ws
-  ws-opts:
-    path: /0987ff95
-    headers:
-      Host: doxinjiapo.5201314.cfd
-- name: 🇰🇷-KR-001
-  server: 125.141.26.7
-  port: 2020
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-002
-  server: 13.125.209.221
+  udp: true
+- name: 🇬🇧-GB-001
+  server: java.ct.arvancode.eu.Org
   port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇳🇱-NL-003
-  server: 154.85.0.48
-  port: 41000
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🇬🇧-GB-002
+  server: jseyu.arvancode.eu.Org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+  udp: true
+- name: 🇨🇷-CR-001
+  server: 190.93.246.2
+  port: 8080
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/271624282113
-    headers:
-      Host: www.72281149.xyz
-- name: 🇺🇸-US-025
-  server: 38.12.71.225
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/271624282113
-    headers:
-      Host: www.70672263.xyz
-- name: 🇺🇸-US-026
-  server: 172.67.241.165
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-027
-  server: 172.67.254.254
-  port: 80
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇨🇷-CR-002
+  server: 190.93.246.235
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-028
-  server: 172.67.253.221
-  port: 80
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇨🇷-CR-003
+  server: 190.93.246.129
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-029
-  server: 172.67.253.158
-  port: 80
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇨🇷-CR-004
+  server: 190.93.247.2
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
     headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-030
-  server: 172.67.253.194
-  port: 80
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-014
+  server: www.velvetmountain.xyz
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-031
-  server: 172.67.241.103
-  port: 80
+      Host: www.velvetmountain.xyz
+- name: 🇺🇸-US-015
+  server: 172.67.188.193
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-032
-  server: 172.67.254.191
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   alterId: 0
   cipher: auto
   tls: false
@@ -573,12 +336,12 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-033
-  server: 172.67.253.130
-  port: 80
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-016
+  server: 172.67.131.246
+  port: 8080
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   alterId: 0
   cipher: auto
   tls: false
@@ -587,8 +350,50 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-034
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-017
+  server: 172.67.171.177
+  port: 8080
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu3.openxai.link
+- name: 🇨🇦-CA-001
+  server: 23.227.38.220
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-018
+  server: 172.67.138.0
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-019
   server: 172.67.254.10
   port: 80
   type: vmess
@@ -602,36 +407,8 @@ proxies:
     path: /?ed=2048
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-035
-  server: 172.67.253.134
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-036
-  server: 172.67.254.171
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: a.prapt5.ir
-- name: 🇺🇸-US-037
-  server: 172.67.255.204
+- name: 🇺🇸-US-020
+  server: 172.67.241.19
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -644,7 +421,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-038
+- name: 🇺🇸-US-021
   server: 172.67.241.131
   port: 80
   type: vmess
@@ -658,8 +435,22 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-039
-  server: 172.67.241.218
+- name: 🇺🇸-US-022
+  server: 172.67.253.37
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-023
+  server: 172.67.241.228
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -672,8 +463,22 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-040
-  server: 172.67.241.40
+- name: 🇺🇸-US-024
+  server: de-01.cloudlion.me
+  port: 8080
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de-01.cloudlion.me
+- name: 🇺🇸-US-025
+  server: 172.67.255.5
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -686,7 +491,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-041
+- name: 🇺🇸-US-026
   server: 172.67.253.239
   port: 80
   type: vmess
@@ -700,7 +505,49 @@ proxies:
     path: /?ed=2048
     headers:
       Host: my1.tooters.ir
-- name: 🇺🇸-US-042
+- name: 🇺🇸-US-027
+  server: 172.67.253.190
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-028
+  server: 172.67.241.245
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-029
+  server: 172.67.253.194
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-030
   server: 172.67.255.81
   port: 80
   type: vmess
@@ -714,8 +561,8 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-043
-  server: 172.67.255.2
+- name: 🇺🇸-US-031
+  server: 172.67.241.40
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -728,7 +575,63 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇺🇸-US-044
+- name: 🇺🇸-US-032
+  server: 172.67.255.23
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-033
+  server: 172.67.241.165
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-034
+  server: 172.67.241.154
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-035
+  server: 172.67.253.31
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-036
   server: 172.67.253.105
   port: 80
   type: vmess
@@ -742,6 +645,118 @@ proxies:
     path: /?ed=2048
     headers:
       Host: my1.tooters.ir
+- name: 🇺🇸-US-037
+  server: 172.67.255.223
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-038
+  server: 172.67.255.204
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-039
+  server: 172.67.253.130
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-040
+  server: 172.67.253.243
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-041
+  server: 172.67.241.218
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-042
+  server: 172.67.254.254
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-043
+  server: 172.67.254.191
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-044
+  server: 172.67.255.2
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
 - name: 🇺🇸-US-045
   server: 172.67.254.180
   port: 80
@@ -770,182 +785,25 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt5.ir
-- name: 🇨🇳-TW-001
-  server: c11.twtc.dynu.net
-  port: 16711
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  udp: true
-- name: 🇨🇳-TW-002
-  server: c12.twtc.dynu.net
-  port: 14431
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇳-TW-003
-  server: b23.ntbq.dynu.net
-  port: 5681
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇳-TW-004
-  server: nb24.ntbq.dynu.net
-  port: 3278
-  type: vmess
-  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇳-TW-005
-  server: ty12.twty.dynu.net
-  port: 18711
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
-  udp: true
-- name: 🇰🇷-KR-003
-  server: kr.colacloud.site
-  port: 20352
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 661e0f7d-8ea4-4104-aab5-ba486e8014aa
-  udp: true
 - name: 🇺🇸-US-047
-  server: us-n1.speedyyun.com
-  port: 25314
+  server: 172.64.34.191
+  port: 8080
   type: vmess
-  uuid: 7f390bba-5c10-4b48-8fce-5442b98eb8ea
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /victorias
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
     headers:
-      Host: us-n1.speedyyun.com
-  udp: true
-- name: 🇨🇳-TW-006
-  server: 188.253.6.35
-  port: 20009
-  type: vmess
-  uuid: 32d672b8-5141-48b0-bf21-bf33a5d80480
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: 🇺🇸-US-048
-  server: hkcft01.xqc.best
-  port: 443
-  type: vmess
-  uuid: 8c80cb0d-5ec1-48b5-bd6a-7bdc4d2e1d0a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: d2p3s81qynueox.cloudfront.net
-  network: ws
-  ws-opts:
-    path: /stream
-    headers:
-      Host: d2p3s81qynueox.cloudfront.net
-- name: 🇸🇬-SG-001
-  server: 103.172.116.79
-  port: 9044
-  type: ss
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
-- name: 🇸🇬-SG-002
-  server: 103.172.116.103
-  port: 9014
-  type: ss
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-- name: 🇺🇸-US-049
-  server: 172.67.169.158
-  port: 8080
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fr-01.cloudlion.me
-- name: 🇺🇸-US-050
-  server: fr-01.cloudlion.me
-  port: 8080
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fr-01.cloudlion.me
-- name: 🇨🇦-CA-001
-  server: 23.227.39.45
-  port: 8080
-  type: vmess
-  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-- name: 🇺🇸-US-051
-  server: fastly.com
+  server: 172.67.253.134
   port: 80
   type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇨🇳-TW-007
-  server: nb22.ntbq.dynu.net
-  port: 12002
-  type: vmess
-  uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸-US-052
-  server: cf.openxai.link
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
   cipher: auto
   tls: false
@@ -954,44 +812,51 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: eu3.openxai.link
-- name: 🇨🇦-CA-002
-  server: 23.227.39.23
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-049
+  server: 172.67.97.49
   port: 8080
   type: vmess
-  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-- name: 🇺🇸-US-053
-  server: jpcft01.xqc.best
-  port: 443
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-050
+  server: 172.67.241.103
+  port: 80
   type: vmess
-  uuid: 8c80cb0d-5ec1-48b5-bd6a-7bdc4d2e1d0a
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: d23c2wgg43roe6.cloudfront.net
   network: ws
   ws-opts:
-    path: /stream
+    path: /?ed=2048&Telegram🇨🇳
     headers:
-      Host: d23c2wgg43roe6.cloudfront.net
-- name: 🇸🇬-SG-003
-  server: 103.172.116.103
-  port: 9018
-  type: ss
-  cipher: aes-256-cfb
-  password: fG2artUmHfNT2cX7
-- name: 🇨🇷-CR-001
-  server: 190.93.246.243
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-051
+  server: 172.67.254.171
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: a.prapt5.ir
+- name: 🇫🇷-FR-001
+  server: 173.245.49.249
   port: 8080
   type: vmess
   uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
@@ -1004,7 +869,77 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     headers:
       Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: 🇳🇱-NL-004
+- name: 🇫🇷-FR-002
+  server: 173.245.49.132
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇫🇷-FR-003
+  server: 173.245.49.254
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇫🇷-FR-004
+  server: 173.245.49.137
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇫🇷-FR-005
+  server: 173.245.49.54
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇭🇰-HK-001
+  server: 199.15.76.35
+  port: 443
+  type: vmess
+  uuid: 0987ff95-91ef-40ef-b6cb-a44ac6b1990a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /0987ff95
+    headers:
+      Host: doxinjiapo.5201314.cfd
+- name: 🇳🇱-NL-002
   server: 188.114.98.127
   port: 8080
   type: vmess
@@ -1018,7 +953,21 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     headers:
       Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: 🇳🇱-NL-005
+- name: 🇳🇱-NL-003
+  server: 188.114.98.192
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇳🇱-NL-004
   server: 188.114.96.94
   port: 8080
   type: vmess
@@ -1032,8 +981,8 @@ proxies:
     path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: 🇺🇸-US-054
-  server: 173.245.59.131
+- name: 🇳🇱-NL-005
+  server: 188.114.96.155
   port: 8080
   type: vmess
   uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
@@ -1046,8 +995,36 @@ proxies:
     path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
-- name: 🇺🇸-US-055
-  server: 108.162.192.253
+- name: 🇳🇱-NL-006
+  server: 188.114.97.246
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇳🇱-NL-007
+  server: 188.114.97.138
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇳🇱-NL-008
+  server: 188.114.98.237
   port: 8080
   type: vmess
   uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
@@ -1060,7 +1037,175 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     headers:
       Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: 🇺🇸-US-056
+- name: 🇳🇱-NL-009
+  server: 188.114.96.111
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇳🇱-NL-010
+  server: 188.114.99.8
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇳🇱-NL-011
+  server: 188.114.99.90
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇳🇱-NL-012
+  server: 188.114.98.86
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇳🇱-NL-013
+  server: 188.114.97.166
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇳🇱-NL-014
+  server: 188.114.97.164
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇳🇱-NL-015
+  server: 188.114.97.31
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇳🇱-NL-016
+  server: 188.114.98.155
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇳🇱-NL-017
+  server: 188.114.99.140
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇳🇱-NL-018
+  server: 188.114.96.33
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-052
+  server: 172.64.128.180
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-053
+  server: 190.93.244.170
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇺🇸-US-054
   server: 190.93.244.1
   port: 8080
   type: vmess
@@ -1074,7 +1219,7 @@ proxies:
     path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
-- name: 🇺🇸-US-057
+- name: 🇺🇸-US-055
   server: 190.93.244.64
   port: 8080
   type: vmess
@@ -1088,8 +1233,22 @@ proxies:
     path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
-- name: 🇺🇸-US-058
-  server: 108.162.192.243
+- name: 🇺🇸-US-056
+  server: 173.245.58.206
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-057
+  server: 190.93.244.216
   port: 8080
   type: vmess
   uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
@@ -1102,12 +1261,20 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     headers:
       Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: 🇰🇷-KR-004
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+- name: 🇺🇸-US-058
+  server: 172.64.111.148
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
 - name: 🇺🇸-US-059
   server: 173.245.58.171
   port: 8080
@@ -1123,7 +1290,7 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: 🇺🇸-US-060
-  server: 173.245.58.155
+  server: 190.93.245.103
   port: 8080
   type: vmess
   uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
@@ -1137,7 +1304,156 @@ proxies:
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
 - name: 🇺🇸-US-061
-  server: 172.67.253.243
+  server: 173.245.58.10
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-062
+  server: 190.93.245.46
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-063
+  server: 190.93.245.109
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-064
+  server: us1.miaomiaowu-d.top
+  port: 61113
+  type: vmess
+  uuid: f51bf8b2-1891-3d86-89e2-2949e47c0f1d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-065
+  server: 173.245.58.187
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-066
+  server: 173.245.58.204
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇺🇸-US-067
+  server: 190.93.245.173
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇬🇧-GB-003
+  server: wxwctxxx.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇬🇧-GB-004
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇬🇧-GB-005
+  server: series-a2-me.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇬🇧-GB-006
+  server: jseyu.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇬🇧-GB-007
+  server: v1.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+- name: 🇬🇧-GB-008
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+- name: 🇬🇧-GB-009
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇺🇸-US-068
+  server: 172.67.241.133
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-069
+  server: 172.67.253.175
   port: 80
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -1150,17 +1466,560 @@ proxies:
     path: /?ed=2048
     headers:
       Host: my1.tooters.ir
-- name: 🇺🇸-US-062
-  server: 172.67.186.4
-  port: 8080
+- name: 🇺🇸-US-070
+  server: 172.67.253.71
+  port: 80
   type: vmess
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
+    path: /?ed=2048
     headers:
-      Host: nest-emily-healing-h.trycloudflare.com
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-071
+  server: 172.67.254.150
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-072
+  server: 172.67.254.3
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-073
+  server: 172.67.255.230
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇳🇱-NL-019
+  server: 188.114.96.11
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a.prapt5.ir
+- name: 🇨🇳-TW-001
+  server: nb22.ntbq.dynu.net
+  port: 12002
+  type: vmess
+  uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇳🇱-NL-020
+  server: mci--join.outline-vpn.cloud
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a.prapt5.ir
+- name: 🇰🇷-KR-001
+  server: 125.141.26.7
+  port: 2020
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-002
+  server: p080.panda001.net
+  port: 7818
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-003
+  server: 13.125.209.221
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-002
+  server: miracle.bilibili.ovh
+  port: 80
+  type: vmess
+  uuid: a6e1d100-dab4-445e-bb15-7e362f6c2f75
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: huawei.mil.kp
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
+- name: 🇺🇸-US-074
+  server: 172.67.84.5
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-075
+  server: 172.67.253.158
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-076
+  server: 172.67.241.89
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-077
+  server: 172.67.255.107
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-078
+  server: 172.67.255.167
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇺🇸-US-079
+  server: 172.67.255.16
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt5.ir
+- name: 🇨🇳-TW-002
+  server: c11.twtc.dynu.net
+  port: 16711
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  udp: true
+- name: 🇨🇳-TW-003
+  server: c12.twtc.dynu.net
+  port: 14431
+  type: vmess
+  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🇨🇳-TW-004
+  server: b23.ntbq.dynu.net
+  port: 5681
+  type: vmess
+  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🇨🇳-TW-005
+  server: nb24.ntbq.dynu.net
+  port: 3278
+  type: vmess
+  uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 🇨🇳-TW-006
+  server: ty12.twty.dynu.net
+  port: 18711
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e2d318b6-52f6-4339-ae4d-19ccf28e24c7
+  udp: true
+- name: 🇰🇷-KR-004
+  server: kr.colacloud.site
+  port: 20352
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 661e0f7d-8ea4-4104-aab5-ba486e8014aa
+  udp: true
+- name: 🇺🇸-US-080
+  server: us-n1.speedyyun.com
+  port: 25314
+  type: vmess
+  uuid: 7f390bba-5c10-4b48-8fce-5442b98eb8ea
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /victorias
+    headers:
+      Host: us-n1.speedyyun.com
+  udp: true
+- name: 🇨🇳-TW-007
+  server: 188.253.6.35
+  port: 20009
+  type: vmess
+  uuid: 32d672b8-5141-48b0-bf21-bf33a5d80480
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇺🇸-US-081
+  server: hkcft01.xqc.best
+  port: 443
+  type: vmess
+  uuid: 8c80cb0d-5ec1-48b5-bd6a-7bdc4d2e1d0a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: d2p3s81qynueox.cloudfront.net
+  network: ws
+  ws-opts:
+    path: /stream
+    headers:
+      Host: d2p3s81qynueox.cloudfront.net
+- name: 🇸🇬-SG-001
+  server: 103.172.116.103
+  port: 9060
+  type: ss
+  cipher: aes-256-cfb
+  password: ueLXVkvh4hckhErQ
+- name: 🇸🇬-SG-002
+  server: 103.172.116.103
+  port: 9056
+  type: ss
+  cipher: aes-256-cfb
+  password: rNBfNuuANFCAk7KB
+- name: 🇨🇷-CR-005
+  server: 190.93.247.133
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-082
+  server: 108.162.195.64
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-083
+  server: 172.64.88.15
+  port: 8080
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇺🇸-US-084
+  server: 108.162.192.253
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇺🇸-US-085
+  server: 172.67.65.91
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-086
+  server: 172.67.6.2
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇺🇸-US-087
+  server: 172.64.50.171
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-088
+  server: 172.64.50.30
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-089
+  server: 172.67.253.221
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+- name: 🇺🇸-US-090
+  server: 190.93.245.80
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-091
+  server: 172.64.130.12
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇬🇧-GB-010
+  server: java.ct.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇰🇷-KR-005
+  server: p227.panda004.net
+  port: 2020
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇺🇸-US-092
+  server: 190.93.245.100
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇺🇸-US-093
+  server: yhnsb3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: yhnsb3.shabijichang.com
+- name: 🇺🇸-US-094
+  server: 172.67.64.161
+  port: 8080
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+- name: 🇺🇸-US-095
+  server: 173.245.59.131
+  port: 8080
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇸🇬-SG-003
+  server: 103.172.116.103
+  port: 9018
+  type: ss
+  cipher: aes-256-cfb
+  password: fG2artUmHfNT2cX7
