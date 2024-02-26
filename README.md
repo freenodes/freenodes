@@ -47,7 +47,7 @@
 
 ## ⚙️ 配置文件（Clash Premium 核心）
 
-[https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml](https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml)
+[https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml](https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/ClashPremiumFree.yaml)
 
 ### 👀 Clashx Pro 使用效果
 
@@ -55,7 +55,7 @@
 
 ## 🔗 纯节点订阅地址：
 
-[https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml](https://cdn.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml)
+[https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml](https://fastly.jsdelivr.net/gh/freenodes/freenodes@main/clash.yaml)
 
 ## 📮 订阅地址一键转换：
 
