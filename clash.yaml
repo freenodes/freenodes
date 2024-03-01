@@ -1,4 +1,106 @@
 proxies:
+- name: 🇬🇧-GB-001
+  server: series-a2-mec.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇬🇧-GB-002
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+- name: 🇬🇧-GB-003
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇬🇧-GB-004
+  server: wxwctxxx.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: u17T3BvpYaaiuW2c
+- name: 🇵🇹-PT-001
+  server: 94.131.10.135
+  port: 2086
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇬🇷-GR-001
+  server: 94.131.8.32
+  port: 8080
+  type: vmess
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇺🇸-US-001
+  server: 172.64.150.65
+  port: 2095
+  type: vmess
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/qYZue4zaWS
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+- name: 🇺🇸-US-002
+  server: www.ywnouvbale.biz
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.ywnouvbale.biz
+- name: 🇺🇸-US-003
+  server: www.velvetmountain.shop
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.velvetmountain.shop
+- name: 🇬🇧-GB-005
+  server: java.ct.arvancode.eu.Org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇬🇧-GB-006
+  server: v1.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
 - name: 🇦🇪-AE-001
   server: 94.140.0.110
   port: 8880
@@ -13,239 +115,8 @@ proxies:
     path: /
     headers:
       Host: food.zhaal.ir
-- name: 🇲🇾-MY-001
-  server: 154.90.39.63
-  port: 45343
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇩🇪-DE-001
-  server: 165.22.16.248
-  port: 1080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PW1kppCGHiY9SSZh1VogXQ
-- name: 🇧🇷-BR-001
-  server: 152.67.41.90
-  port: 7703
-  type: ss
-  cipher: aes-256-gcm
-  password: 86379168-47dd-4fc3-a2d7-5183802487f6
-- name: 🇺🇸-US-001
-  server: for-irancell.outline-vpn.cloud
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-002
-  server: 172.67.253.134
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-003
-  server: 172.67.253.158
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
 - name: 🇺🇸-US-004
-  server: 172.67.253.190
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-005
-  server: 172.67.130.140
-  port: 2082
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: s1c.v2.v001sss.xyz
-- name: 🇺🇸-US-006
-  server: 172.67.253.239
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-007
-  server: 172.67.253.31
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-008
-  server: 172.67.253.243
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-009
-  server: 172.67.253.221
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-010
-  server: 172.67.253.71
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-011
-  server: 172.67.253.105
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-012
-  server: 172.67.253.194
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-013
-  server: 172.67.253.230
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: my1.tooters.ir
-- name: 🇺🇸-US-014
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: s1c.v2.v001sss.xyz
-- name: 🇳🇱-NL-001
-  server: 188.114.96.113
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-- name: 🇺🇸-US-015
-  server: www.ywnouvbale.biz
+  server: www.brightocean.lol
   port: 8080
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -257,8 +128,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.ywnouvbale.biz
-- name: 🇺🇸-US-016
+      Host: www.brightocean.lol
+- name: 🇺🇸-US-005
   server: 172.67.136.12
   port: 8080
   type: vmess
@@ -272,25 +143,11 @@ proxies:
     path: /
     headers:
       Host: www.ywnouvbale.biz
-- name: 🇺🇸-US-017
-  server: www.velvetmountain.shop
+- name: 🇺🇸-US-006
+  server: 172.67.188.193
   port: 8080
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-- name: 🇺🇸-US-018
-  server: 172.67.66.46
-  port: 8080
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   alterId: 0
   cipher: auto
   tls: false
@@ -299,38 +156,54 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: eu2.openxai.link
-- name: 🇵🇹-PT-001
-  server: 94.131.10.135
-  port: 8880
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-007
+  server: 172.67.131.246
+  port: 8080
   type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
-- name: 🇺🇸-US-019
-  server: fastly.com
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
+    path: /?ed=2048
     headers:
-      Host: nmsl.kp
-- name: 🇭🇰-HK-001
-  server: 212.192.12.231
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-008
+  server: 172.67.171.177
+  port: 8080
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-009
+  server: 172.64.68.208
+  port: 8080
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu3.openxai.link
+- name: 🇺🇸-US-010
+  server: lxcus.inekokkk.top
   port: 80
   type: vmess
-  uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4
+  uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b
   alterId: 0
   cipher: auto
   tls: false
@@ -338,35 +211,8 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇺🇸-US-020
-  server: www.coldstone.club
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: www.coldstone.club
-  network: ws
-  ws-opts:
-    path: /
     headers:
-      Host: www.coldstone.club
-- name: 🇬🇷-GR-001
-  server: 94.131.8.32
-  port: 8080
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 94.131.8.32
+      Host: lxcus.inekokkk.top
 - name: 🇵🇹-PT-002
   server: 94.131.10.135
   port: 2095
@@ -381,49 +227,52 @@ proxies:
     path: /vmess
     headers:
       Host: 94.131.10.135
-- name: 🇰🇷-KR-001
-  server: p227.panda004.net
-  port: 2020
+  udp: true
+- name: 🇫🇮-FI-001
+  server: 95.164.113.64
+  port: 7150
   type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇵🇹-PT-003
-  server: 94.131.10.135
-  port: 2086
+  cipher: chacha20-ietf-poly1305
+  password: btzmpL7aOs7YbcLS4In6YX
+  udp: true
+- name: 🇩🇪-DE-001
+  server: 95.164.89.225
+  port: 38153
   type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  uuid: 70a694c8-ba65-4d1d-942d-4fc489da1b5f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰-HK-001
+  server: 212.192.12.231
+  port: 80
+  type: vmess
+  uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇨🇿-CZ-001
+  server: 94.131.97.127
+  port: 80
+  type: vmess
+  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: cz2-vmess.sshmax.xyz
   network: ws
   ws-opts:
     path: /vmess
 - name: 🇬🇷-GR-002
-  server: 94.131.8.32
-  port: 2082
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇵🇹-PT-004
-  server: 94.131.10.135
-  port: 2082
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇬🇷-GR-003
   server: 94.131.8.32
   port: 80
   type: vmess
@@ -432,13 +281,63 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: internet.life.com.by
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇵🇹-PT-005
+- name: 🇨🇿-CZ-002
+  server: cz2-vmess.sshmax.xyz
+  port: 80
+  type: vmess
+  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: cz2-vmess.sshmax.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: cz2-vmess.sshmax.xyz
+- name: 🇬🇧-GB-007
+  server: java.ct.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇸🇬-SG-001
+  server: 13.250.104.109
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-002
+  server: 18.143.132.154
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-003
+  server: 47.129.47.132
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-001
+  server: 125.141.26.7
+  port: 2020
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-002
+  server: p227.panda004.net
+  port: 2020
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇵🇹-PT-003
   server: 94.131.10.135
-  port: 8080
+  port: 8880
   type: vmess
   uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
   alterId: 0
@@ -448,59 +347,13 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🇬🇷-GR-004
-  server: 94.131.8.32
-  port: 8880
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇬🇷-GR-005
-  server: 94.131.8.32
-  port: 2086
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇬🇷-GR-006
-  server: 94.131.8.32
-  port: 2095
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: internet.life.com.by
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇭🇰-HK-002
-  server: hkt.littleqqq.co
-  port: 20759
-  type: vmess
-  uuid: 4e5ea069-0462-4f84-9ffc-0272f7f2d09e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: hkt.littleqqq.co
-  udp: true
-- name: 🇰🇷-KR-002
+- name: 🇨🇳-TW-001
+  server: e001.panda003.net
+  port: 2003
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-003
   server: 185.214.103.156
   port: 34601
   type: vmess
@@ -523,50 +376,20 @@ proxies:
   password: 484cca6d-2e0e-4de7-ae7b-dce85c15b9ee
   udp: true
 - name: 🇯🇵-JP-002
-  server: jp.littleqqq.co
-  port: 62193
-  type: vmess
-  uuid: 4e5ea069-0462-4f84-9ffc-0272f7f2d09e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /live/UKPZrSI3K7dtNJmn
-    headers:
-      Host: www.tmall.com
-  udp: true
-- name: 🇯🇵-JP-003
   server: jp.doushimeng.com
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
   password: aa22e03b-981c-4577-b8d9-5677e4807cd9
   udp: true
-- name: 🇸🇬-SG-001
+- name: 🇸🇬-SG-004
   server: sg.colacloud.site
   port: 42752
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 484cca6d-2e0e-4de7-ae7b-dce85c15b9ee
   udp: true
-- name: 🇺🇸-US-021
-  server: us.littleqqq.co
-  port: 21859
-  type: vmess
-  uuid: 4e5ea069-0462-4f84-9ffc-0272f7f2d09e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /live/UKPZrSI3K7dtNJmn
-    headers:
-      Host: www.tmall.com
-  udp: true
-- name: 🇨🇳-TW-001
+- name: 🇨🇳-TW-002
   server: 188.253.6.35
   port: 20009
   type: vmess
@@ -579,17 +402,29 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: 🇫🇮-FI-001
-  server: 95.164.113.64
-  port: 7150
+- name: 🇸🇬-SG-005
+  server: 54.251.73.151
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: btzmpL7aOs7YbcLS4In6YX
-- name: 🇺🇸-US-022
-  server: www.brightocean.lol
-  port: 8080
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇷-GR-003
+  server: 94.131.8.32
+  port: 2082
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇺🇸-US-011
+  server: 172.67.130.140
+  port: 2082
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -598,12 +433,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.brightocean.lol
-- name: 🇺🇸-US-023
-  server: 172.67.171.177
+      Host: s1c.v2.v001sss.xyz
+- name: 🇺🇸-US-012
+  server: cf.openxai.link
   port: 8080
   type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
   alterId: 0
   cipher: auto
   tls: false
@@ -612,8 +447,8 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: eu3.openxai.link
-- name: 🇺🇸-US-024
+      Host: eu1.openxai.link
+- name: 🇺🇸-US-013
   server: sgcft01.xqc.best
   port: 443
   type: vmess
@@ -627,39 +462,13 @@ proxies:
     path: /stream
     headers:
       Host: d17d3pnxztlslv.cloudfront.net
-- name: 🇩🇪-DE-002
-  server: 95.164.89.225
-  port: 38153
-  type: vmess
-  uuid: 70a694c8-ba65-4d1d-942d-4fc489da1b5f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸-US-025
-  server: www.velvetmountain.xyz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.xyz
-- name: 🇰🇷-KR-003
+- name: 🇰🇷-KR-004
   server: p228.panda004.net
   port: 4319
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-004
+- name: 🇰🇷-KR-005
   server: 211.201.169.70
   port: 54345
   type: ss
