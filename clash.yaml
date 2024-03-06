@@ -1,31 +1,5 @@
 proxies:
-- name: 🇦🇹-AT-001
-  server: vienna.telegavpn.com
-  port: 61992
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: fb2gFHkmpdSaRHBqN9FMeE
 - name: 🇺🇸-US-001
-  server: 148.135.12.172
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.15986187.xyz
-- name: 🇦🇺-AU-001
-  server: 170.64.188.248
-  port: 61073
-  type: ss
-  cipher: aes-256-gcm
-  password: 3kgL53ljUrCdKoSH
-- name: 🇺🇸-US-002
   server: onea.flha.ru
   port: 2052
   type: vmess
@@ -39,39 +13,70 @@ proxies:
     path: /
     headers:
       Host: onea.flha.ru
+- name: 🇺🇸-US-002
+  server: 172.67.214.33
+  port: 2052
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
 - name: 🇺🇸-US-003
-  server: 172.67.130.140
-  port: 2082
+  server: cf.openxai.link
+  port: 8080
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: eu1.openxai.link
+  udp: true
+- name: 🇯🇵-JP-001
+  server: jp.doushimeng.com
+  port: 51653
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 855eaa3f-50a1-4505-97b5-5e7c28c3421a
+- name: 🇯🇵-JP-002
+  server: 13.231.125.247
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-001
+  server: p231.panda004.net
+  port: 4375
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-002
+  server: p234.panda004.net
+  port: 43396
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-003
+  server: 3.38.135.159
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇺🇸-US-004
-  server: 151.101.3.10
-  port: 80
+  server: de-01.cloudlion.me
+  port: 8080
   type: vmess
-  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: mihoyo.gov.kp
-- name: 🇺🇸-US-005
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   alterId: 0
   cipher: auto
   tls: false
@@ -80,7 +85,73 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: de-01.cloudlion.me
+- name: 🇳🇱-NL-001
+  server: 46.182.107.159
+  port: 41000
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.24443328.xyz
+- name: 🇺🇸-US-005
+  server: 38.38.165.101
+  port: 37000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.84056064.xyz
+- name: 🇯🇵-JP-003
+  server: jp.colacloud.site
+  port: 51310
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 72e834b0-7f30-4d02-9982-6b92d49d8eb2
+  udp: true
+- name: 🇨🇳-TW-001
+  server: 188.253.6.35
+  port: 20009
+  type: vmess
+  uuid: 6182cc69-6dae-4891-8826-2dbd69cda842
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇰🇷-KR-004
+  server: p110.panda001.net
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇩🇪-DE-001
+  server: ahcm.dyqufx.com
+  port: 54871
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 86e3471b-0b08-40b5-a297-2a54632757b9
+- name: 🇩🇪-DE-002
+  server: ahcm.dyqufx.com
+  port: 44507
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 86e3471b-0b08-40b5-a297-2a54632757b9
 - name: 🇦🇪-AE-001
   server: 94.140.0.110
   port: 8880
@@ -109,210 +180,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: eu2.openxai.link
-- name: 🇺🇸-US-007
-  server: 172.67.214.33
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
-- name: 🇺🇸-US-008
-  server: 108.186.238.7
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.20234339.xyz
-- name: 🇺🇸-US-009
-  server: 54.218.41.33
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-010
-  server: fastly.com
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇺🇸-US-011
-  server: 172.64.68.208
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu3.openxai.link
-- name: 🇨🇦-CA-001
-  server: 23.227.39.45
-  port: 8080
-  type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-- name: 🇹🇷-TR-001
-  server: 45.89.52.197
-  port: 32058
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Fgltbpm6cD9eHSFhKI6maC
-- name: 🇩🇪-DE-001
+- name: 🇩🇪-DE-003
   server: 80.92.204.106
   port: 9094
   type: ss
   cipher: aes-256-cfb
   password: rpgbNnU9rDDU4aWZ
-- name: 🇺🇸-US-012
-  server: 137.175.12.67
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.86052077.xyz
-- name: 🇺🇸-US-013
-  server: 172.111.57.194
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.88166954.xyz
-- name: 🇺🇸-US-014
-  server: 172.111.57.130
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.88268904.xyz
-- name: 🇭🇰-HK-001
-  server: hkt.littleqqq.co
-  port: 20759
-  type: vmess
-  uuid: 7e1c7e30-dcfd-4e2a-86b4-4abd92df6a20
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: hkt.littleqqq.co
-  udp: true
-- name: 🇯🇵-JP-001
-  server: jp.colacloud.site
-  port: 51310
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 72e834b0-7f30-4d02-9982-6b92d49d8eb2
-  udp: true
-- name: 🇯🇵-JP-002
-  server: jp.doushimeng.com
-  port: 51653
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: f8b90f8c-438c-4a1a-8288-a27b4bd721c9
-  udp: true
-- name: 🇨🇳-TW-001
-  server: 188.253.6.35
-  port: 20009
-  type: vmess
-  uuid: 6182cc69-6dae-4891-8826-2dbd69cda842
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇺🇸-US-015
-  server: us65.netfilx.live
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: us65.netfilx.live
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-- name: 🇰🇷-KR-001
+- name: 🇰🇷-KR-005
   server: 211.201.169.70
   port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-002
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇳🇱-NL-001
-  server: 188.114.96.113
-  port: 80
+- name: 🇺🇸-US-007
+  server: 172.67.130.140
+  port: 2082
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -321,4 +205,10 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: a.prapt4.ir
+      Host: s1c.v2.v001sss.xyz
+- name: 🇫🇷-FR-001
+  server: beecomf.xyz
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
