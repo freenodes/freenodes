@@ -1,9 +1,9 @@
 proxies:
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
+- name: 🇺🇸-US-001
+  server: cf.openxai.link
+  port: 8080
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   alterId: 0
   cipher: auto
   tls: false
@@ -12,26 +12,120 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: food.zhaal.ir
-- name: 🇳🇱-NL-001
-  server: 91.242.229.69
-  port: 2086
+      Host: eu2.openxai.link
+- name: 🇺🇸-US-002
+  server: 38.107.226.241
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇺🇸-US-003
+  server: 38.68.135.112
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 🇺🇸-US-004
+  server: yhnsb3.shabijichang.com
+  port: 80
   type: vmess
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: nl1.xv2ray.net
   network: ws
   ws-opts:
-    path: /vmess
-- name: 🇰🇿-KZ-001
-  server: kz.telegavpn.com
-  port: 35152
+    path: /
+    headers:
+      Host: yhnsb3.shabijichang.com
+- name: 🇺🇸-US-005
+  server: www.ywnouvbale.biz
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.ywnouvbale.biz
+- name: 🇺🇸-US-006
+  server: 172.67.66.46
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇺🇸-US-007
+  server: 172.67.214.33
+  port: 2052
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: 🇺🇸-US-008
+  server: de-01.cloudlion.me
+  port: 8080
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: de-01.cloudlion.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de-01.cloudlion.me
+- name: 🇺🇸-US-009
+  server: 142.202.48.103
+  port: 7307
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: qOdkOCfB1ayXOSoDZ98Ont
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇺🇸-US-010
+  server: 38.68.135.112
+  port: 5500
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 🇺🇸-US-011
+  server: 142.202.48.103
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇺🇸-US-012
+  server: 38.107.226.241
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇺🇸-US-013
+  server: 38.107.226.241
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
 - name: 🇨🇦-CA-001
   server: 23.227.39.12
   port: 8080
@@ -46,51 +140,22 @@ proxies:
     path: 1a855748-ec07-408a-a3a2-7e1099a30616-vm
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: 🇺🇸-US-001
-  server: www.ywnouvbale.biz
-  port: 8080
+- name: 🇳🇱-NL-001
+  server: 156.225.67.247
+  port: 41000
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  alterId: 64
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /path/153428133302
     headers:
-      Host: www.ywnouvbale.biz
-- name: 🇺🇸-US-002
-  server: 172.67.214.33
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
-- name: 🇺🇸-US-003
-  server: 151.101.3.10
-  port: 80
-  type: vmess
-  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: mihoyo.gov.kp
-  udp: true
-- name: 🇺🇸-US-004
-  server: 198.2.215.148
+      Host: www.31281448.xyz
+- name: 🇺🇸-US-014
+  server: 142.0.131.156
   port: 37000
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -102,8 +167,57 @@ proxies:
   ws-opts:
     path: /path/153428133302
     headers:
-      Host: www.88016387.xyz
-- name: 🇺🇸-US-005
+      Host: www.72594139.xyz
+- name: 🇺🇸-US-015
+  server: 38.14.100.218
+  port: 37000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.33799494.xyz
+- name: 🇺🇸-US-016
+  server: 198.2.215.105
+  port: 36000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.59977650.xyz
+- name: 🇺🇸-US-017
+  server: 198.2.219.252
+  port: 37000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.41912208.xyz
+- name: 🇯🇵-JP-001
+  server: jp.doushimeng.com
+  port: 51653
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b773d39b-daec-4a21-be69-88fb5d56c9c6
+  udp: true
+- name: 🇺🇸-US-018
   server: 151.101.193.57
   port: 80
   type: vmess
@@ -117,152 +231,21 @@ proxies:
     path: /aries?ed=2048
     headers:
       Host: nmsl.kp
-- name: 🇺🇸-US-006
-  server: us65.netfilx.live
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: us65.netfilx.live
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-- name: 🇺🇸-US-007
-  server: 142.202.48.103
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇺🇸-US-008
+- name: 🇺🇸-US-019
   server: 142.202.48.103
   port: 2376
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
-- name: 🇺🇸-US-009
-  server: 142.202.48.103
-  port: 7306
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 🇳🇱-NL-002
-  server: 188.114.96.113
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a.prapt4.ir
-- name: 🇰🇷-KR-001
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-002
-  server: p234.panda004.net
-  port: 43396
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇯🇵-JP-001
+- name: 🇯🇵-JP-002
   server: 18.179.45.200
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-010
-  server: www.nahck.site
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.nahck.site
-- name: 🇺🇸-US-011
-  server: 172.67.136.12
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.ywnouvbale.biz
-- name: 🇰🇿-KZ-002
-  server: 188.94.155.82
-  port: 35152
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZqKLm5vP1vIeOzKvh2ERzJ
-- name: 🇸🇬-SG-001
-  server: 13.213.70.216
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-012
-  server: 151.101.131.10
-  port: 80
-  type: vmess
-  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: mihoyo.gov.kp
-- name: 🇯🇵-JP-002
-  server: 54.150.241.170
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-013
-  server: 34.220.129.196
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-003
+- name: 🇰🇷-KR-001
   server: p236.panda004.net
   port: 39657
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-004
-  server: p231.panda004.net
-  port: 4375
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-005
-  server: 211.201.169.70
-  port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
