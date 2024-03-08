@@ -1,148 +1,5 @@
 proxies:
-- name: 🇬🇧-GB-001
-  server: v1.arvancode.eu.org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: mps3FwmDjLrWaOVg
 - name: 🇺🇸-US-001
-  server: cf.openxai.link
-  port: 8080
-  type: vmess
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu1.openxai.link
-- name: 🇺🇸-US-002
-  server: 172.67.214.33
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
-- name: 🇺🇸-US-003
-  server: onea.flha.ru
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
-- name: 🇬🇧-GB-002
-  server: 35.176.11.2
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: u17T3BvpYaaiuW2c
-- name: 🇺🇸-US-004
-  server: 172.67.66.46
-  port: 8080
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu2.openxai.link
-- name: 🇺🇸-US-005
-  server: 172.67.143.192
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.shop
-- name: 🇺🇸-US-006
-  server: 38.14.120.229
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.65825524.xyz
-- name: 🇷🇺-RU-001
-  server: ru1-vmess.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: ru1-vmess.sshmax.xyz
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ru1-vmess.sshmax.xyz
-- name: 🇬🇧-GB-003
-  server: java.ct.arvancode.eu.org
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 🇰🇷-KR-001
-  server: p236.panda004.net
-  port: 39657
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇸🇬-SG-001
-  server: 13.212.34.135
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-007
-  server: 137.175.8.151
-  port: 37000
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-    headers:
-      Host: www.70672263.xyz
-- name: 🇺🇸-US-008
   server: 38.14.107.236
   port: 38100
   type: vmess
@@ -156,35 +13,26 @@ proxies:
     path: /path/153428133302
     headers:
       Host: www.23179753.xyz
-- name: 🇺🇸-US-009
-  server: 172.67.180.248
-  port: 8080
+- name: 🇺🇸-US-002
+  server: 137.175.29.76
+  port: 38000
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /path/153428133302
     headers:
-      Host: www.nahck.site
-- name: 🇭🇰-HK-001
-  server: hkt.littleqqq.co
-  port: 20759
-  type: vmess
-  uuid: 2241ba19-f6f8-4e8b-b9df-cf43b26cfa63
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: hkt.littleqqq.co
-  udp: true
+      Host: www.46074906.xyz
+- name: 🇰🇷-KR-001
+  server: p235.panda004.net
+  port: 10221
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - name: 🇯🇵-JP-001
   server: jp.colacloud.site
   port: 51310
@@ -206,7 +54,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 515836e8-100a-4839-894e-410e1b68e6a1
   udp: true
-- name: 🇸🇬-SG-002
+- name: 🇸🇬-SG-001
   server: sg.colacloud.site
   port: 42752
   type: ss
@@ -226,40 +74,54 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: 🇸🇬-SG-003
-  server: 13.213.70.216
+- name: 🇬🇧-GB-001
+  server: 3.9.226.202
   port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-003
-  server: 54.150.241.170
-  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: Bog0ELmMM9DSxDdQ
+- name: 🇺🇸-US-003
+  server: 138.124.184.209
+  port: 32955
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇳🇱-NL-001
-  server: 188.114.96.113
-  port: 80
+  cipher: chacha20-ietf-poly1305
+  password: s2S9dyaGAPRY0N3LYz838G
+- name: 🇺🇸-US-004
+  server: asdad.cxzntq.tech
+  port: 2052
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /apopop
     headers:
-      Host: a.prapt4.ir
-- name: 🇬🇧-GB-004
-  server: series-a1.samanehha.co
+      Host: dibanqd.cxzntq.tech
+- name: 🇬🇧-GB-002
+  server: 18.175.22.0
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: 🇺🇸-US-010
-  server: fastly.com
+- name: 🇺🇸-US-005
+  server: 172.67.66.46
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇺🇸-US-006
+  server: 151.101.193.57
   port: 80
   type: vmess
   uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
@@ -272,43 +134,12 @@ proxies:
     path: /aries?ed=2048
     headers:
       Host: nmsl.kp
-- name: 🇷🇺-RU-002
-  server: 103.113.68.233
-  port: 80
-  type: vmess
-  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: 103.113.68.233
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇯🇵-JP-004
+- name: 🇯🇵-JP-003
   server: 43.207.66.15
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-003
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-004
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇬🇧-GB-005
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: mps3FwmDjLrWaOVg
 - name: 🇦🇪-AE-001
   server: 94.140.0.110
   port: 8880
@@ -323,3 +154,9 @@ proxies:
     path: /
     headers:
       Host: food.zhaal.ir
+- name: 🇰🇷-KR-003
+  server: p233.panda004.net
+  port: 52813
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
