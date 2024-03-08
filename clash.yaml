@@ -1,47 +1,5 @@
 proxies:
 - name: 🇺🇸-US-001
-  server: us65.netfilx.live
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-- name: 🇺🇸-US-002
-  server: 151.101.3.10
-  port: 80
-  type: vmess
-  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: mihoyo.gov.kp
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: food.zhaal.ir
-- name: 🇺🇸-US-003
   server: 172.67.143.192
   port: 8080
   type: vmess
@@ -55,7 +13,21 @@ proxies:
     path: /
     headers:
       Host: www.velvetmountain.shop
-- name: 🇺🇸-US-004
+- name: 🇺🇸-US-002
+  server: onea.flha.ru
+  port: 2052
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: 🇺🇸-US-003
   server: 172.67.214.33
   port: 2052
   type: vmess
@@ -69,13 +41,20 @@ proxies:
     path: /
     headers:
       Host: onea.flha.ru
-- name: 🇩🇪-DE-001
-  server: 94.131.111.32
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: NGQzMzQz
-  udp: true
+- name: 🇺🇸-US-004
+  server: 38.14.120.229
+  port: 37000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+    headers:
+      Host: www.65825524.xyz
 - name: 🇯🇵-JP-001
   server: 43.207.66.15
   port: 443
@@ -94,15 +73,9 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇸🇬-SG-001
-  server: 13.212.34.135
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇺🇸-US-005
-  server: 137.175.26.18
-  port: 36000
+  server: 137.175.8.151
+  port: 37000
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
@@ -113,56 +86,15 @@ proxies:
   ws-opts:
     path: /path/153428133302
     headers:
-      Host: www.70173865.xyz
-- name: 🇺🇸-US-006
-  server: www.velvetmountain.xyz
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.velvetmountain.xyz
+      Host: www.70672263.xyz
 - name: 🇯🇵-JP-002
-  server: jp.colacloud.site
-  port: 51310
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9a8f7197-1ca1-4fee-a729-70bccced70f2
-  udp: true
-- name: 🇯🇵-JP-003
   server: jp.doushimeng.com
   port: 51653
   type: ss
   cipher: chacha20-ietf-poly1305
   password: b7fd2801-e244-4332-ac58-e72998233f69
   udp: true
-- name: 🇸🇬-SG-002
-  server: sg.colacloud.site
-  port: 42752
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9a8f7197-1ca1-4fee-a729-70bccced70f2
-  udp: true
-- name: 🇨🇳-TW-001
-  server: 188.253.6.35
-  port: 20009
-  type: vmess
-  uuid: 9beb2521-a7a7-4811-8b58-76b1b33310cf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇺🇸-US-007
+- name: 🇺🇸-US-006
   server: apphot.cc
   port: 443
   type: vmess
@@ -177,66 +109,24 @@ proxies:
     path: /speedtest
     headers:
       Host: Dallas.realityforus.com
-- name: 🇸🇬-SG-003
+- name: 🇰🇷-KR-003
+  server: p110.panda001.net
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-004
+  server: 211.201.169.70
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬-SG-001
   server: 13.213.70.216
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-004
-  server: 18.179.45.200
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-008
-  server: 172.67.130.140
-  port: 2082
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: s1c.v2.v001sss.xyz
-- name: 🇺🇸-US-009
-  server: 172.67.66.46
-  port: 8080
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu2.openxai.link
-- name: 🇺🇸-US-010
-  server: 151.101.193.57
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇰🇷-KR-003
-  server: p236.panda004.net
-  port: 39657
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
 - name: 🇳🇱-NL-001
   server: 188.114.96.113
   port: 80
@@ -251,36 +141,49 @@ proxies:
     path: /
     headers:
       Host: a.prapt4.ir
-- name: 🇯🇵-JP-005
-  server: 13.231.125.247
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-011
-  server: fastly.com
-  port: 80
+- name: 🇺🇸-US-007
+  server: asdad.cxzntq.tech
+  port: 2052
   type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /aries?ed=2048
+    path: /apopop
     headers:
-      Host: nmsl.kp
-  udp: true
-- name: 🇰🇷-KR-004
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+      Host: dibanqd.cxzntq.tech
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
 - name: 🇰🇷-KR-005
-  server: 211.201.169.70
-  port: 54345
+  server: p236.panda004.net
+  port: 39657
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
+- name: 🇸🇬-SG-002
+  server: 13.212.34.135
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-003
+  server: 13.231.125.247
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
