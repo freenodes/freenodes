@@ -1,36 +1,47 @@
 proxies:
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: food.zhaal.ir
-- name: 🇫🇷-FR-001
-  server: 146.59.102.109
-  port: 35230
+- name: 🇨🇦-CA-001
+  server: 134.195.196.128
+  port: 8090
   type: ss
   cipher: aes-256-gcm
-  password: lSreYGyaPfCsJQWf
-- name: 🇩🇪-DE-001
-  server: 80.71.157.105
-  port: 80
+  password: PCnnH6SQSnfoS27
+- name: 🇹🇷-TR-001
+  server: 194.87.39.195
+  port: 23977
   type: vmess
-  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  uuid: a0951a3d-5dab-4a89-f7ee-da2c0d9b2d00
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
+- name: 🇧🇷-BR-001
+  server: 78.111.102.232
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇨🇦-CA-002
+  server: 134.122.41.160
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
 - name: 🇰🇿-KZ-001
   server: 45.82.31.164
   port: 3389
@@ -48,71 +59,67 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇧🇷-BR-001
-  server: 78.111.102.232
-  port: 3389
+  udp: true
+- name: 🇸🇪-SE-001
+  server: 65.20.113.203
+  port: 80
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - internet.life.com.by
-- name: 🇺🇸-US-001
-  server: 172.67.214.33
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /Nbs2DSTSkFW6MrrFQHeSDQ7
     headers:
-      Host: onea.flha.ru
-- name: 🇨🇦-CA-001
-  server: 134.122.41.160
-  port: 3389
+      Host: internet.life.com.by
+  udp: true
+- name: 🇺🇸-US-001
+  server: 172.67.177.106
+  port: 2082
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /?ed=2048
     headers:
-      Host:
-      - internet.life.com.by
+      Host: freezhang.sanfen002.top
+  udp: true
+- name: 🇩🇪-DE-001
+  server: 80.71.157.105
+  port: 80
+  type: vmess
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
+  udp: true
 - name: 🇩🇪-DE-002
-  server: 31.172.83.109
-  port: 37153
+  server: 194.87.71.23
+  port: 23742
   type: vmess
-  uuid: e1d38117-d0c0-4934-b124-2c671836d4ae
+  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /wp-admin
     headers:
-      Host:
-      - internet.life.com.by
+      Host: 194.87.71.23
+  udp: true
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -130,7 +137,8 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇫🇷-FR-002
+  udp: true
+- name: 🇫🇷-FR-001
   server: 51.159.155.52
   port: 3389
   type: vmess
@@ -147,43 +155,28 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇨🇦-CA-002
-  server: 134.195.196.128
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇬🇧-GB-001
-  server: 51.140.62.211
-  port: 49476
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: nuOFdvcnqeTQ81ybijCZZp
-- name: 🇷🇺-RU-001
-  server: 45.144.2.113
+  udp: true
+- name: 🇺🇸-US-002
+  server: fastly.com
   port: 80
   type: vmess
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: 45.144.2.113
   network: ws
   ws-opts:
-    path: /
-- name: 🇰🇷-KR-001
-  server: 43.203.123.146
-  port: 443
+    path: /aries?ed=2048
+    headers:
+      Host: nmsl.kp
+  udp: true
+- name: 🇫🇷-FR-002
+  server: 146.59.102.109
+  port: 35230
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-002
-  server: p235.panda004.net
-  port: 10221
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+  cipher: aes-256-gcm
+  password: lSreYGyaPfCsJQWf
 - name: 🇸🇬-SG-001
   server: 146.190.94.116
   port: 25378
@@ -198,29 +191,36 @@ proxies:
     path: /
     headers:
       Host: 146.190.94.116
-- name: 🇭🇰-HK-001
-  server: annie50.ceoiii.com
-  port: 36801
+- name: 🇺🇸-US-003
+  server: cf.openxai.link
+  port: 8080
   type: vmess
-  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /?ed=2048
     headers:
-      Host: annie50.ceoiii.com
-- name: 🇬🇧-GB-002
-  server: 51.140.73.49
-  port: 5329
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7BFavg0cDvSQVfGLyEw8L6
-- name: 🇺🇸-US-002
-  server: 38.14.107.240
-  port: 38100
+      Host: eu1.openxai.link
+- name: 🇳🇱-NL-001
+  server: 156.249.18.101
+  port: 41000
+  type: vmess
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.39803953.xyz
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+- name: 🇺🇸-US-004
+  server: 38.14.107.241
+  port: 38001
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
@@ -231,91 +231,52 @@ proxies:
   network: ws
   ws-opts:
     path: /path/153428133302
-- name: 🇰🇷-KR-003
-  server: p110.panda001.net
-  port: 54345
+- name: 🇰🇷-KR-001
+  server: p235.panda004.net
+  port: 10221
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-004
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-003
-  server: cloudflare.b4a-devs.org
-  port: 2083
-  type: vmess
-  uuid: 0a40bceb-6a30-4da2-b90b-2ae5ed018e98
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: cloudflare.b4a-devs.org
-  network: ws
-  ws-opts:
-    path: /cloudflare
-    headers:
-      Host: cloudflare.b4a-devs.org
-- name: 🇨🇦-CA-003
-  server: 23.227.38.23
+- name: 🇺🇸-US-005
+  server: 172.67.166.194
   port: 8080
   type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    path: /
     headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: 🇭🇰-HK-002
-  server: 20.255.223.60
-  port: 36801
-  type: vmess
-  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: annie50.ceoiii.com
-- name: 🇻🇳-VN-001
-  server: 103.252.94.224
+      Host: www.coldstone.club
+- name: 🇺🇸-US-006
+  server: us65.netfilx.live
   port: 80
   type: vmess
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: bs2.loadingip.com
+  servername: us65.netfilx.live
   network: ws
   ws-opts:
-    path: /bs
-- name: 🇰🇷-KR-005
-  server: p236.panda004.net
-  port: 39657
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-004
-  server: yh3.freeh1.xyz
-  port: 8080
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    path: /
     headers:
-      Host: nest-emily-healing-h.trycloudflare.com
+      Host: us65.netfilx.live
+- name: 🇺🇸-US-007
+  server: 151.101.193.57
+  port: 80
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: nmsl.kp
