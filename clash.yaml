@@ -1,47 +1,103 @@
 proxies:
+- name: 🇪🇪-EE-001
+  server: 5.181.23.58
+  port: 80
+  type: vmess
+  uuid: 6eff4314-ad4c-4ebc-b1d0-d3b79656f43d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: internet.life.com.by
+  network: ws
+  ws-opts:
+    path: /vmess
+- name: 🇩🇪-DE-001
+  server: 80.71.157.105
+  port: 80
+  type: vmess
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
 - name: 🇨🇦-CA-001
-  server: 134.195.196.128
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 🇹🇷-TR-001
-  server: 194.87.39.195
-  port: 23977
+  server: 23.227.39.24
+  port: 8080
   type: vmess
-  uuid: a0951a3d-5dab-4a89-f7ee-da2c0d9b2d00
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇧🇷-BR-001
-  server: 78.111.102.232
-  port: 3389
+  network: ws
+  ws-opts:
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+- name: 🇺🇸-US-001
+  server: 172.67.130.140
+  port: 2082
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: s1c.v2.v001sss.xyz
+- name: 🇺🇸-US-002
+  server: 172.64.161.60
+  port: 2052
+  type: vmess
+  uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/QXjZG5u4F2
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
+  udp: true
 - name: 🇨🇦-CA-002
-  server: 134.122.41.160
-  port: 3389
+  server: 23.227.38.23
+  port: 8080
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+  udp: true
 - name: 🇰🇿-KZ-001
   server: 45.82.31.164
   port: 3389
@@ -60,22 +116,57 @@ proxies:
       Host:
       - internet.life.com.by
   udp: true
-- name: 🇸🇪-SE-001
-  server: 65.20.113.203
-  port: 80
+- name: 🇧🇷-BR-001
+  server: 78.111.102.232
+  port: 3389
   type: vmess
-  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /Nbs2DSTSkFW6MrrFQHeSDQ7
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: internet.life.com.by
+      Host:
+      - internet.life.com.by
   udp: true
-- name: 🇺🇸-US-001
+- name: 🇨🇦-CA-003
+  server: 134.122.41.160
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - internet.life.com.by
+  udp: true
+- name: 🇺🇸-US-003
+  server: clean2.freelines.net
+  port: 443
+  type: vmess
+  uuid: 01a7ed92-3ff7-4872-84a8-fcb4757783c7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: rsfrndc.cpionline.co
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fY8WXbLpF7tOInMZQZNim
+  udp: true
+- name: 🇺🇸-US-004
   server: 172.67.177.106
   port: 2082
   type: vmess
@@ -89,36 +180,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: freezhang.sanfen002.top
-  udp: true
-- name: 🇩🇪-DE-001
-  server: 80.71.157.105
-  port: 80
-  type: vmess
-  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
-  udp: true
-- name: 🇩🇪-DE-002
-  server: 194.87.71.23
-  port: 23742
-  type: vmess
-  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wp-admin
-    headers:
-      Host: 194.87.71.23
   udp: true
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
@@ -138,6 +199,166 @@ proxies:
       Host:
       - internet.life.com.by
   udp: true
+- name: 🇰🇷-KR-001
+  server: 130.162.151.122
+  port: 32454
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-2.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-002
+  server: 130.162.151.122
+  port: 52406
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: data-hk-2.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-2.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-003
+  server: 64.110.78.246
+  port: 21205
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-2.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-004
+  server: 64.110.65.177
+  port: 25856
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-1.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-1.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-005
+  server: 64.110.65.177
+  port: 25857
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: data-hk-3.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-3.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-006
+  server: 130.162.151.122
+  port: 32453
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-2.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-007
+  server: 130.162.151.122
+  port: 52405
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-1.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-1.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-008
+  server: 64.110.78.246
+  port: 45703
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: data-hk-1.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-1.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-009
+  server: 64.110.78.246
+  port: 21203
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: data-hk-3.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-3.cn-db.top
+  udp: true
+- name: 🇰🇷-KR-010
+  server: 130.162.151.122
+  port: 52407
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cache-hk-1.cn-db.top
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-1.cn-db.top
+  udp: true
 - name: 🇫🇷-FR-001
   server: 51.159.155.52
   port: 3389
@@ -156,7 +377,7 @@ proxies:
       Host:
       - internet.life.com.by
   udp: true
-- name: 🇺🇸-US-002
+- name: 🇺🇸-US-005
   server: fastly.com
   port: 80
   type: vmess
@@ -177,96 +398,7 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: lSreYGyaPfCsJQWf
-- name: 🇸🇬-SG-001
-  server: 146.190.94.116
-  port: 25378
-  type: vmess
-  uuid: d17fc7a7-4f1a-46be-a2fa-4e9ac4a0d407
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 146.190.94.116
-- name: 🇺🇸-US-003
-  server: cf.openxai.link
-  port: 8080
-  type: vmess
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu1.openxai.link
-- name: 🇳🇱-NL-001
-  server: 156.249.18.101
-  port: 41000
-  type: vmess
-  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: www.39803953.xyz
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-- name: 🇺🇸-US-004
-  server: 38.14.107.241
-  port: 38001
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: www.23179753.xyz
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-- name: 🇰🇷-KR-001
-  server: p235.panda004.net
-  port: 10221
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-005
-  server: 172.67.166.194
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.coldstone.club
 - name: 🇺🇸-US-006
-  server: us65.netfilx.live
-  port: 80
-  type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: us65.netfilx.live
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us65.netfilx.live
-- name: 🇺🇸-US-007
   server: 151.101.193.57
   port: 80
   type: vmess
@@ -280,3 +412,99 @@ proxies:
     path: /aries?ed=2048
     headers:
       Host: nmsl.kp
+- name: 🇭🇰-HK-001
+  server: 42.2.115.231
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: ''
+    path: ''
+    tls: false
+    mux: true
+    skip-cert-verify: false
+- name: 🇭🇰-HK-002
+  server: 47.76.185.99
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: ''
+    path: ''
+    tls: false
+    mux: true
+    skip-cert-verify: false
+- name: 🇰🇷-KR-011
+  server: p231.panda004.net
+  port: 4375
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇺🇸-US-007
+  server: 172.67.166.194
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.coldstone.club
+- name: 🇺🇸-US-008
+  server: russia.com
+  port: 2095
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+- name: 🇺🇸-US-009
+  server: 172.67.66.46
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇺🇸-US-010
+  server: cf.openxai.link
+  port: 8080
+  type: vmess
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu1.openxai.link
+- name: 🇩🇪-DE-002
+  server: e001.panda003.net
+  port: 2003
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
