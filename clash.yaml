@@ -1,46 +1,89 @@
 proxies:
-- name: 🇪🇪-EE-001
-  server: 5.181.23.58
+- name: 🇯🇵-JP-001
+  server: fastly.alipay.ovh
   port: 80
   type: vmess
-  uuid: 6eff4314-ad4c-4ebc-b1d0-d3b79656f43d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: internet.life.com.by
-  network: ws
-  ws-opts:
-    path: /vmess
-- name: 🇩🇪-DE-001
-  server: 80.71.157.105
-  port: 80
-  type: vmess
-  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /aries?ed=2048
     headers:
-      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
-- name: 🇨🇦-CA-001
-  server: 23.227.39.24
+      Host: nmsl.kp
+- name: 🇺🇸-US-001
+  server: 172.67.177.106
+  port: 2082
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: freezhang.sanfen002.top
+- name: 🇺🇸-US-002
+  server: 172.67.66.46
   port: 8080
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    path: /?ed=2048
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-- name: 🇺🇸-US-001
+      Host: eu2.openxai.link
+- name: 🇺🇸-US-003
+  server: cf.openxai.link
+  port: 8080
+  type: vmess
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu1.openxai.link
+- name: 🇧🇷-BR-001
+  server: 78.111.102.232
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇨🇦-CA-001
+  server: 134.122.41.160
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇺🇸-US-004
   server: 172.67.130.140
   port: 2082
   type: vmess
@@ -54,50 +97,6 @@ proxies:
     path: /
     headers:
       Host: s1c.v2.v001sss.xyz
-- name: 🇺🇸-US-002
-  server: 172.64.161.60
-  port: 2052
-  type: vmess
-  uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /video/QXjZG5u4F2
-    headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: food.zhaal.ir
-  udp: true
-- name: 🇨🇦-CA-002
-  server: 23.227.38.23
-  port: 8080
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-  udp: true
 - name: 🇰🇿-KZ-001
   server: 45.82.31.164
   port: 3389
@@ -115,72 +114,20 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-  udp: true
-- name: 🇧🇷-BR-001
-  server: 78.111.102.232
-  port: 3389
+- name: 🇩🇪-DE-001
+  server: 80.71.157.105
+  port: 80
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - internet.life.com.by
-  udp: true
-- name: 🇨🇦-CA-003
-  server: 134.122.41.160
-  port: 3389
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - internet.life.com.by
-  udp: true
-- name: 🇺🇸-US-003
-  server: clean2.freelines.net
-  port: 443
-  type: vmess
-  uuid: 01a7ed92-3ff7-4872-84a8-fcb4757783c7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: rsfrndc.cpionline.co
-  network: grpc
-  grpc-opts:
-    grpc-service-name: fY8WXbLpF7tOInMZQZNim
-  udp: true
-- name: 🇺🇸-US-004
-  server: 172.67.177.106
-  port: 2082
-  type: vmess
-  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vmess
     headers:
-      Host: freezhang.sanfen002.top
-  udp: true
+      Host: نام.کانال.تلگرام.VPNHTTPInjectorfree
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -198,7 +145,6 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-  udp: true
 - name: 🇰🇷-KR-001
   server: 130.162.151.122
   port: 32454
@@ -208,13 +154,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-2.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-2.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-002
   server: 130.162.151.122
   port: 52406
@@ -224,13 +168,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: data-hk-2.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: data-hk-2.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-003
   server: 64.110.78.246
   port: 21205
@@ -240,13 +182,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-2.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-2.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-004
   server: 64.110.65.177
   port: 25856
@@ -256,13 +196,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-1.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-1.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-005
   server: 64.110.65.177
   port: 25857
@@ -272,13 +210,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: data-hk-3.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: data-hk-3.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-006
   server: 130.162.151.122
   port: 32453
@@ -288,13 +224,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-2.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-2.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-007
   server: 130.162.151.122
   port: 52405
@@ -304,13 +238,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-1.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-1.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-008
   server: 64.110.78.246
   port: 45703
@@ -320,13 +252,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: data-hk-1.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: data-hk-1.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-009
   server: 64.110.78.246
   port: 21203
@@ -336,13 +266,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: data-hk-3.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: data-hk-3.cn-db.top
-  udp: true
 - name: 🇰🇷-KR-010
   server: 130.162.151.122
   port: 52407
@@ -352,13 +280,11 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: cache-hk-1.cn-db.top
   network: ws
   ws-opts:
     path: /db00
     headers:
       Host: cache-hk-1.cn-db.top
-  udp: true
 - name: 🇫🇷-FR-001
   server: 51.159.155.52
   port: 3389
@@ -376,7 +302,6 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-  udp: true
 - name: 🇺🇸-US-005
   server: fastly.com
   port: 80
@@ -391,61 +316,115 @@ proxies:
     path: /aries?ed=2048
     headers:
       Host: nmsl.kp
-  udp: true
 - name: 🇫🇷-FR-002
   server: 146.59.102.109
   port: 35230
   type: ss
   cipher: aes-256-gcm
   password: lSreYGyaPfCsJQWf
-- name: 🇺🇸-US-006
-  server: 151.101.193.57
+- name: 🇰🇷-KR-011
+  server: p235.panda004.net
+  port: 10221
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-012
+  server: p110.panda001.net
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬-SG-001
+  server: 213.35.113.150
   port: 80
   type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇭🇰-HK-001
-  server: 42.2.115.231
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇭🇰-HK-002
-  server: 47.76.185.99
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇰🇷-KR-011
+    path: /
+- name: 🇰🇷-KR-013
   server: p231.panda004.net
   port: 4375
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
+- name: 🇭🇰-HK-001
+  server: hkt.littleqqq.co
+  port: 20759
+  type: vmess
+  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: hkt.littleqqq.co
+  udp: true
+- name: 🇭🇰-HK-002
+  server: 47.243.227.209
+  port: 62001
+  type: vmess
+  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+  udp: true
+- name: 🇯🇵-JP-002
+  server: jp.littleqqq.co
+  port: 62193
+  type: vmess
+  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
+- name: 🇺🇸-US-006
+  server: us.littleqqq.co
+  port: 21859
+  type: vmess
+  uuid: 11249ecc-7834-45bd-87a0-186b6b8d01be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
+- name: 🇨🇳-TW-001
+  server: 188.253.6.35
+  port: 20009
+  type: vmess
+  uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
 - name: 🇺🇸-US-007
   server: 172.67.166.194
   port: 8080
@@ -460,7 +439,63 @@ proxies:
     path: /
     headers:
       Host: www.coldstone.club
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
 - name: 🇺🇸-US-008
+  server: us65.netfilx.live
+  port: 80
+  type: vmess
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us65.netfilx.live
+- name: 🇺🇸-US-009
+  server: yh3.freeh1.xyz
+  port: 8080
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇨🇦-CA-002
+  server: 23.227.38.23
+  port: 8080
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 🇺🇸-US-010
   server: russia.com
   port: 2095
   type: vmess
@@ -474,37 +509,23 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: ssrsub.v03.ssrsub.com
-- name: 🇺🇸-US-009
-  server: 172.67.66.46
-  port: 8080
+- name: 🇻🇳-VN-001
+  server: free.mang5g.me
+  port: 80
   type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  uuid: 8a2a7b92-b65d-4155-91fc-7b7be52ca598
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /mang5g.me
     headers:
-      Host: eu2.openxai.link
-- name: 🇺🇸-US-010
-  server: cf.openxai.link
-  port: 8080
-  type: vmess
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu1.openxai.link
-- name: 🇩🇪-DE-002
-  server: e001.panda003.net
-  port: 2003
+      Host: free.mang5g.me
+- name: 🇰🇷-KR-014
+  server: 211.201.169.70
+  port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
