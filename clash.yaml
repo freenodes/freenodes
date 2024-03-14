@@ -1,62 +1,6 @@
 proxies:
-- name: 🇨🇦-CA-001
-  server: 23.227.38.22
-  port: 8080
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-- name: 🇨🇦-CA-002
-  server: 23.227.38.23
-  port: 8080
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: 🇺🇸-US-001
-  server: 172.67.177.106
-  port: 2082
-  type: vmess
-  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: freezhang.sanfen002.top
 - name: 🇧🇷-BR-001
   server: 78.111.102.232
-  port: 3389
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-- name: 🇨🇦-CA-003
-  server: 134.122.41.160
   port: 3389
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -83,9 +27,75 @@ proxies:
     method: GET
     path:
     - /
+- name: 🇨🇦-CA-001
+  server: 134.122.41.160
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - internet.life.com.by
+      Host: food.zhaal.ir
+- name: 🇺🇸-US-001
+  server: 172.67.214.33
+  port: 2052
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: 🇺🇸-US-002
+  server: clean2.freelines.net
+  port: 443
+  type: vmess
+  uuid: 01a7ed92-3ff7-4872-84a8-fcb4757783c7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: grpc
+  servername: rsfrndc.cpionline.co
+  grpc-opts:
+    grpc-service-name: fY8WXbLpF7tOInMZQZNim
+- name: 🇺🇸-US-003
+  server: 172.67.177.106
+  port: 2082
+  type: vmess
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: freezhang.sanfen002.top
 - name: 🇩🇪-DE-001
   server: 80.71.157.105
   port: 80
@@ -117,24 +127,21 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇫🇷-FR-001
-  server: 51.159.155.52
-  port: 3389
+- name: 🇺🇸-US-004
+  server: fastly.com
+  port: 80
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
     headers:
-      Host:
-      - internet.life.com.by
-- name: 🇺🇸-US-002
+      Host: nmsl.kp
+- name: 🇺🇸-US-005
   server: 38.14.107.242
   port: 38001
   type: vmess
@@ -148,175 +155,188 @@ proxies:
     path: /path/153428133302
     headers:
       Host: www.23179753.xyz
-- name: 🇫🇷-FR-002
+- name: 🇫🇷-FR-001
   server: 146.59.102.109
   port: 35230
   type: ss
   cipher: aes-256-gcm
   password: lSreYGyaPfCsJQWf
-- name: 🇰🇷-KR-001
-  server: p235.panda004.net
-  port: 10221
+- name: 🇺🇸-US-006
+  server: www.coldstone.club
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: www.coldstone.club
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.coldstone.club
+- name: 🇯🇵-JP-001
+  server: 154.47.20.240
+  port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-002
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇰🇷-KR-001
   server: 3.34.43.24
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-003
+- name: 🇰🇷-KR-002
   server: 54.180.143.252
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-003
-  server: sjc001.sfrae.net
-  port: 44213
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-004
-  server: sjc003.sfrae.net
-  port: 44215
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-005
-  server: sjc004.sfrae.net
-  port: 44216
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-006
-  server: sjc005.sfrae.net
-  port: 44217
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
+- name: 🇭🇰-HK-001
+  server: aliyunhk01.caliburnonline.work
+  port: 443
+  type: vmess
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /oscarspy
+    headers:
+      Host: aliyunhk01.caliburnonline.work
   udp: true
 - name: 🇺🇸-US-007
-  server: sjc006.sfrae.net
-  port: 44218
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-008
-  server: sjc006.sfrae.net
-  port: 44219
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-009
-  server: sjc006.sfrae.net
-  port: 44220
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-010
-  server: sjc006.sfrae.net
-  port: 44221
-  type: ss
-  cipher: aes-256-gcm
-  password: 4577b329-ade5-4c93-a704-2cd5996b1894
-  udp: true
-- name: 🇺🇸-US-011
-  server: sjc001.sfrae.net
-  port: 33441
+  server: wachk01.caliburnonline.work
+  port: 443
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /negotiate
+    path: /oscarspy
     headers:
-      Host: sjc001.sfrae.net
+      Host: wachk01.caliburnonline.work
   udp: true
-- name: 🇺🇸-US-012
-  server: sjc003.sfrae.net
-  port: 33443
+- name: 🇭🇰-HK-002
+  server: hkt.littleqqq.co
+  port: 20759
   type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /negotiate
-    headers:
-      Host: sjc003.sfrae.net
-  udp: true
-- name: 🇺🇸-US-013
-  server: sjc004.sfrae.net
-  port: 33444
-  type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /negotiate
-    headers:
-      Host: sjc004.sfrae.net
-  udp: true
-- name: 🇺🇸-US-014
-  server: sjc005.sfrae.net
-  port: 33445
-  type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /negotiate
-    headers:
-      Host: sjc005.sfrae.net
-  udp: true
-- name: 🇺🇸-US-015
-  server: sjc006.sfrae.net
-  port: 33446
-  type: vmess
-  uuid: 4577b329-ade5-4c93-a704-2cd5996b1894
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /negotiate
-    headers:
-      Host: sjc006.sfrae.net
-  udp: true
-- name: 🇯🇵-JP-001
-  server: fastly.alipay.ovh
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /aries?ed=2048
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: nmsl.kp
+      Host: hkt.littleqqq.co
+  udp: true
+- name: 🇯🇵-JP-002
+  server: jp.littleqqq.co
+  port: 62193
+  type: vmess
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
+- name: 🇺🇸-US-008
+  server: us.littleqqq.co
+  port: 21859
+  type: vmess
+  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /live/UKPZrSI3K7dtNJmn
+    headers:
+      Host: www.tmall.com
+  udp: true
+- name: 🇺🇸-US-009
+  server: sjc007.sfrae.net
+  port: 33447
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /negotiate
+    headers:
+      Host: sjc007.sfrae.net
+  udp: true
+- name: 🇺🇸-US-010
+  server: sjc008.sfrae.net
+  port: 33448
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /negotiate
+    headers:
+      Host: sjc008.sfrae.net
+  udp: true
+- name: 🇺🇸-US-011
+  server: sjc009.sfrae.net
+  port: 33449
+  type: vmess
+  uuid: 4a68304e-32e5-46ca-b298-52acb5c54f3b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /negotiate
+    headers:
+      Host: sjc009.sfrae.net
+  udp: true
+- name: 🇭🇰-HK-003
+  server: 8.217.147.230
+  port: 80
+  type: vmess
+  uuid: f898582b-33de-4bea-aee1-d83e9a369c7d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /mls.html
+    headers:
+      Host: 90104413082607.tw.chisi.link
+- name: 🇨🇭-CH-001
+  server: 94.131.99.8
+  port: 47182
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 - name: 🇻🇳-VN-001
   server: 103.252.94.224
   port: 80
@@ -330,42 +350,47 @@ proxies:
   network: ws
   ws-opts:
     path: /bs
-- name: 🇸🇪-SE-001
-  server: 121.127.46.147
-  port: 989
+- name: 🇰🇷-KR-003
+  server: p235.panda004.net
+  port: 10221
   type: ss
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: food.zhaal.ir
-- name: 🇺🇸-US-016
-  server: clean2.freelines.net
+  password: qwerREWQ@@
+- name: 🇺🇸-US-012
+  server: 74fan.com
   port: 443
   type: vmess
-  uuid: 01a7ed92-3ff7-4872-84a8-fcb4757783c7
+  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  network: grpc
-  servername: rsfrndc.cpionline.co
-  grpc-opts:
-    grpc-service-name: fY8WXbLpF7tOInMZQZNim
-- name: 🇩🇪-DE-002
-  server: 80.92.204.106
-  port: 9094
+  network: ws
+  ws-opts:
+    path: /D26xvdqUdCpvvPTz4R
+    headers:
+      Host: h110-fr.kxnn.eu.org
+- name: 🇬🇧-GB-001
+  server: v1.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+- name: 🇰🇷-KR-004
+  server: p110.panda001.net
+  port: 54345
   type: ss
   cipher: aes-256-cfb
-  password: rpgbNnU9rDDU4aWZ
+  password: qwerREWQ@@
+- name: 🇬🇧-GB-002
+  server: java.ct.arvancode.eu.org
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇰🇷-KR-005
+  server: 211.201.169.70
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
