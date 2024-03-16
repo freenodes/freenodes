@@ -1,4 +1,32 @@
 proxies:
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
+- name: 🇺🇸-US-001
+  server: 172.67.66.46
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
 - name: 🇨🇦-CA-001
   server: 134.122.41.160
   port: 3389
@@ -13,6 +41,18 @@ proxies:
     method: GET
     path:
     - /
+- name: 🇯🇵-JP-001
+  server: 183.181.36.194
+  port: 41597
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇰🇿-KZ-001
   server: 45.82.31.164
   port: 3389
@@ -47,25 +87,11 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇺🇸-US-001
-  server: onea.flha.ru
-  port: 2052
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
 - name: 🇺🇸-US-002
-  server: 172.67.214.33
-  port: 2052
+  server: 172.67.130.140
+  port: 2082
   type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -74,7 +100,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: onea.flha.ru
+      Host: s1c.v2.v001sss.xyz
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -92,20 +118,76 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇸🇬-SG-001
-  server: wap.appleid.bf
-  port: 443
+- name: 🇰🇷-KR-001
+  server: 130.162.151.122
+  port: 32454
   type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /CAT
+    path: /db00
     headers:
-      Host: wap.appleid.bf
+      Host: cache-hk-2.cn-db.top
+- name: 🇰🇷-KR-002
+  server: 64.110.78.246
+  port: 21205
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+- name: 🇰🇷-KR-003
+  server: 130.162.151.122
+  port: 32453
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-2.cn-db.top
+- name: 🇰🇷-KR-004
+  server: 64.110.78.246
+  port: 45703
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-1.cn-db.top
+- name: 🇰🇷-KR-005
+  server: 64.110.78.246
+  port: 21203
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-3.cn-db.top
 - name: 🇫🇷-FR-001
   server: 51.159.155.52
   port: 3389
@@ -129,53 +211,114 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: AX3dBHFCyWsryCOz7TtZJ6
-- name: 🇰🇷-KR-001
-  server: p231.panda004.net
-  port: 4375
+- name: 🇻🇳-VN-001
+  server: 103.252.94.224
+  port: 80
+  type: vmess
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: bs2.loadingip.com
+  network: ws
+  ws-opts:
+    path: /bs
+- name: 🇫🇷-FR-002
+  server: 146.59.102.109
+  port: 35230
   type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-002
+  cipher: aes-256-gcm
+  password: lSreYGyaPfCsJQWf
+- name: 🇰🇷-KR-006
   server: 3.34.43.24
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇩🇪-DE-001
-  server: 212.224.86.13
-  port: 29432
+- name: 🇺🇸-US-003
+  server: 108.181.23.161
+  port: 8080
   type: vmess
-  uuid: 150763ee-cbc1-452a-bdef-a32f0da6bd6b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-- name: 🇯🇵-JP-001
-  server: 52.195.237.89
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /1IKYjV0r/
     headers:
-      Host: food.zhaal.ir
-- name: 🇺🇸-US-003
+      Host: internet.life.com.by
+- name: 🇯🇵-JP-002
+  server: 52.195.237.89
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-003
+  server: 52.196.70.160
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-001
+  server: 01.appleid.bf
+  port: 443
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: gw.alicdn.com
+- name: 🇺🇸-US-004
+  server: yh3.freeh1.xyz
+  port: 8080
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+- name: 🇰🇷-KR-007
+  server: 64.110.65.177
+  port: 25856
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: cache-hk-1.cn-db.top
+- name: 🇰🇷-KR-008
+  server: 64.110.65.177
+  port: 25857
+  type: vmess
+  uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /db00
+    headers:
+      Host: data-hk-3.cn-db.top
+- name: 🇺🇸-US-005
   server: 172.67.204.78
   port: 8080
   type: vmess
@@ -189,30 +332,29 @@ proxies:
     path: /?ed=2048
     headers:
       Host: eu2.openxai.link
-- name: 🇸🇬-SG-002
-  server: 18.136.102.74
-  port: 443
+- name: 🇰🇷-KR-009
+  server: p231.panda004.net
+  port: 4375
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇫🇷-FR-002
-  server: 146.59.102.109
-  port: 35230
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-010
+  server: 222.112.15.141
+  port: 10221
   type: ss
-  cipher: aes-256-gcm
-  password: lSreYGyaPfCsJQWf
-- name: 🇺🇸-US-004
-  server: us65.netfilx.live
-  port: 80
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇦-CA-002
+  server: 23.227.38.23
+  port: 8080
   type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: us65.netfilx.live
   network: ws
   ws-opts:
-    path: /
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
     headers:
-      Host: us65.netfilx.live
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
