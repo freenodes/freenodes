@@ -1,18 +1,4 @@
 proxies:
-- name: 🇺🇸-US-001
-  server: cf.openxai.link
-  port: 8080
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu2.openxai.link
 - name: 🇨🇦-CA-001
   server: 134.122.41.160
   port: 3389
@@ -61,11 +47,11 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇺🇸-US-002
-  server: 172.67.130.140
-  port: 2082
+- name: 🇺🇸-US-001
+  server: onea.flha.ru
+  port: 2052
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
   alterId: 0
   cipher: auto
   tls: false
@@ -74,24 +60,21 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: s1c.v2.v001sss.xyz
-- name: 🇩🇪-DE-001
-  server: 31.172.83.109
-  port: 37153
+      Host: onea.flha.ru
+- name: 🇺🇸-US-002
+  server: 172.67.214.33
+  port: 2052
   type: vmess
-  uuid: e1d38117-d0c0-4934-b124-2c671836d4ae
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - internet.life.com.by
+      Host: onea.flha.ru
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -109,6 +92,20 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
+- name: 🇸🇬-SG-001
+  server: wap.appleid.bf
+  port: 443
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /CAT
+    headers:
+      Host: wap.appleid.bf
 - name: 🇫🇷-FR-001
   server: 51.159.155.52
   port: 3389
@@ -126,7 +123,85 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
+- name: 🇮🇪-IE-001
+  server: 52.169.6.50
+  port: 26396
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AX3dBHFCyWsryCOz7TtZJ6
+- name: 🇰🇷-KR-001
+  server: p231.panda004.net
+  port: 4375
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-002
+  server: 3.34.43.24
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇩🇪-DE-001
+  server: 212.224.86.13
+  port: 29432
+  type: vmess
+  uuid: 150763ee-cbc1-452a-bdef-a32f0da6bd6b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇯🇵-JP-001
+  server: 52.195.237.89
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
 - name: 🇺🇸-US-003
+  server: 172.67.204.78
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇸🇬-SG-002
+  server: 18.136.102.74
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇫🇷-FR-002
+  server: 146.59.102.109
+  port: 35230
+  type: ss
+  cipher: aes-256-gcm
+  password: lSreYGyaPfCsJQWf
+- name: 🇺🇸-US-004
   server: us65.netfilx.live
   port: 80
   type: vmess
@@ -135,150 +210,9 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: us65.netfilx.live
   network: ws
   ws-opts:
     path: /
     headers:
       Host: us65.netfilx.live
-  udp: true
-- name: 🇺🇸-US-004
-  server: www.coldstone.club
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: www.coldstone.club
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.coldstone.club
-- name: 🇰🇷-KR-001
-  server: p231.panda004.net
-  port: 4375
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-005
-  server: 108.181.23.161
-  port: 8080
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /1IKYjV0r/
-    headers:
-      Host: internet.life.com.by
-- name: 🇰🇷-KR-002
-  server: 3.34.43.24
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-001
-  server: 18.136.102.74
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-001
-  server: 52.195.237.89
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇳🇱-NL-001
-  server: 188.114.99.150
-  port: 443
-  type: vmess
-  uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: fi1.xv2ray.net
-- name: 🇯🇵-JP-002
-  server: 52.196.70.160
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-006
-  server: blog.clean100.ir
-  port: 443
-  type: vmess
-  uuid: 88a7e6c1-d4cc-412e-a584-e15e1b83fbcc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /M0BOgOW7W2xZntbQPuBi62
-    headers:
-      Host: blog.clean100.ir
-- name: 🇯🇵-JP-003
-  server: 02.appleid.bf
-  port: 443
-  type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 02.appleid.bf
-  network: ws
-  ws-opts:
-    path: /CAT
-    headers:
-      Host: 02.appleid.bf
-- name: 🇸🇬-SG-002
-  server: wap.appleid.bf
-  port: 443
-  type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: wap.appleid.bf
-  network: ws
-  ws-opts:
-    path: /CAT
-    headers:
-      Host: wap.appleid.bf
-- name: 🇮🇪-IE-001
-  server: 52.169.6.50
-  port: 26396
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AX3dBHFCyWsryCOz7TtZJ6
-- name: 🇰🇷-KR-003
-  server: p235.panda004.net
-  port: 10221
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-004
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇫🇷-FR-002
-  server: 146.59.102.109
-  port: 35230
-  type: ss
-  cipher: aes-256-gcm
-  password: lSreYGyaPfCsJQWf
