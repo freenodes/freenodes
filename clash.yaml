@@ -1,52 +1,18 @@
 proxies:
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: food.zhaal.ir
 - name: 🇺🇸-US-001
-  server: cf.openxai.link
-  port: 8080
+  server: 172.64.20.168
+  port: 2052
   type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /video/GQ2qE5Us9g
     headers:
-      Host: eu3.openxai.link
-- name: 🇺🇸-US-002
-  server: 151.101.193.57
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇮🇪-IE-001
-  server: 52.169.6.50
-  port: 26396
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AX3dBHFCyWsryCOz7TtZJ6
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
 - name: 🇨🇦-CA-001
   server: 134.122.41.160
   port: 3389
@@ -61,20 +27,6 @@ proxies:
     method: GET
     path:
     - /
-- name: 🇺🇸-US-003
-  server: yh3.freeh1.xyz
-  port: 8080
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      Host: larger-marketing-amounts-skin.trycloudflare.com
 - name: 🇰🇿-KZ-001
   server: 45.82.31.164
   port: 3389
@@ -92,20 +44,6 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇬🇷-GR-001
-  server: hk01.cao.gay
-  port: 443
-  type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: gw.alicdn.com
 - name: 🇧🇷-BR-001
   server: 78.111.102.232
   port: 3389
@@ -123,20 +61,6 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇺🇸-US-004
-  server: channel.hopev2ray.link
-  port: 443
-  type: vmess
-  uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: no1-vmess.sshmax.xyz
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -171,54 +95,137 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇺🇸-US-005
-  server: aws.appleid.bf
-  port: 443
+- name: 🇨🇦-CA-002
+  server: 23.227.39.24
+  port: 8080
   type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /CAT
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     headers:
-      Host: gw.alicdn.com
+      Host: per-essex-patterns-bowling.trycloudflare.com
+- name: 🇮🇪-IE-001
+  server: 52.169.6.50
+  port: 26396
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AX3dBHFCyWsryCOz7TtZJ6
 - name: 🇫🇷-FR-002
   server: 146.59.102.109
   port: 35230
   type: ss
   cipher: aes-256-gcm
   password: lSreYGyaPfCsJQWf
-- name: 🇨🇳-TW-001
-  server: tw.appleid.bf
-  port: 443
-  type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: gw.alicdn.com
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: tw.appleid.bf
-- name: 🇯🇵-JP-001
-  server: 13.113.90.205
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇸🇬-SG-001
   server: 18.142.56.221
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇺🇸-US-002
+  server: 198.2.216.198
+  port: 38001
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.32241271.xyz
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+- name: 🇰🇷-KR-001
+  server: p110.panda001.net
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇺🇸-US-003
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 45611
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇺🇸-US-004
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 10022
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇺🇸-US-005
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 28436
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
 - name: 🇺🇸-US-006
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 10065
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇺🇸-US-007
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 10016
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇺🇸-US-008
+  server: 172.67.166.192
+  port: 80
+  type: vmess
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ua1-vmess.sshmax.xyz
+- name: 🇵🇱-PL-001
+  server: 95.164.35.90
+  port: 1443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NDg2YWIz
+- name: 🇯🇵-JP-001
+  server: fastly.alipay.ovh
+  port: 80
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: nmsl.kp
+  udp: true
+- name: 🇺🇸-US-009
+  server: 151.101.131.10
+  port: 80
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: nmsl.kp
+- name: 🇺🇸-US-010
   server: 108.181.23.161
   port: 8080
   type: vmess
@@ -232,49 +239,18 @@ proxies:
     path: /1IKYjV0r/
     headers:
       Host: internet.life.com.by
-- name: 🇨🇦-CA-002
-  server: 23.227.38.22
-  port: 8080
+- name: 🇭🇰-HK-001
+  server: 119.8.62.199
+  port: 13080
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: b3bb2518-1435-48e5-b01a-4f9f628baaf1
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
+  servername: hk.pdda.me
   network: ws
   ws-opts:
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    path: /pdd?ed=2048
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-- name: 🇺🇸-US-007
-  server: fastly.com
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇯🇵-JP-002
-  server: 54.238.10.235
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-001
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-002
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+      Host: hk.pdda.me
