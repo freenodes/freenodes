@@ -1,20 +1,26 @@
 proxies:
-- name: 🇺🇸-US-001
-  server: 172.64.20.168
-  port: 2052
+- name: 🇯🇵-JP-001
+  server: fastly.alipay.ovh
+  port: 80
   type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /video/GQ2qE5Us9g
+    path: /aries?ed=2048
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-- name: 🇨🇦-CA-001
-  server: 134.122.41.160
+      Host: nmsl.kp
+- name: 🇮🇪-IE-001
+  server: 52.169.6.50
+  port: 26396
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AX3dBHFCyWsryCOz7TtZJ6
+- name: 🇧🇷-BR-001
+  server: 78.111.102.232
   port: 3389
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -41,11 +47,8 @@ proxies:
     method: GET
     path:
     - /
-    headers:
-      Host:
-      - internet.life.com.by
-- name: 🇧🇷-BR-001
-  server: 78.111.102.232
+- name: 🇨🇦-CA-001
+  server: 134.122.41.160
   port: 3389
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -58,9 +61,102 @@ proxies:
     method: GET
     path:
     - /
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - internet.life.com.by
+      Host: food.zhaal.ir
+- name: 🇫🇷-FR-001
+  server: 51.159.155.52
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇺🇸-US-001
+  server: fastly.com
+  port: 80
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: nmsl.kp
+- name: 🇺🇸-US-002
+  server: 38.14.107.246
+  port: 38001
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.23179753.xyz
+  network: ws
+  ws-opts:
+    path: /path/153428133302
+- name: 🇺🇸-US-003
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 19563
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇺🇸-US-004
+  server: uhisfgy78eu.cfprefer1.xyz
+  port: 14149
+  type: ss
+  cipher: aes-256-gcm
+  password: 3ce72168-730e-4020-baf8-620ee14634ac
+- name: 🇭🇰-HK-001
+  server: 119.8.62.199
+  port: 13080
+  type: vmess
+  uuid: b3bb2518-1435-48e5-b01a-4f9f628baaf1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: hk.pdda.me
+  network: ws
+  ws-opts:
+    path: /pdd?ed=2048
+    headers:
+      Host: hk.pdda.me
+- name: 🇺🇸-US-005
+  server: 172.67.166.192
+  port: 80
+  type: vmess
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ua1-vmess.sshmax.xyz
 - name: 🇮🇳-IN-001
   server: 139.59.24.215
   port: 3389
@@ -78,179 +174,43 @@ proxies:
     headers:
       Host:
       - internet.life.com.by
-- name: 🇫🇷-FR-001
-  server: 51.159.155.52
-  port: 3389
+- name: 🇺🇸-US-006
+  server: mahilu.site
+  port: 2052
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - internet.life.com.by
-- name: 🇨🇦-CA-002
-  server: 23.227.39.24
-  port: 8080
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    path: /
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-- name: 🇮🇪-IE-001
-  server: 52.169.6.50
-  port: 26396
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AX3dBHFCyWsryCOz7TtZJ6
+      Host: mahilu.site
+- name: 🇮🇹-IT-001
+  server: ceu-a01.stream.fnode.top
+  port: 20505
+  type: ssr
+  cipher: chacha20-ietf
+  password: fnf.xyz
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 42274:oSRZAa
+  obfs-param: 2f51e42274.wns.microsoft.com
 - name: 🇫🇷-FR-002
   server: 146.59.102.109
   port: 35230
   type: ss
   cipher: aes-256-gcm
   password: lSreYGyaPfCsJQWf
-- name: 🇸🇬-SG-001
-  server: 18.142.56.221
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-002
-  server: 198.2.216.198
-  port: 38001
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: www.32241271.xyz
-  network: ws
-  ws-opts:
-    path: /path/153428133302
-- name: 🇰🇷-KR-001
-  server: p110.panda001.net
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-003
-  server: uhisfgy78eu.cfprefer1.xyz
-  port: 45611
-  type: ss
-  cipher: aes-256-gcm
-  password: 3ce72168-730e-4020-baf8-620ee14634ac
-- name: 🇺🇸-US-004
-  server: uhisfgy78eu.cfprefer1.xyz
-  port: 10022
-  type: ss
-  cipher: aes-256-gcm
-  password: 3ce72168-730e-4020-baf8-620ee14634ac
-- name: 🇺🇸-US-005
-  server: uhisfgy78eu.cfprefer1.xyz
-  port: 28436
-  type: ss
-  cipher: aes-256-gcm
-  password: 3ce72168-730e-4020-baf8-620ee14634ac
-- name: 🇺🇸-US-006
-  server: uhisfgy78eu.cfprefer1.xyz
-  port: 10065
-  type: ss
-  cipher: aes-256-gcm
-  password: 3ce72168-730e-4020-baf8-620ee14634ac
-- name: 🇺🇸-US-007
-  server: uhisfgy78eu.cfprefer1.xyz
-  port: 10016
-  type: ss
-  cipher: aes-256-gcm
-  password: 3ce72168-730e-4020-baf8-620ee14634ac
-- name: 🇺🇸-US-008
-  server: 172.67.166.192
-  port: 80
-  type: vmess
-  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ua1-vmess.sshmax.xyz
-- name: 🇵🇱-PL-001
-  server: 95.164.35.90
-  port: 1443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: NDg2YWIz
-- name: 🇯🇵-JP-001
-  server: fastly.alipay.ovh
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-  udp: true
-- name: 🇺🇸-US-009
-  server: 151.101.131.10
-  port: 80
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: nmsl.kp
-- name: 🇺🇸-US-010
-  server: 108.181.23.161
-  port: 8080
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /1IKYjV0r/
-    headers:
-      Host: internet.life.com.by
-- name: 🇭🇰-HK-001
-  server: 119.8.62.199
-  port: 13080
-  type: vmess
-  uuid: b3bb2518-1435-48e5-b01a-4f9f628baaf1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: hk.pdda.me
-  network: ws
-  ws-opts:
-    path: /pdd?ed=2048
-    headers:
-      Host: hk.pdda.me
+- name: 🇮🇹-IT-002
+  server: ceu-a01.stream.fnode.top
+  port: 20503
+  type: ssr
+  cipher: chacha20-ietf
+  password: fnf.xyz
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 42274:oSRZAa
+  obfs-param: 2f51e42274.wns.microsoft.com
