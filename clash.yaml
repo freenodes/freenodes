@@ -1,9 +1,9 @@
 proxies:
-- name: 🇦🇪-AE-001
-  server: 94.140.0.110
-  port: 8880
+- name: 🇸🇬-SG-001
+  server: 8.222.174.108
+  port: 2082
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -12,15 +12,71 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: food.zhaal.ir
-- name: 🇯🇵-JP-001
-  server: 18.177.138.167
-  port: 443
+      Host: s1c.v2.v001sss.xyz
+- name: 🇺🇸-US-001
+  server: admin.arzonhost.ir
+  port: 2086
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: admin.arzonhost.ir
+- name: 🇺🇸-US-002
+  server: 173.245.58.100
+  port: 8080
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+    headers:
+      Host: technological-mel-fill-decide.trycloudflare.com
+- name: 🇺🇸-US-003
+  server: 172.67.130.140
+  port: 2082
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: s1c.v2.v001sss.xyz
+- name: 🇺🇸-US-004
+  server: 172.67.116.48
+  port: 80
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wap.hostmjj.com
+- name: 🇺🇸-US-005
+  server: 38.114.114.225
+  port: 2375
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦-CA-001
-  server: 134.122.41.160
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇧🇷-BR-001
+  server: 78.111.102.232
   port: 3389
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -47,22 +103,36 @@ proxies:
     method: GET
     path:
     - /
-- name: 🇨🇦-CA-002
-  server: 23.227.38.23
+- name: 🇨🇦-CA-001
+  server: 23.227.39.24
   port: 8080
   type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: 🇧🇷-BR-001
-  server: 78.111.102.232
+      Host: per-essex-patterns-bowling.trycloudflare.com
+- name: 🇨🇦-CA-002
+  server: 23.227.38.22
+  port: 8080
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+- name: 🇨🇦-CA-003
+  server: 134.122.41.160
   port: 3389
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -75,65 +145,20 @@ proxies:
     method: GET
     path:
     - /
-- name: 🇺🇸-US-001
-  server: 38.14.107.253
-  port: 38001
+- name: 🇦🇪-AE-001
+  server: 94.140.0.110
+  port: 8880
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: www.23179753.xyz
   network: ws
   ws-opts:
-    path: /path/153428133302
-- name: 🇭🇰-HK-001
-  server: 8.218.196.35
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇭🇰-HK-002
-  server: 47.76.185.99
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: ''
-    path: ''
-    tls: false
-    mux: true
-    skip-cert-verify: false
-- name: 🇯🇵-JP-002
-  server: 54.248.173.222
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-002
-  server: 34.222.20.208
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-001
-  server: 13.209.11.98
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+    path: /
+    headers:
+      Host: food.zhaal.ir
 - name: 🇷🇺-RU-001
   server: 45.144.2.113
   port: 80
@@ -148,23 +173,11 @@ proxies:
     path: /
     headers:
       Host: 45.144.2.113
-- name: 🇰🇷-KR-002
-  server: 43.203.201.192
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-001
-  server: 13.250.63.15
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇮🇷-IR-001
-  server: 185.83.90.50
-  port: 41254
+- name: 🇺🇸-US-006
+  server: s1c.v2.v001sss.xyz
+  port: 2082
   type: vmess
-  uuid: 39a94956-8a49-4f82-a3a4-93f7d17521d4
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
   cipher: auto
   tls: false
@@ -173,4 +186,157 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 185.83.90.50
+      Host: s1c.v2.v001sss.xyz
+- name: 🇯🇵-JP-001
+  server: 183.181.36.194
+  port: 41597
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸-US-007
+  server: 174.136.207.168
+  port: 12842
+  type: vmess
+  uuid: d7e439a8-9cb4-4c62-9a6a-d36824689a04
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-008
+  server: 172.67.49.214
+  port: 80
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wap.hostmjj.com
+- name: 🇯🇵-JP-002
+  server: 43.206.237.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-003
+  server: 43.207.80.176
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-001
+  server: 218.237.185.230
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇯🇵-JP-004
+  server: 35.77.89.124
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-002
+  server: 3.34.200.94
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-009
+  server: 35.86.136.148
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-010
+  server: 35.87.1.148
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-011
+  server: 49.51.242.12
+  port: 16899
+  type: ss
+  cipher: aes-128-gcm
+  password: Yc2CtrIz8L
+- name: 🇰🇷-KR-003
+  server: 43.201.56.52
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-004
+  server: 43.203.201.192
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-002
+  server: 47.128.77.190
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-012
+  server: 172.67.170.25
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇩🇪-DE-001
+  server: 80.92.204.106
+  port: 9094
+  type: ss
+  cipher: aes-256-cfb
+  password: rpgbNnU9rDDU4aWZ
+- name: 🇫🇷-FR-001
+  server: 51.178.206.74
+  port: 42905
+  type: ss
+  cipher: aes-256-gcm
+  password: Q3j8V3jIENkzs8ZE
+- name: 🇺🇸-US-013
+  server: 172.67.66.46
+  port: 8080
+  type: vmess
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: eu2.openxai.link
+- name: 🇰🇷-KR-005
+  server: 211.201.169.70
+  port: 54345
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇸🇬-SG-003
+  server: 47.128.72.85
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
