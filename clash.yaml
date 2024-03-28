@@ -1,42 +1,10 @@
 proxies:
 - name: 🇬🇧-GB-001
-  server: 51.145.115.142
-  port: 59744
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: SuhSIkV1fu99VODm7BIFsb
-- name: 🇬🇧-GB-002
   server: 51.145.112.84
   port: 34529
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 3kP7lDQUNyM7lKgMnrF4Vu
-- name: 🇸🇬-SG-001
-  server: 27.50.48.164
-  port: 2086
-  type: vmess
-  uuid: 97c752a2-43d3-4ac6-9369-b298b45feb3d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: au01.appleid.bf
-- name: 🇩🇪-DE-001
-  server: 49.13.71.166
-  port: 443
-  type: vmess
-  uuid: c11a16ae-eb51-4018-ab5c-2ac3cc0cdf63
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
 - name: 🇧🇷-BR-001
   server: 78.111.102.232
   port: 3389
@@ -51,48 +19,40 @@ proxies:
     method: GET
     path:
     - /
-- name: 🇰🇿-KZ-001
-  server: 45.82.31.164
-  port: 3389
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
 - name: 🇨🇦-CA-001
-  server: 134.122.41.160
-  port: 3389
+  server: 23.227.38.23
+  port: 8080
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-- name: 🇺🇸-US-001
-  server: cdn2_de.majutsu.top
-  port: 443
+  network: ws
+  ws-opts:
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 🇬🇧-GB-002
+  server: 51.145.115.150
+  port: 46961
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: C8Nf2Y0Ub0Q7UN93574OFO
+- name: 🇭🇰-HK-001
+  server: 149.104.27.34
+  port: 33258
   type: vmess
-  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
+  uuid: bc5e1ebf-9602-4177-b890-18e9d4cd23be
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /acc
+    path: /
     headers:
-      Host: cdn2_de.majutsu.top
+      Host: hkbn.kfcvme50.life
 - name: 🇯🇵-JP-001
   server: 13.115.234.77
   port: 443
@@ -100,37 +60,43 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-002
-  server: 18.183.228.15
+  server: 13.230.190.100
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-003
-  server: 43.206.237.42
+  server: 18.183.228.15
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-004
-  server: 43.207.80.176
+  server: 43.206.237.42
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-005
-  server: 52.69.81.42
+  server: 43.207.80.176
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-006
+  server: 52.69.81.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-007
   server: 54.248.173.222
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇰🇷-KR-001
-  server: 13.125.19.50
+  server: 13.125.127.101
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -153,38 +119,56 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-002
+- name: 🇸🇬-SG-001
   server: 13.229.184.181
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-003
+- name: 🇸🇬-SG-002
   server: 13.250.61.18
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-004
+- name: 🇸🇬-SG-003
   server: 47.128.77.190
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸-US-002
+- name: 🇺🇸-US-001
   server: 35.87.1.148
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇬🇧-GB-003
-  server: 51.145.115.150
-  port: 46961
+- name: 🇺🇸-US-002
+  server: 54.245.36.10
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: C8Nf2Y0Ub0Q7UN93574OFO
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇰🇷-KR-005
+  server: 43.201.56.52
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-008
+  server: 18.181.146.197
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-006
   server: 13.125.25.193
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-004
+  server: 47.128.72.85
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -195,50 +179,57 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-007
-  server: 18.183.180.49
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-008
+- name: 🇯🇵-JP-009
   server: 18.177.138.167
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇩🇪-DE-001
+  server: 49.13.71.166
+  port: 443
+  type: vmess
+  uuid: c11a16ae-eb51-4018-ab5c-2ac3cc0cdf63
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇯🇵-JP-010
+  server: 18.183.180.49
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-004
+  server: 38.14.107.250
+  port: 38001
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.23179753.xyz
+  network: ws
+  ws-opts:
+    path: /path/153428133302
 - name: 🇸🇬-SG-005
   server: 13.250.63.15
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-009
-  server: 52.195.10.194
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇸🇬-SG-006
-  server: 18.141.207.80
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-010
-  server: 13.112.216.180
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-006
-  server: 43.201.56.52
+  server: 54.179.101.194
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-011
-  server: 54.249.1.223
+  server: 52.195.10.194
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -249,14 +240,20 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇸🇬-SG-008
+  server: 18.141.207.80
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇯🇵-JP-012
-  server: 35.77.89.124
+  server: 18.183.101.186
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-013
-  server: 52.195.225.184
+  server: 35.77.89.124
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -268,92 +265,302 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-014
-  server: 13.231.154.132
+  server: 13.112.216.180
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇰🇷-KR-008
-  server: 43.202.41.139
+  server: 54.180.9.46
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-015
-  server: 18.181.146.197
+  server: 13.231.154.132
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-016
+  server: 52.195.225.184
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧-GB-003
+  server: 51.145.115.142
+  port: 59744
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: SuhSIkV1fu99VODm7BIFsb
+- name: 🇸🇬-SG-009
+  server: 27.50.48.164
+  port: 2086
+  type: vmess
+  uuid: 97c752a2-43d3-4ac6-9369-b298b45feb3d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: au01.appleid.bf
+- name: 🇺🇸-US-005
+  server: au01.appleid.bf
+  port: 2086
+  type: vmess
+  uuid: 97c752a2-43d3-4ac6-9369-b298b45feb3d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: au01.appleid.bf
+- name: 🇯🇵-JP-017
+  server: gyqdl-g05.jp01-0986-vm0.entry.fr0307a.art
+  port: 21585
+  type: vmess
+  uuid: e2f2f030-57c0-3849-8893-3898c46764d6
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇯🇵-JP-018
+  server: tmq5u-g05.jp02-9a99-vm0.entry.fr0307a.art
+  port: 11777
+  type: vmess
+  uuid: e2f2f030-57c0-3849-8893-3898c46764d6
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-019
+  server: t45a7-g03.jp02-9a99-vm0.entry.fr0307a.art
+  port: 11775
+  type: vmess
+  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-020
+  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  port: 21581
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇯🇵-JP-021
+  server: b834o-g01.jp03-7d22-vm0.entry.fr0307a.art
+  port: 21581
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇯🇵-JP-022
+  server: cm5hi-g05.jp04-3771-vm0.entry.fr0307a.art
+  port: 448
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-023
+  server: 2ssti-g01.jp04-3771-vm0.entry.fr0307a.art
+  port: 444
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-024
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  port: 28788
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇯🇵-JP-025
+  server: tfu6i-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  port: 28783
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇯🇵-JP-026
   server: 18.183.146.49
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-008
-  server: 13.250.57.60
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-017
+- name: 🇯🇵-JP-027
   server: 43.207.117.29
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-009
-  server: 47.128.72.85
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: 🇺🇸-US-006
+  server: ying.appleid.bf
+  port: 2082
+  type: vmess
+  uuid: 97c752a2-43d3-4ac6-9369-b298b45feb3d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: ying.appleid.bf
 - name: 🇰🇷-KR-009
-  server: 54.180.156.133
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇦🇪-AE-001
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: mps3FwmDjLrWaOVg
-- name: 🇯🇵-JP-018
-  server: 13.230.190.100
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-010
-  server: 47.129.9.69
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-010
-  server: 211.201.169.70
-  port: 54345
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-011
   server: p110.panda001.net
   port: 54345
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇸🇬-SG-011
+- name: 🇸🇬-SG-010
   server: 18.142.56.221
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇫🇷-FR-001
-  server: 51.178.206.74
-  port: 42905
+- name: 🇰🇷-KR-010
+  server: 43.202.41.139
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: Q3j8V3jIENkzs8ZE
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-028
+  server: 54.249.1.223
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦-CA-002
+  server: 134.122.41.160
+  port: 3389
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+- name: 🇺🇸-US-007
+  server: admin.arzonhost.ir
+  port: 2086
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: admin.arzonhost.ir
+- name: 🇯🇵-JP-029
+  server: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  port: 28785
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇭🇰-HK-002
+  server: 8.218.196.35
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: ''
+    path: ''
+    tls: false
+    mux: true
+    skip-cert-verify: false
+- name: 🇰🇷-KR-011
+  server: 54.180.156.133
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-030
+  server: raniw-g05.jp02-9a99-vm0.entry.fr0307a.art
+  port: 11777
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-031
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  port: 444
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-032
+  server: 9azvt-g05.jp05-6786-vm0.entry.fr0307a.art
+  port: 46486
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-033
+  server: oe6wc-g01.jp05-6786-vm0.entry.fr0307a.art
+  port: 46482
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-034
+  server: en7a5-g03.jp05-6786-vm0.entry.fr0307a.art
+  port: 46484
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵-JP-035
+  server: od7ld-g03.jp04-3771-vm0.entry.fr0307a.art
+  port: 446
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
