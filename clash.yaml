@@ -1,4 +1,16 @@
 proxies:
+- name: 🇦🇪-AE-001
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mps3FwmDjLrWaOVg
+- name: 🇦🇪-AE-002
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
 - name: 🇺🇸-US-001
   server: 172.67.199.185
   port: 8080
@@ -13,36 +25,8 @@ proxies:
     path: /
     headers:
       Host: oiictw.yydsii.com
-- name: 🇯🇵-JP-001
-  server: 154.16.248.177
-  port: 3384
-  type: vmess
-  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /db00
-    headers:
-      Host: cache-hk-1.cn-db.top
 - name: 🇺🇸-US-002
-  server: tu.mahilu.site
-  port: 2095
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tu.mahilu.site
-- name: 🇺🇸-US-003
-  server: 172.67.185.64
+  server: 172.67.169.90
   port: 8080
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -55,7 +39,198 @@ proxies:
     path: /
     headers:
       Host: oiictw.yydsii.com
+- name: 🇺🇸-US-003
+  server: 172.67.172.67
+  port: 8080
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: oiictw.yydsii.com
+- name: 🇺🇸-US-004
+  server: onea.flha.ru
+  port: 2095
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: 🇺🇸-US-005
+  server: mizban.arzonhost.ir
+  port: 2086
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mizban.arzonhost.ir
+- name: 🇺🇸-US-006
+  server: kr01.appleid.bf
+  port: 2086
+  type: vmess
+  uuid: 9ba2d813-155e-4174-bdd4-a374eb2ed7a0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: kr01.appleid.bf
+- name: 🇺🇸-US-007
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  type: vmess
+  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/9TfVEyku
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+- name: 🇺🇸-US-008
+  server: admin.arzonhost.ir
+  port: 2086
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: admin.arzonhost.ir
+- name: 🇺🇸-US-009
+  server: 35.91.225.232
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-010
+  server: 54.71.116.112
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-001
+  server: 3.112.218.182
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-002
+  server: 57.181.36.85
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-001
+  server: 203.234.238.145
+  port: 4005
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-002
+  server: 222.112.15.134
+  port: 50942
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-003
+  server: 43.201.110.81
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-004
+  server: 43.201.69.200
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-005
+  server: 43.203.220.68
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇸🇬-SG-001
+  server: 18.142.225.182
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸-US-011
+  server: 172.67.188.156
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn.vds-server.ir
+- name: 🇯🇵-JP-003
+  server: 18.183.77.187
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-004
+  server: 54.238.23.117
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-005
+  server: 52.195.237.198
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇷🇺-RU-001
+  server: 45.147.200.203
+  port: 18234
+  type: vmess
+  uuid: a5bd5d62-5d32-4939-a0c5-2e2c22f90461
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇰🇷-KR-006
+  server: 43.201.54.34
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-002
   server: 152.42.171.253
   port: 80
   type: vmess
@@ -64,115 +239,208 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇺🇸-US-004
-  server: 35.91.225.232
+- name: 🇰🇷-KR-007
+  server: 43.203.233.33
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-001
-  server: 43.201.110.81
-  port: 443
+- name: 🇰🇷-KR-008
+  server: p232.panda004.net
+  port: 51472
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-002
-  server: 43.201.69.200
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-003
-  server: 43.203.220.68
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-002
-  server: 13.250.63.15
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-003
-  server: 18.142.225.182
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧-GB-001
-  server: 52.151.72.172
-  port: 31103
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: J6L1Hf4oKWPxbvMLc8i8ny
-- name: 🇯🇵-JP-002
-  server: 54.248.173.222
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-004
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-009
   server: 43.201.34.246
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷-KR-005
+- name: 🇰🇷-KR-010
+  server: p227.panda004.net
+  port: 49032
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-011
   server: p220.panda001.net
   port: 42185
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-006
-  server: p238.panda004.net
-  port: 57743
+- name: 🇰🇷-KR-012
+  server: 43.203.192.6
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-013
+  server: p233.panda004.net
+  port: 50942
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇰🇷-KR-007
+- name: 🇰🇷-KR-014
+  server: p231.panda004.net
+  port: 43926
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-015
+  server: p236.panda004.net
+  port: 42839
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇰🇷-KR-016
   server: p229.panda004.net
   port: 10218
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇺🇸-US-005
-  server: 35.91.54.169
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-003
-  server: 52.69.81.42
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-004
+- name: 🇸🇬-SG-003
   server: 47.128.64.71
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-004
-  server: 43.207.175.104
+- name: 🇰🇷-KR-017
+  server: 43.202.41.139
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-005
-  server: 18.183.77.187
+- name: 🇰🇷-KR-018
+  server: 13.125.25.193
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-019
+  server: 54.180.156.133
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-020
+  server: 43.203.201.192
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇯🇵-JP-006
+  server: 54.248.173.222
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-007
+  server: 13.231.229.48
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-008
+  server: 52.195.225.184
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-009
+  server: 43.206.237.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-010
+  server: 13.113.218.2
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-011
+  server: 43.207.175.104
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷-KR-021
+  server: 3.34.95.205
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵-JP-012
   server: 57.180.65.163
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇯🇵-JP-013
+  server: 54.168.200.34
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-004
+  server: 13.215.208.103
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇭🇰-HK-001
+  server: 16.162.254.228
+  port: 50001
+  type: vmess
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸-US-012
+  server: de01.appleid.bf
+  port: 2086
+  type: vmess
+  uuid: b98c8eab-e761-4fe7-8d65-96cd48aac792
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: de01.appleid.bf
+- name: 🇦🇪-AE-003
+  server: 94.140.0.110
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: food.zhaal.ir
+- name: 🇺🇸-US-013
+  server: cdn.vds-server.ir
+  port: 8880
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn.vds-server.ir
+- name: 🇭🇰-HK-002
   server: n1710825489.aaigefm.cn
   port: 443
   type: vmess
@@ -187,119 +455,82 @@ proxies:
     path: /
     headers:
       Host: n1710825489.aaigefm.cn
-- name: 🇺🇸-US-006
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
+- name: 🇸🇬-SG-005
+  server: 13.250.63.15
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰-HK-003
+  server: line.acetace.com
+  port: 39589
   type: vmess
-  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇸🇬-SG-006
+  server: 13.250.57.60
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-007
+  server: 47.129.9.69
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇬-SG-008
+  server: singapore.freejc.test.freecarriertraffic.133141.xyz
+  port: 80
+  type: vmess
+  uuid: 4ca626b8-07d1-4490-896f-1084f1902c4d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /video/9TfVEyku
+    path: /?ed=2048
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-- name: 🇯🇵-JP-007
-  server: 54.168.200.34
+      Host: baidu.com
+- name: 🇭🇰-HK-004
+  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
+  port: 80
+  type: vmess
+  uuid: 4ca626b8-07d1-4490-896f-1084f1902c4d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: baidu.com
+- name: 🇺🇸-US-014
+  server: 92.118.112.183
+  port: 32133
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: nD4YTQSFac03lzQis3L72U
+- name: 🇺🇸-US-015
+  server: 35.87.25.21
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇯🇵-JP-008
-  server: 13.113.218.2
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇯🇵-JP-009
-  server: 52.195.237.101
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-008
+- name: 🇰🇷-KR-022
   server: p221.panda001.net
   port: 49032
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇺🇸-US-007
-  server: yh7.dtku41.xyz
-  port: 8080
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: 🇺🇸-US-008
-  server: mizban.arzonhost.ir
-  port: 2086
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mizban.arzonhost.ir
-- name: 🇯🇵-JP-010
-  server: 57.181.36.85
+- name: 🇸🇬-SG-009
+  server: 54.179.101.194
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇸🇬-SG-005
-  server: 13.215.184.228
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇬-SG-006
-  server: 13.215.208.103
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸-US-009
-  server: 54.71.116.112
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷-KR-009
-  server: 125.141.26.7
-  port: 49032
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇰🇷-KR-010
-  server: p227.panda004.net
-  port: 49032
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇺🇸-US-010
-  server: us03.kingeldwin.online
-  port: 80
-  type: vmess
-  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us03.kingeldwin.online
